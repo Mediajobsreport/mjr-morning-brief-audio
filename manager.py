@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+import argparse, json, re
+from datetime import datetime
+from pathlib import Path
+from zoneinfo import ZoneInfo
+from xml.sax.saxutils import escape
+
+ROOT=Path(__file__).resolve().parent
+DATA=ROOT/"data"/"stories.json"
+FEED=ROOT/"feed.xml"
+TZ=ZoneInfo("America/New_York")
+WPM=150
+
+def load():
+    if DATA.exists():
+        return json.loads(DATA.read_text(encoding="utf-8"))
+    return {"timezone":"America/New_York","stories":[]}
+
+def save(d):
+    DATA.parent.mkdir(parents=True,exist_ok=True)
+    DATA.write_text(json.dumps(d,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+
+def wc(s): return len(re.findall(r"\b[\w’'-]+\b",s))
+def seconds(s): return max(1,round(wc(s)/WPM*60))
+def now(): return datetime.now(TZ)
+def new_id(d):
+    stamp=now().strftime("%Y%m%d")
+    n=1
+    existing={x["id"] for x in d["stories"]}
+    while f"{stamp}-{n:02d}" in existing: n+=1
+    return f"{stamp}-{n:02d}"
+
+def add(d,text):
+    text=" ".join(text.split())
+    if not text: raise SystemExit("Story text is required.")
+    t=now()
+    d["stories"].append({"id":new_id(d),"date":t.strftime("%Y-%m-%d"),"created_at":t.isoformat(timespec="seconds"),"text":text,"words":wc(text),"seconds":seconds(text),"published":False})
+
+def edit(d,sid,text):
+    for x in d["stories"]:
+        if x["id"]==sid:
+            x["text"]=" ".join(text.split()); x["words"]=wc(x["text"]); x["seconds"]=seconds(x["text"]); return
+    raise SystemExit("Story ID not found.")
+
+def delete(d,sid):
+    before=len(d["stories"]); d["stories"]=[x for x in d["stories"] if x["id"]!=sid]
+    if len(d["stories"])==before: raise SystemExit("Story ID not found.")
+
+def move(d,sid,direction):
+    a=d["stories"]; i=next((i for i,x in enumerate(a) if x["id"]==sid),None)
+    if i is None: raise SystemExit("Story ID not found.")
+    j=i-1 if direction=="up" else i+1
+    if 0<=j<len(a): a[i],a[j]=a[j],a[i]
+
+def publish(d):
+    today=now().strftime("%Y-%m-%d")
+    selected=[x for x in d["stories"] if x["date"]==today]
+    for x in selected: x["published"]=True
+    if not selected: raise SystemExit("No stories entered for today.")
+    full="\n\n".join(x["text"] for x in selected)
+    pub=now()
+    guid=f"mjr-morning-brief-{today}"
+    xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>MJR Morning Brief Audio</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <lastBuildDate>{pub.strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>\n    <item>\n      <title>MJR Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <pubDate>{pub.strftime("%a, %d %b %Y %H:%M:%S %z")}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
+    FEED.write_text(xml,encoding="utf-8")
+
+def main():
+    p=argparse.ArgumentParser()
+    p.add_argument("action",choices=["add","edit","delete","up","down","publish"])
+    p.add_argument("--story",default="")
+    p.add_argument("--id",default="")
+    a=p.parse_args(); d=load()
+    if a.action=="add": add(d,a.story)
+    elif a.action=="edit": edit(d,a.id,a.story)
+    elif a.action=="delete": delete(d,a.id)
+    elif a.action in ("up","down"): move(d,a.id,a.action)
+    elif a.action=="publish": publish(d)
+    save(d)
+    today=now().strftime("%Y-%m-%d")
+    todays=[x for x in d["stories"] if x["date"]==today]
+    print(f"{len(todays)} stories | {sum(x['words'] for x in todays)} words | about {sum(x['seconds'] for x in todays)//60}:{sum(x['seconds'] for x in todays)%60:02d}")
+
+if __name__=="__main__": main()
