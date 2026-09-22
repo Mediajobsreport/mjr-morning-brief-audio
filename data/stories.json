@@ -28,6 +28,15 @@
       "words": 59,
       "seconds": 24,
       "published": false
+    },
+    {
+      "id": "20260922-04",
+      "date": "2026-09-22",
+      "created_at": "2026-09-22T21:30:45.764Z",
+      "text": "CNN is bringing Farm Aid back to television Saturday night. The four-hour live broadcast from Virginia Beach begins at 7 Eastern, featuring Willie Nelson, Neil Young, John Mellencamp, Dave Matthews, Margo Price and more. John Berman and Laura Coates will anchor CNN’s coverage.",
+      "words": 43,
+      "seconds": 17,
+      "published": false
     }
   ]
 }
