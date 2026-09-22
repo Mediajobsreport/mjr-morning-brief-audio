@@ -1,0 +1,47 @@
+name: Morning Brief Manager
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "What do you want to do?"
+        required: true
+        type: choice
+        options:
+          - add
+          - edit
+          - delete
+          - up
+          - down
+          - publish
+      story:
+        description: "Paste Morning Brief story here (for add/edit)"
+        required: false
+        type: string
+      story_id:
+        description: "Story ID (for edit/delete/up/down)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Manage Morning Brief
+        run: |
+          python manager.py "${{ inputs.action }}" --story "${{ inputs.story }}" --id "${{ inputs.story_id }}"
+      - name: Save changes
+        run: |
+          git config user.name "MJR Morning Brief"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/stories.json feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Morning Brief: ${{ inputs.action }}"
+            git push
+          fi
