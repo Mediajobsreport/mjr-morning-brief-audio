@@ -76,21 +76,21 @@
       "updated_at": "2026-09-22T22:16:38.698Z"
     },
     {
-      "id": "20260923-01",
-      "date": "2026-09-23",
-      "created_at": "2026-09-23T15:50:37.890Z",
-      "text": "Comcast NBCUniversal and NBCUniversal Local are investing another $2.5 million in local communities. Eighty nonprofits across 11 NBC and Telemundo station markets are receiving unrestricted grants this year. Since 2018, the Local Impact Grants program has awarded more than $24 million to nearly 700 organizations nationwide.",
-      "words": 47,
-      "seconds": 19,
-      "published": false
-    },
-    {
       "id": "20260923-04",
       "date": "2026-09-23",
       "created_at": "2026-09-23T16:39:12.705Z",
       "text": "Broadcasters have less than a week to meet new FCC cybersecurity requirements. The commission has released an FAQ explaining the rules, including which equipment is covered, password requirements, security updates and remote access. Stations must comply with the new EAS cybersecurity rules by September 29. More details are available from the FCC.",
       "words": 52,
       "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20260923-01",
+      "date": "2026-09-23",
+      "created_at": "2026-09-23T15:50:37.890Z",
+      "text": "Comcast NBCUniversal and NBCUniversal Local are investing another $2.5 million in local communities. Eighty nonprofits across 11 NBC and Telemundo station markets are receiving unrestricted grants this year. Since 2018, the Local Impact Grants program has awarded more than $24 million to nearly 700 organizations nationwide.",
+      "words": 47,
+      "seconds": 19,
       "published": false
     },
     {
