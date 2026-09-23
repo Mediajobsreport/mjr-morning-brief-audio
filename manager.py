@@ -10,6 +10,9 @@ DATA=ROOT/"data"/"stories.json"
 FEED=ROOT/"feed.xml"
 TZ=ZoneInfo("America/New_York")
 WPM=150
+MAX_PUBLISH_STORIES=5
+INTRO="From Media Jobs Report, this is Media’s Morning Brief."
+TRANSITIONS=["Next,", "Also,", "Meanwhile,", "In other news,"]
 
 def load():
     if DATA.exists():
@@ -52,15 +55,30 @@ def move(d,sid,direction):
     j=i-1 if direction=="up" else i+1
     if 0<=j<len(a): a[i],a[j]=a[j],a[i]
 
+def build_brief(selected):
+    parts=[INTRO]
+    for i,x in enumerate(selected):
+        text=x["text"].strip()
+        if i==0:
+            parts.append(text)
+        elif i==len(selected)-1:
+            parts.append("And finally, "+text)
+        else:
+            parts.append(TRANSITIONS[(i-1)%len(TRANSITIONS)]+" "+text)
+    return "\n\n".join(parts)
+
 def publish(d):
     today=now().strftime("%Y-%m-%d")
     selected=[x for x in d["stories"] if x["date"]==today]
-    for x in selected: x["published"]=True
     if not selected: raise SystemExit("No stories entered for today.")
-    full="\n\n".join(x["text"] for x in selected)
+    if len(selected)>MAX_PUBLISH_STORIES:
+        raise SystemExit(f"Morning Brief is limited to {MAX_PUBLISH_STORIES} stories. Delete or move extras before publishing.")
+    for x in selected: x["published"]=True
+    full=build_brief(selected)
     pub=now()
     guid=f"mjr-morning-brief-{today}"
-    xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>MJR Morning Brief Audio</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <lastBuildDate>{pub.strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>\n    <item>\n      <title>MJR Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <pubDate>{pub.strftime("%a, %d %b %Y %H:%M:%S %z")}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
+    iso=pub.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
+    xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Media’s Morning Brief</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <ttl>30</ttl>\n    <lastBuildDate>{iso}</lastBuildDate>\n    <item>\n      <title>Media’s Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <link>https://www.mediajobsreport.com/</link>\n      <pubDate>{iso}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
     FEED.write_text(xml,encoding="utf-8")
 
 def main():
