@@ -13,6 +13,12 @@ WPM=150
 MAX_PUBLISH_STORIES=5
 INTRO="From Media Jobs Report, this is Media’s Morning Brief."
 TRANSITIONS=["Next,", "Also,", "Meanwhile,", "In other news,"]
+OUTROS=[
+    "For more news, the latest jobs, media tools and more, log on to Media Jobs Report dot com.",
+    "Stay up to date with more media news, the latest jobs, industry tools and more at Media Jobs Report dot com.",
+    "Find more media news, new job opportunities, industry tools and more at Media Jobs Report dot com.",
+    "For the latest media headlines, jobs, tools and more, visit Media Jobs Report dot com.",
+]
 
 def load():
     if DATA.exists():
@@ -55,7 +61,7 @@ def move(d,sid,direction):
     j=i-1 if direction=="up" else i+1
     if 0<=j<len(a): a[i],a[j]=a[j],a[i]
 
-def build_brief(selected):
+def build_brief(selected, publish_date):
     parts=[INTRO]
     for i,x in enumerate(selected):
         text=x["text"].strip()
@@ -65,17 +71,20 @@ def build_brief(selected):
             parts.append("And finally, "+text)
         else:
             parts.append(TRANSITIONS[(i-1)%len(TRANSITIONS)]+" "+text)
+    # Rotate the closing line by date so each published edition gets one stable outro.
+    outro_index=int(publish_date.strftime("%Y%m%d")) % len(OUTROS)
+    parts.append(OUTROS[outro_index])
     return "\n\n".join(parts)
 
 def publish(d):
-    today=now().strftime("%Y-%m-%d")
+    pub=now()
+    today=pub.strftime("%Y-%m-%d")
     selected=[x for x in d["stories"] if x["date"]==today]
     if not selected: raise SystemExit("No stories entered for today.")
     if len(selected)>MAX_PUBLISH_STORIES:
         raise SystemExit(f"Morning Brief is limited to {MAX_PUBLISH_STORIES} stories. Delete or move extras before publishing.")
     for x in selected: x["published"]=True
-    full=build_brief(selected)
-    pub=now()
+    full=build_brief(selected, pub)
     guid=f"mjr-morning-brief-{today}"
     iso=pub.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
     xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Media’s Morning Brief</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <ttl>30</ttl>\n    <lastBuildDate>{iso}</lastBuildDate>\n    <item>\n      <title>Media’s Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <link>https://www.mediajobsreport.com/</link>\n      <pubDate>{iso}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
