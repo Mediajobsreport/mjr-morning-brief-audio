@@ -85,20 +85,20 @@
       "published": false
     },
     {
-      "id": "20260923-02",
-      "date": "2026-09-23",
-      "created_at": "2026-09-23T16:16:10.846Z",
-      "text": "CNN is promoting Leigh Waldman to correspondent. Beginning October 12, Waldman will be based in Los Angeles and report across CNN platforms. She moves up from CNN Newsource, where she covered major national stories for more than 1,000 affiliate partners. Before CNN, Waldman was an investigative reporter at KSAT in San Antonio.",
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20260923-04",
       "date": "2026-09-23",
       "created_at": "2026-09-23T16:39:12.705Z",
       "text": "Broadcasters have less than a week to meet new FCC cybersecurity requirements. The commission has released an FAQ explaining the rules, including which equipment is covered, password requirements, security updates and remote access. Stations must comply with the new EAS cybersecurity rules by September 29. More details are available from the FCC.",
       "words": 52,
+      "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20260923-02",
+      "date": "2026-09-23",
+      "created_at": "2026-09-23T16:16:10.846Z",
+      "text": "CNN is promoting Leigh Waldman to correspondent. Beginning October 12, Waldman will be based in Los Angeles and report across CNN platforms. She moves up from CNN Newsource, where she covered major national stories for more than 1,000 affiliate partners. Before CNN, Waldman was an investigative reporter at KSAT in San Antonio.",
+      "words": 53,
       "seconds": 21,
       "published": false
     },
