@@ -10,7 +10,6 @@ DATA=ROOT/"data"/"stories.json"
 FEED=ROOT/"feed.xml"
 TZ=ZoneInfo("America/New_York")
 WPM=150
-MAX_PUBLISH_STORIES=5
 INTRO="From Media Jobs Report, this is Media’s Morning Brief."
 TRANSITIONS=["Next,", "Also,", "Meanwhile,", "In other news,"]
 OUTROS=[
@@ -81,8 +80,6 @@ def publish(d):
     today=pub.strftime("%Y-%m-%d")
     selected=[x for x in d["stories"] if x["date"]==today]
     if not selected: raise SystemExit("No stories entered for today.")
-    if len(selected)>MAX_PUBLISH_STORIES:
-        raise SystemExit(f"Morning Brief is limited to {MAX_PUBLISH_STORIES} stories. Delete or move extras before publishing.")
     for x in selected: x["published"]=True
     full=build_brief(selected, pub)
     guid=f"mjr-morning-brief-{today}"
