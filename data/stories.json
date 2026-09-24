@@ -137,6 +137,15 @@
       "words": 52,
       "seconds": 21,
       "published": true
+    },
+    {
+      "id": "20260924-01",
+      "date": "2026-09-24",
+      "created_at": "2026-09-24T13:21:22.411Z",
+      "text": "Taylor Swift has another big moment planned for Sunday’s MTV Video Music Awards. Her new “Patient Zero” music video, directed by Swift and starring Colin Farrell and Dakota Johnson, will make its world premiere during the show. The VMAs, hosted by Snoop Dogg, air Sunday night on CBS and MTV and stream on Paramount+.",
+      "words": 54,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
