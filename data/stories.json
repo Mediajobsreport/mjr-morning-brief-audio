@@ -236,6 +236,15 @@
       "words": 42,
       "seconds": 17,
       "published": false
+    },
+    {
+      "id": "20260925-02",
+      "date": "2026-09-25",
+      "created_at": "2026-09-25T23:19:27.037Z",
+      "text": "Comcast has named longtime executive Thaddeus Lee senior vice president of its Texas Region. Lee, who has spent more than 20 years with the company, will oversee Xfinity and Comcast Business operations across southeast Texas, including growth, customer experience and network expansion. He most recently led sales and marketing for Comcast’s Beltway Region.",
+      "words": 53,
+      "seconds": 21,
+      "published": false
     }
   ]
 }
