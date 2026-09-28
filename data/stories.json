@@ -277,6 +277,15 @@
       "seconds": 23,
       "published": true,
       "published_at": "2026-09-26T00:03:34.755Z"
+    },
+    {
+      "id": "20260928-01",
+      "date": "2026-09-28",
+      "created_at": "2026-09-28T13:24:23.615Z",
+      "text": "Media Jobs Report has added a new way to make your daily Prep more local — and maybe help an animal find a home. Adoptable Pets Near You highlights dogs and cats from rescue organizations around your area, with photos, adoption details and tools to share pets with your audience. Find it now at Media Jobs Report.",
+      "words": 56,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
