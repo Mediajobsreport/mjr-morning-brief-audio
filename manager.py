@@ -12,11 +12,33 @@ TZ=ZoneInfo("America/New_York")
 WPM=150
 INTRO="From Media Jobs Report, this is Media’s Morning Brief."
 TRANSITIONS=["Next,", "Also,", "Meanwhile,", "In other news,"]
+TOPIC_TRANSITIONS={
+    "radio": ["Turning to radio,", "In radio news,", "From the radio side of the industry,"],
+    "television": ["Turning to television,", "In television news,", "On the TV side,"],
+    "podcasting": ["Turning to podcasting,", "In podcasting news,", "From the podcasting world,"],
+    "streaming": ["Turning to streaming,", "In streaming news,", "From the streaming side,"],
+    "advertising": ["Turning to advertising,", "In advertising news,", "On the advertising front,"],
+    "jobs": ["Turning to media careers,", "In media jobs,", "On the hiring front,"],
+    "promotion": ["Turning to promotions,", "In promotions,", "On the promotional side,"],
+    "digital": ["Turning to digital media,", "In digital media,", "On the digital side,"],
+}
+TOPIC_KEYWORDS={
+    "radio": ["radio","station","fm ","am ","broadcast","broadcaster","format","morning show","air personality","on-air"],
+    "television": ["television"," tv ","network","affiliate","newscast","anchor","nbc","abc","cbs","fox","cw ","peacock"],
+    "podcasting": ["podcast","podcasting","podcaster","iheartpodcasts"],
+    "streaming": ["streaming","streamer","netflix","hulu","paramount+","disney+","max ","prime video"],
+    "advertising": ["advertising","advertiser","ad sales","marketing","media buying","agency"],
+    "jobs": ["hiring","job opening","jobs","career","named ","appointed","promoted","joins ","new role"],
+    "promotion": ["promotion","promotional","contest","giveaway","sweepstakes"],
+    "digital": ["digital media","social media","website","online","app ","platform"],
+}
 OUTROS=[
     "For more news, the latest jobs, media tools and more, log on to Media Jobs Report dot com.",
-    "Stay up to date with more media news, the latest jobs, industry tools and more at Media Jobs Report dot com.",
-    "Find more media news, new job opportunities, industry tools and more at Media Jobs Report dot com.",
-    "For the latest media headlines, jobs, tools and more, visit Media Jobs Report dot com.",
+    "Stay connected to the media industry with more news, jobs and tools at Media Jobs Report dot com.",
+    "Find the latest media news, job opportunities and industry resources at Media Jobs Report dot com.",
+    "For more media headlines, jobs, tools and industry information, visit Media Jobs Report dot com.",
+    "Keep up with what’s happening across radio, television, digital and more at Media Jobs Report dot com.",
+    "Looking for your next opportunity or the latest industry news? Visit Media Jobs Report dot com.",
 ]
 
 def load():
@@ -60,8 +82,25 @@ def move(d,sid,direction):
     j=i-1 if direction=="up" else i+1
     if 0<=j<len(a): a[i],a[j]=a[j],a[i]
 
+def story_topic(text):
+    haystack=" "+text.lower()+" "
+    scores={}
+    for topic,keywords in TOPIC_KEYWORDS.items():
+        score=sum(1 for keyword in keywords if keyword in haystack)
+        if score:
+            scores[topic]=score
+    return max(scores,key=scores.get) if scores else None
+
+def transition_for(text, index, publish_date):
+    topic=story_topic(text)
+    if topic:
+        choices=TOPIC_TRANSITIONS[topic]
+        pick=(int(publish_date.strftime("%Y%m%d"))+index) % len(choices)
+        return choices[pick]
+    return TRANSITIONS[(index-1)%len(TRANSITIONS)]
+
 def build_brief(selected, publish_date):
-    parts=[INTRO]
+    parts=[]
     for i,x in enumerate(selected):
         text=x["text"].strip()
         if i==0:
@@ -69,7 +108,7 @@ def build_brief(selected, publish_date):
         elif i==len(selected)-1:
             parts.append("And finally, "+text)
         else:
-            parts.append(TRANSITIONS[(i-1)%len(TRANSITIONS)]+" "+text)
+            parts.append(transition_for(text,i,publish_date)+" "+text)
     # Rotate the closing line by date so each published edition gets one stable outro.
     outro_index=int(publish_date.strftime("%Y%m%d")) % len(OUTROS)
     parts.append(OUTROS[outro_index])
