@@ -10,7 +10,7 @@ DATA=ROOT/"data"/"stories.json"
 FEED=ROOT/"feed.xml"
 TZ=ZoneInfo("America/New_York")
 WPM=150
-INTRO="From Media Jobs Report, this is Media’s Morning Brief."
+INTRO="From Media Jobs Report, here is Media’s Morning Brief."
 TRANSITIONS=["Next,", "Also,", "Meanwhile,", "In other news,"]
 TOPIC_TRANSITIONS={
     "radio": ["Turning to radio,", "In radio news,", "From the radio side of the industry,"],
@@ -100,7 +100,7 @@ def transition_for(text, index, publish_date):
     return TRANSITIONS[(index-1)%len(TRANSITIONS)]
 
 def build_brief(selected, publish_date):
-    parts=[]
+    parts=[INTRO]
     for i,x in enumerate(selected):
         text=x["text"].strip()
         if i==0:
