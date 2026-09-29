@@ -91,16 +91,23 @@ def story_topic(text):
             scores[topic]=score
     return max(scores,key=scores.get) if scores else None
 
-def transition_for(text, index, publish_date):
+def transition_for(text, index, publish_date, topic_uses=None, generic_uses=None):
     topic=story_topic(text)
     if topic:
         choices=TOPIC_TRANSITIONS[topic]
-        pick=(int(publish_date.strftime("%Y%m%d"))+index) % len(choices)
-        return choices[pick]
-    return TRANSITIONS[(index-1)%len(TRANSITIONS)]
+        use_number=(topic_uses or {}).get(topic,0)
+        # Rotate the starting phrase by date, then advance within that topic
+        # so the same specialized segue is never repeated in one episode
+        # until every available phrase for that topic has been used.
+        start=int(publish_date.strftime("%Y%m%d")) % len(choices)
+        return choices[(start+use_number) % len(choices)]
+    use_number=(generic_uses or {}).get("generic",0)
+    return TRANSITIONS[use_number % len(TRANSITIONS)]
 
 def build_brief(selected, publish_date):
     parts=[INTRO]
+    topic_uses={}
+    generic_uses={"generic":0}
     for i,x in enumerate(selected):
         text=x["text"].strip()
         if i==0:
@@ -108,7 +115,12 @@ def build_brief(selected, publish_date):
         elif i==len(selected)-1:
             parts.append("And finally, "+text)
         else:
-            parts.append(transition_for(text,i,publish_date)+" "+text)
+            topic=story_topic(text)
+            parts.append(transition_for(text,i,publish_date,topic_uses,generic_uses)+" "+text)
+            if topic:
+                topic_uses[topic]=topic_uses.get(topic,0)+1
+            else:
+                generic_uses["generic"]+=1
     # Rotate the closing line by date so each published edition gets one stable outro.
     outro_index=int(publish_date.strftime("%Y%m%d")) % len(OUTROS)
     parts.append(OUTROS[outro_index])
