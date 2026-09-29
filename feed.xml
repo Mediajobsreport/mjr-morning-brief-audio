@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>MJR Morning Brief Audio</title>
+    <title>Media’s Morning Brief</title>
     <link>https://www.mediajobsreport.com/</link>
-    <description>The latest media industry news from Media Jobs Report.</description>
+    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2026 21:46:47 GMT</lastBuildDate>
+    <ttl>30</ttl>
+    <lastBuildDate>2026-09-29T21:46:56Z</lastBuildDate>
     <item>
-      <title>MJR Morning Brief — September 29, 2026</title>
+      <title>Media’s Morning Brief — September 29, 2026</title>
       <guid isPermaLink="false">mjr-morning-brief-2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 21:46:47 GMT</pubDate>
-      <description>With the latest from across the media business, this is the MJR Morning Brief.
+      <link>https://www.mediajobsreport.com/</link>
+      <pubDate>2026-09-29T21:46:56Z</pubDate>
+      <description>From Media Jobs Report, here is Media’s Morning Brief.
 
 The U.S. job market remained relatively steady in August. New Labor Department data show 7.1 million job openings nationwide, with 5.2 million hires. For media-related employers, Information-sector openings jumped from 78,000 in July to 123,000 in August, although actual hiring in the sector declined.
 
-Also making news,
+Next, Local Media Association is accepting applications for its new AI Growth Lab, developed in partnership with Google. Up to 12 local newsrooms will receive six months of AI training and coaching focused on audience growth, revenue and newsroom tools. Applications are due October 14.
 
-Local Media Association is accepting applications for its new AI Growth Lab, developed in partnership with Google. Up to 12 local newsrooms will receive six months of AI training and coaching focused on audience growth, revenue and newsroom tools. Applications are due October 14.
+From the podcasting world, Billy Bush is relaunching “Hot Mics” with a new look, new set and expanded live schedule. The show now streams live four days a week, covering entertainment, pop culture, news, politics and technology, with additional live editions planned when breaking stories warrant them. “Hot Mics with Billy Bush” is distributed by iHeartPodcasts.
 
-Here&apos;s another story we&apos;re following,
+Turning to television, The MTV Video Music Awards just posted their biggest audience in 11 years. The 2026 VMAs drew 8.43 million viewers across CBS and MTV, up 51% from last year. CBS alone averaged 7.61 million viewers, while the show also posted double-digit gains across key adult demographics.
 
-Billy Bush is relaunching “Hot Mics” with a new look, new set and expanded live schedule. The show now streams live four days a week, covering entertainment, pop culture, news, politics and technology, with additional live editions planned when breaking stories warrant them. “Hot Mics with Billy Bush” is distributed by iHeartPodcasts.
+In radio news, Christian radio listeners want familiar favorites this Christmas. A new Finney Media study asked listeners nationwide to rank more than 200 holiday songs and found a preference for nostalgic, well-known versions of Christmas classics. The research is designed to help Christian stations plan their 2026 holiday programming.
 
-In other media news,
+From the podcasting world, Premiere Networks and Buzz Knight Media have launched “Jersey Made,” a new podcast hosted by veteran media executive Buzz Knight. The iHeartPodcasts series explores New Jersey’s musical legacy, with guests including Brian Williams and Brian Fallon and stories spanning Sinatra, Springsteen, Whitney Houston and more.
 
-The MTV Video Music Awards just posted their biggest audience in 11 years. The 2026 VMAs drew 8.43 million viewers across CBS and MTV, up 51% from last year. CBS alone averaged 7.61 million viewers, while the show also posted double-digit gains across key adult demographics.
+Also, The final lineup is set for the 57th Annual GMA Dove Awards. Brandon Lake with Lainey Wilson, Tye Tribbett, Hope Darst and Elevation Worship are among the newly announced performers. Amy Grant and Natalie Grant will also share the stage for the first time for a special tribute to Dolly Parton. The Dove Awards take place Oct. 6 in Nashville and air Oct. 9 on TBN.
 
-Turning to another story,
+And finally, Compass Media Networks’ “She’s Country” has topped 40 affiliates just months after launching nationally. Hosted by Emily Harlan, the three-hour weekend show spotlights women in Country music with hits, emerging artists, interviews and behind-the-scenes stories. New affiliates include stations in Baton Rouge, Fresno, Tulsa, Traverse City and Medford.
 
-Christian radio listeners want familiar favorites this Christmas. A new Finney Media study asked listeners nationwide to rank more than 200 holiday songs and found a preference for nostalgic, well-known versions of Christmas classics. The research is designed to help Christian stations plan their 2026 holiday programming.
-
-Also this morning,
-
-Premiere Networks and Buzz Knight Media have launched “Jersey Made,” a new podcast hosted by veteran media executive Buzz Knight. The iHeartPodcasts series explores New Jersey’s musical legacy, with guests including Brian Williams and Brian Fallon and stories spanning Sinatra, Springsteen, Whitney Houston and more.
-
-Elsewhere in the industry,
-
-The final lineup is set for the 57th Annual GMA Dove Awards. Brandon Lake with Lainey Wilson, Tye Tribbett, Hope Darst and Elevation Worship are among the newly announced performers. Amy Grant and Natalie Grant will also share the stage for the first time for a special tribute to Dolly Parton. The Dove Awards take place Oct. 6 in Nashville and air Oct. 9 on TBN.
-
-And finally,
-
-Compass Media Networks’ “She’s Country” has topped 40 affiliates just months after launching nationally. Hosted by Emily Harlan, the three-hour weekend show spotlights women in Country music with hits, emerging artists, interviews and behind-the-scenes stories. New affiliates include stations in Baton Rouge, Fresno, Tulsa, Traverse City and Medford.
-
-For more industry news, the latest media jobs and free tools, log in to MediaJobsReport.com.</description>
+For more media headlines, jobs, tools and industry information, visit Media Jobs Report dot com.</description>
     </item>
   </channel>
 </rss>
