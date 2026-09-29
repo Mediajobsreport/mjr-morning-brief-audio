@@ -1,0 +1,28 @@
+name: Rebuild Alexa Feed With Topic Segues
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: startsWith(github.event.head_commit.message, 'Publish Morning Brief ')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild Alexa feed with category-aware segues
+        run: python manager.py publish
+      - name: Save corrected Alexa feed
+        run: |
+          git config user.name "MJR Morning Brief"
+          git config user.email "actions@users.noreply.github.com"
+          git add feed.xml data/stories.json
+          if git diff --cached --quiet; then
+            echo "No feed changes to save."
+          else
+            git commit -m "Alexa: apply category-aware segues"
+            git push
+          fi
