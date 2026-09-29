@@ -367,6 +367,15 @@
       "seconds": 18,
       "published": true,
       "published_at": "2026-09-29T00:58:52.515Z"
+    },
+    {
+      "id": "20260929-01",
+      "date": "2026-09-29",
+      "created_at": "2026-09-29T20:22:19.297Z",
+      "text": "Local Media Association is accepting applications for its new AI Growth Lab, developed in partnership with Google. Up to 12 local newsrooms will receive six months of AI training and coaching focused on audience growth, revenue and newsroom tools. Applications are due October 14.",
+      "words": 44,
+      "seconds": 18,
+      "published": false
     }
   ]
 }
