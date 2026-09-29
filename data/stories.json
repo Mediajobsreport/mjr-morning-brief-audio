@@ -285,7 +285,7 @@
       "text": "Media Jobs Report has added a new way to make your daily Prep more local — and maybe help an animal find a home. Adoptable Pets Near You highlights dogs and cats from rescue organizations around your area, with photos, adoption details and tools to share pets with your audience. Find it now at Media Jobs Report.",
       "words": 56,
       "seconds": 22,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -295,7 +295,7 @@
       "text": "Beasley Media Group is the new official year-round audio partner of the Vegas Golden Knights. X 107.9 becomes the team’s English-language flagship, while 105.7 Maxima will carry Spanish-language broadcasts. The multiyear deal also includes expanded Golden Knights programming and coverage of the Henderson Silver Knights across Beasley’s audio platforms.",
       "words": 51,
       "seconds": 20,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -305,7 +305,7 @@
       "text": "USA TODAY Co. and Lee Enterprises are reshuffling their newspaper portfolios. USA TODAY Co. is taking full control of the Arizona Daily Star, while Lee is acquiring the Sioux Falls Argus Leader, Aberdeen American News, Watertown Public Opinion and Great Falls Tribune. The agreements are effective immediately, with financial terms not disclosed.",
       "words": 52,
       "seconds": 21,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -315,7 +315,7 @@
       "text": "Universal Music Group has named former Spotify executive Òscar Celma senior vice president of Applied AI and Machine Learning. Celma will help lead AI and machine-learning development across UMG’s global operations. His background also includes Condé Nast, Pandora/SiriusXM and Gracenote.",
       "words": 41,
       "seconds": 16,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -325,7 +325,7 @@
       "text": "The E.W. Scripps Company has promoted Sean McGarvy to Head of News. Beginning October 5, McGarvy will lead news and content strategy while overseeing standards across Scripps’ local newsrooms, digital operations and national Scripps News network. The nearly 30-year news veteran most recently served as Senior Director of Digital News Operations.",
       "words": 52,
       "seconds": 21,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -335,7 +335,7 @@
       "text": "The Society of Broadcast Engineers has named five recipients of its 2026 Ennes Educational Foundation Trust scholarships. Diovany Deus, Brendan Temkin, Adrianna Taliercio, Katie Herring and Tanner Denoyer will each receive three thousand dollars toward their education. The program supports students and professionals pursuing careers in broadcast engineering and media technology.",
       "words": 51,
       "seconds": 20,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -345,17 +345,7 @@
       "text": "Audacy is bringing its We Can Survive concert to New York for the first time. Megan Moroney, Michelle Branch, Bebe Rexha and Ashe will perform Oct. 28 at UBS Arena. The 13th annual event benefits the American Foundation for Suicide Prevention and supports Audacy’s “I’m Listening” mental health initiative. Tickets go on sale Oct. 2.",
       "words": 55,
       "seconds": 22,
-      "published": true,
-      "published_at": "2026-09-28T20:52:14.584Z"
-    },
-    {
-      "id": "20260928-08",
-      "date": "2026-09-28",
-      "created_at": "2026-09-28T20:44:51.080Z",
-      "text": "A new identity is on the air in St. Louis. Sinclair has rebranded KDNL as STL30 as the former ABC affiliate moves forward as an independent station. The new STL30 branding is rolling out across the station’s on-air, digital and social platforms this week.",
-      "words": 44,
-      "seconds": 18,
-      "published": true,
+      "published": false,
       "published_at": "2026-09-28T20:52:14.584Z"
     },
     {
@@ -366,6 +356,16 @@
       "words": 56,
       "seconds": 22,
       "published": false
+    },
+    {
+      "id": "20260928-08",
+      "date": "2026-09-28",
+      "created_at": "2026-09-28T20:44:51.080Z",
+      "text": "A new identity is on the air in St. Louis. Sinclair has rebranded KDNL as STL30 as the former ABC affiliate moves forward as an independent station. The new STL30 branding is rolling out across the station’s on-air, digital and social platforms this week.",
+      "words": 44,
+      "seconds": 18,
+      "published": false,
+      "published_at": "2026-09-28T20:52:14.584Z"
     }
   ]
 }
