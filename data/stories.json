@@ -494,21 +494,21 @@
       "published": false
     },
     {
-      "id": "20260930-06",
-      "date": "2026-09-30",
-      "created_at": "2026-09-30T16:51:03.480Z",
-      "text": "Clay Travis and Buck Sexton are giving listeners a behind-the-scenes look at their Oval Office visit with President Donald Trump. The Premiere Networks hosts met with Trump on Monday and later shared details from the meeting, including encounters with several administration officials and plenty of conversation about college football.",
-      "words": 49,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20260930-05",
       "date": "2026-09-30",
       "created_at": "2026-09-30T16:39:40.078Z",
       "text": "Audiohook has acquired podcast intelligence platform Podscan and is opening much of its data to the industry for free. Podscan analyzes more than 70,000 podcast episodes daily for brand suitability, contextual categories, brand mentions and sentiment. Founder Arvid Kahl is joining Audiohook to oversee the platform’s technical transition and future development.",
       "words": 52,
       "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20260930-06",
+      "date": "2026-09-30",
+      "created_at": "2026-09-30T16:51:03.480Z",
+      "text": "Clay Travis and Buck Sexton are giving listeners a behind-the-scenes look at their Oval Office visit with President Donald Trump. The Premiere Networks hosts met with Trump on Monday and later shared details from the meeting, including encounters with several administration officials and plenty of conversation about college football.",
+      "words": 49,
+      "seconds": 20,
       "published": false
     },
     {
