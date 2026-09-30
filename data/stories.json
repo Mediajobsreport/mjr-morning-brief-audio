@@ -476,21 +476,21 @@
       "published": false
     },
     {
-      "id": "20260930-02",
-      "date": "2026-09-30",
-      "created_at": "2026-09-30T15:58:46.668Z",
-      "text": "Radiocraft has selected Compass Media Networks to handle advertising sales for The TJ Show and LiveLine with Mason beginning January 1st. The TJ Show airs on more than 130 stations, while LiveLine with Mason is heard on more than 80 stations nationwide.",
-      "words": 42,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20260930-04",
       "date": "2026-09-30",
       "created_at": "2026-09-30T16:31:32.106Z",
       "text": "Motown Gospel/TAMLA has promoted Justin Tomlinson to Vice President of Marketing. Tomlinson, previously Senior Director of Marketing, will lead marketing strategy for the label’s artists and releases. His career includes work with RCA Inspiration, Sony Music Nashville and Atlantic Records.",
       "words": 41,
       "seconds": 16,
+      "published": false
+    },
+    {
+      "id": "20260930-02",
+      "date": "2026-09-30",
+      "created_at": "2026-09-30T15:58:46.668Z",
+      "text": "Radiocraft has selected Compass Media Networks to handle advertising sales for The TJ Show and LiveLine with Mason beginning January 1st. The TJ Show airs on more than 130 stations, while LiveLine with Mason is heard on more than 80 stations nationwide.",
+      "words": 42,
+      "seconds": 17,
       "published": false
     },
     {
