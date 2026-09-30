@@ -510,6 +510,15 @@
       "words": 42,
       "seconds": 17,
       "published": false
+    },
+    {
+      "id": "20260930-08",
+      "date": "2026-09-30",
+      "created_at": "2026-09-30T18:20:00.634Z",
+      "text": "The Country Radio Hall of Fame is accepting nominations for its Class of 2027 through October 30. Eligible nominees must have at least 20 years in radio, including 15 in the country format. The new class will be announced during CRS 2027 in Nashville. Nominations can be submitted through the Country Radio Hall of Fame nomination form on the CRS website at Country Radio Seminar dot com.",
+      "words": 67,
+      "seconds": 27,
+      "published": false
     }
   ]
 }
