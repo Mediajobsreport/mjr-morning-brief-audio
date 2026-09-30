@@ -458,21 +458,21 @@
       "published": false
     },
     {
-      "id": "20260930-02",
-      "date": "2026-09-30",
-      "created_at": "2026-09-30T15:58:46.668Z",
-      "text": "Radiocraft has selected Compass Media Networks to handle advertising sales for The TJ Show and LiveLine with Mason beginning January 1st. The TJ Show airs on more than 130 stations, while LiveLine with Mason is heard on more than 80 stations nationwide.",
-      "words": 42,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20260930-07",
       "date": "2026-09-30",
       "created_at": "2026-09-30T17:54:38.421Z",
       "text": "Jacobs Media and the Public Media Content Collective will present Public Radio Techsurvey 2026 on Wednesday, October 7. The webinar will reveal new research from more than 17,000 Public Radio listeners, covering trust, fundraising, local content and changing digital habits. To register or for more information, visit Events at Media Jobs Report dot com.",
       "words": 55,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20260930-02",
+      "date": "2026-09-30",
+      "created_at": "2026-09-30T15:58:46.668Z",
+      "text": "Radiocraft has selected Compass Media Networks to handle advertising sales for The TJ Show and LiveLine with Mason beginning January 1st. The TJ Show airs on more than 130 stations, while LiveLine with Mason is heard on more than 80 stations nationwide.",
+      "words": 42,
+      "seconds": 17,
       "published": false
     },
     {
