@@ -535,8 +535,8 @@
       "text": "Hundreds of college radio stations around the world come together Friday for the 16th annual World College Radio Day. More than 40 countries now celebrate the event. Media Jobs Report supports future media professionals year-round with free internship search, scholarship search, airplay charts and real-world industry tools at MediaJobsReport.com.",
       "words": 50,
       "seconds": 20,
-      "published": false,
-      "published_at": "2026-10-01T21:27:15.932Z",
+      "published": true,
+      "published_at": "2026-10-01T21:34:22.321Z",
       "updated_at": "2026-10-01T21:34:14.803Z"
     },
     {
@@ -547,7 +547,7 @@
       "words": 38,
       "seconds": 15,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-01",
@@ -557,7 +557,7 @@
       "words": 40,
       "seconds": 16,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-05",
@@ -567,7 +567,7 @@
       "words": 46,
       "seconds": 18,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-02",
@@ -577,7 +577,7 @@
       "words": 69,
       "seconds": 28,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-04",
@@ -587,7 +587,7 @@
       "words": 50,
       "seconds": 20,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-03",
@@ -597,7 +597,7 @@
       "words": 92,
       "seconds": 37,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     },
     {
       "id": "20261001-06",
@@ -607,7 +607,7 @@
       "words": 38,
       "seconds": 15,
       "published": true,
-      "published_at": "2026-10-01T21:27:15.932Z"
+      "published_at": "2026-10-01T21:34:22.321Z"
     }
   ]
 }
