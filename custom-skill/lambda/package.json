@@ -4,6 +4,5 @@
   "private": true,
   "description": "Alexa custom skill for the published Media Jobs Report Morning Brief",
   "main": "index.js",
-  "engines": { "node": ">=18" },
   "dependencies": {}
 }
