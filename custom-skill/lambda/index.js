@@ -1,5 +1,7 @@
 'use strict';
 
+const https = require('https');
+
 // Alexa-hosted Lambda entry point. No credentials or user data are sent to GitHub.
 const FEED_URL = 'https://raw.githubusercontent.com/Mediajobsreport/mjr-morning-brief-audio/main/feed.xml';
 const MAX_BYTES = 128 * 1024;
@@ -50,28 +52,58 @@ function parseBrief(xml, now = new Date()) {
   return latest;
 }
 
-async function loadBrief(fetchImpl = globalThis.fetch, now = new Date()) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 4000);
-  try {
-    const res = await fetchImpl(FEED_URL, { signal: controller.signal, redirect: 'error', cache: 'no-store', headers: { Accept: 'application/xml, text/xml, text/plain' } });
-    if (!res.ok || !res.body) throw new Error('Feed unavailable');
-    const length = Number(res.headers.get('content-length'));
-    if (length > MAX_BYTES) throw new Error('Feed too large');
-    const reader = res.body.getReader();
-    const chunks = [];
-    let size = 0;
-    try {
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        size += value.byteLength;
-        if (size > MAX_BYTES) { await reader.cancel(); throw new Error('Feed too large'); }
-        chunks.push(Buffer.from(value));
+// Native HTTPS works without browser globals or third-party dependencies.
+function fetchXml(url = FEED_URL, getImpl = https.get, timeoutMs = 4000) {
+  if (url !== FEED_URL) return Promise.reject(new Error('Unexpected feed URL'));
+  return new Promise((resolve, reject) => {
+    let request;
+    let response;
+    let settled = false;
+    const timer = setTimeout(() => finish(new Error('Feed request timed out')), timeoutMs);
+    function finish(error, xml) {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timer);
+      if (error) {
+        reject(error);
+        if (response) response.destroy();
+        if (request) request.destroy();
+      } else {
+        resolve(xml);
       }
-    } finally { reader.releaseLock(); }
-    return parseBrief(Buffer.concat(chunks).toString('utf8'), now);
-  } finally { clearTimeout(timer); }
+    }
+    try {
+      request = getImpl(url, { headers: { Accept: 'application/xml, text/xml, text/plain' } }, res => {
+        response = res;
+        res.on('error', error => finish(error));
+        res.on('aborted', () => finish(new Error('Feed response aborted')));
+        // Reject redirects and errors; never follow a changed feed location.
+        if (res.statusCode !== 200) return finish(new Error('Feed unavailable'));
+        if (Number(res.headers['content-length']) > MAX_BYTES) return finish(new Error('Feed too large'));
+        const chunks = [];
+        let size = 0;
+        res.on('data', chunk => {
+          if (settled) return;
+          size += chunk.length;
+          if (size > MAX_BYTES) return finish(new Error('Feed too large'));
+          chunks.push(Buffer.from(chunk));
+        });
+        res.on('end', () => finish(null, Buffer.concat(chunks).toString('utf8')));
+        res.on('close', () => {
+          if (!settled) finish(new Error('Feed response closed early'));
+        });
+      });
+      request.on('error', error => finish(error));
+      // Also cover a synchronous error from a test client.
+      if (settled) request.destroy();
+    } catch (error) {
+      finish(error);
+    }
+  });
+}
+
+async function loadBrief(readFeed = fetchXml, now = new Date()) {
+  return parseBrief(await readFeed(FEED_URL), now);
 }
 
 function reply(text, end = true, title = 'MJR Morning Brief') {
@@ -81,7 +113,7 @@ function reply(text, end = true, title = 'MJR Morning Brief') {
   return { version: '1.0', response };
 }
 
-function createHandler({ fetchImpl = globalThis.fetch, clock = () => new Date(), skillId = process.env.SKILL_ID } = {}) {
+function createHandler({ readFeed = fetchXml, clock = () => new Date(), skillId = process.env.SKILL_ID } = {}) {
   return async function handler(event) {
     // Avoid optional chaining so the Alexa console's parser can read this file.
     const system = event && event.context && event.context.System;
@@ -102,7 +134,7 @@ function createHandler({ fetchImpl = globalThis.fetch, clock = () => new Date(),
     if (request.type === 'IntentRequest' && name === 'AMAZON.HelpIntent') return reply(HELP, false);
     if (request.type === 'LaunchRequest' || (request.type === 'IntentRequest' && ['PlayBriefIntent', 'AMAZON.RepeatIntent'].includes(name))) {
       try {
-        const brief = await loadBrief(fetchImpl, clock());
+        const brief = await loadBrief(readFeed, clock());
         return reply(brief.speech, true, brief.title);
       } catch (error) {
         // Never log request envelopes, tokens, account IDs, or unpublished copy.
@@ -119,3 +151,5 @@ exports.createHandler = createHandler;
 exports.parseBrief = parseBrief;
 exports.loadBrief = loadBrief;
 exports.FEED_URL = FEED_URL;
+
+exports.fetchXml = fetchXml;
