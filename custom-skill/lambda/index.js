@@ -83,22 +83,28 @@ function reply(text, end = true, title = 'MJR Morning Brief') {
 
 function createHandler({ fetchImpl = globalThis.fetch, clock = () => new Date(), skillId = process.env.SKILL_ID } = {}) {
   return async function handler(event) {
-    const appId = event?.context?.System?.application?.applicationId || event?.session?.application?.applicationId;
+    // Avoid optional chaining so the Alexa console's parser can read this file.
+    const system = event && event.context && event.context.System;
+    const session = event && event.session;
+    const appId = (system && system.application && system.application.applicationId)
+      || (session && session.application && session.application.applicationId);
     if (skillId && appId !== skillId) throw new Error('Skill ID mismatch');
-    const request = event?.request;
+    const request = event && event.request;
     if (!request) return reply(UNAVAILABLE);
     if (request.type === 'SessionEndedRequest') return { version: '1.0', response: {} };
-    if (request.type === 'LaunchRequest' && (event?.context?.System?.user?.userId || event?.session?.user?.userId) === 'alexa-lambda-availability') {
+    const userId = (system && system.user && system.user.userId)
+      || (session && session.user && session.user.userId);
+    if (request.type === 'LaunchRequest' && userId === 'alexa-lambda-availability') {
       return reply('MJR Morning Brief is ready.');
     }
-    const name = request.intent?.name;
+    const name = request.intent && request.intent.name;
     if (request.type === 'IntentRequest' && ['AMAZON.StopIntent', 'AMAZON.CancelIntent'].includes(name)) return reply('Goodbye.');
     if (request.type === 'IntentRequest' && name === 'AMAZON.HelpIntent') return reply(HELP, false);
     if (request.type === 'LaunchRequest' || (request.type === 'IntentRequest' && ['PlayBriefIntent', 'AMAZON.RepeatIntent'].includes(name))) {
       try {
         const brief = await loadBrief(fetchImpl, clock());
         return reply(brief.speech, true, brief.title);
-      } catch {
+      } catch (error) {
         // Never log request envelopes, tokens, account IDs, or unpublished copy.
         console.warn('Published Morning Brief could not be loaded.');
         return reply(UNAVAILABLE);
