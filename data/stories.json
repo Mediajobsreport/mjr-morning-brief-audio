@@ -628,21 +628,21 @@
       "published": false
     },
     {
-      "id": "20261003-04",
-      "date": "2026-10-03",
-      "created_at": "2026-10-03T13:26:07.350Z",
-      "text": "Nielsen will roll out new cross-platform content measurement solutions in early 2027. The system will combine publishers’ first-party streaming data with Nielsen panels and big data to measure total reach and time spent across screens. An AI-assisted interface is also planned, with the technology eventually contributing to reports including The Gauge.",
-      "words": 51,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261003-02",
       "date": "2026-10-03",
       "created_at": "2026-10-03T13:08:16.468Z",
       "text": "The lineup is set for the 57th Annual GMA Dove Awards Pre-Telecast Show. Sarai Rivera and CalledOut Music will host and perform, with Chelsea Plank, Lloyd Nicks and The Grascals also taking the stage. The Pre-Telecast happens Tuesday, October 6, in Nashville, with an online broadcast October 10.",
       "words": 48,
       "seconds": 19,
+      "published": false
+    },
+    {
+      "id": "20261003-04",
+      "date": "2026-10-03",
+      "created_at": "2026-10-03T13:26:07.350Z",
+      "text": "Nielsen will roll out new cross-platform content measurement solutions in early 2027. The system will combine publishers’ first-party streaming data with Nielsen panels and big data to measure total reach and time spent across screens. An AI-assisted interface is also planned, with the technology eventually contributing to reports including The Gauge.",
+      "words": 51,
+      "seconds": 20,
       "published": false
     },
     {
