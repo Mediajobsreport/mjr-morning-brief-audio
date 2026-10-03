@@ -1,0 +1,9 @@
+{
+  "name": "mjr-morning-brief-custom-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alexa custom skill for the published Media Jobs Report Morning Brief",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}

@@ -1,0 +1,20 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "m. j. r. morning brief",
+      "intents": [
+        {
+          "name": "PlayBriefIntent",
+          "slots": [],
+          "samples": ["play the brief", "play the morning brief", "read the brief", "read the morning brief", "give me the latest brief", "give me the latest news", "play today's brief", "read today's news", "play", "start the brief"]
+        },
+        { "name": "AMAZON.HelpIntent", "samples": [] },
+        { "name": "AMAZON.StopIntent", "samples": [] },
+        { "name": "AMAZON.CancelIntent", "samples": [] },
+        { "name": "AMAZON.FallbackIntent", "samples": [] },
+        { "name": "AMAZON.RepeatIntent", "samples": ["repeat the brief", "repeat the morning brief"] }
+      ],
+      "types": []
+    }
+  }
+}

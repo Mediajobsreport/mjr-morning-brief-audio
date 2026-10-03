@@ -1,0 +1,6 @@
+{
+  "name": "mjr-custom-skill-development",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "test": "node --test test/skill.test.js", "test:live": "node test/live-feed.js" }
+}

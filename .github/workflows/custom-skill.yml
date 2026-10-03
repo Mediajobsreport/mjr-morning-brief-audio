@@ -1,0 +1,37 @@
+name: Validate MJR Alexa Custom Skill
+
+on:
+  push:
+    paths: ['custom-skill/**', '.github/workflows/custom-skill.yml']
+  pull_request:
+    paths: ['custom-skill/**', '.github/workflows/custom-skill.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test handler and interaction model
+        working-directory: custom-skill
+        run: npm test
+      - name: Check current published feed
+        working-directory: custom-skill
+        run: npm run test:live
+      - name: Package Alexa-hosted import
+        working-directory: custom-skill
+        run: |
+          mkdir -p dist
+          zip -r dist/mjr-alexa-custom-skill-code.zip lambda
+          cp skill-package/interactionModels/custom/en-US.json dist/interaction-model-en-US.json
+          cp README.md STORE-LISTING.md dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mjr-alexa-custom-skill
+          path: custom-skill/dist/
