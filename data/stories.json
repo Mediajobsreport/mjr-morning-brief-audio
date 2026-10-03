@@ -664,21 +664,21 @@
       "published": false
     },
     {
-      "id": "20261003-06",
-      "date": "2026-10-03",
-      "created_at": "2026-10-03T13:40:02.472Z",
-      "text": "Anthony Anderson will host the 2026 Soul Train Awards as the celebration returns to Chicago. The show airs Friday, November 27 at 8 p.m. ET/PT on BET and CBS, with performers and honorees to be announced.",
-      "words": 38,
-      "seconds": 15,
-      "published": false
-    },
-    {
       "id": "20261003-07",
       "date": "2026-10-03",
       "created_at": "2026-10-03T13:48:42.461Z",
       "text": "NRB has welcomed 11 new members for the third quarter of 2026, including Christian media, radio, publishing, ministry and communications organizations and professionals. New members include Prayz Network, Cornerstone Chapel, Advantage Books, Jonah Wiley and Chris Free. NRB also welcomed back Wild Brothers Productions and North Greenville University.",
       "words": 48,
       "seconds": 19,
+      "published": false
+    },
+    {
+      "id": "20261003-06",
+      "date": "2026-10-03",
+      "created_at": "2026-10-03T13:40:02.472Z",
+      "text": "Anthony Anderson will host the 2026 Soul Train Awards as the celebration returns to Chicago. The show airs Friday, November 27 at 8 p.m. ET/PT on BET and CBS, with performers and honorees to be announced.",
+      "words": 38,
+      "seconds": 15,
       "published": false
     },
     {
