@@ -628,21 +628,21 @@
       "published": false
     },
     {
-      "id": "20261003-01",
-      "date": "2026-10-03",
-      "created_at": "2026-10-03T12:56:38.672Z",
-      "text": "Warner Music Mexico has promoted Yusim Aladro to General Manager. The veteran music executive will oversee strategy and development for the company’s domestic roster, bringing together A&R, creative marketing and artist brand building to help expand the global reach of Mexican artists.",
-      "words": 43,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20261003-04",
       "date": "2026-10-03",
       "created_at": "2026-10-03T13:26:07.350Z",
       "text": "Nielsen will roll out new cross-platform content measurement solutions in early 2027. The system will combine publishers’ first-party streaming data with Nielsen panels and big data to measure total reach and time spent across screens. An AI-assisted interface is also planned, with the technology eventually contributing to reports including The Gauge.",
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261003-01",
+      "date": "2026-10-03",
+      "created_at": "2026-10-03T12:56:38.672Z",
+      "text": "Warner Music Mexico has promoted Yusim Aladro to General Manager. The veteran music executive will oversee strategy and development for the company’s domestic roster, bringing together A&R, creative marketing and artist brand building to help expand the global reach of Mexican artists.",
+      "words": 43,
+      "seconds": 17,
       "published": false
     },
     {
