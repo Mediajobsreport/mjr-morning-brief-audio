@@ -2,10 +2,10 @@
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
-const { parseBrief, loadBrief, createHandler, FEED_URL } = require('../lambda');
+const { parseBrief, loadBrief, createHandler, FEED_URL, fetchXml } = require('../lambda');
 const xml = fs.readFileSync(__dirname + '/fixtures/published-feed.xml', 'utf8');
 const now = new Date('2026-10-03T19:00:00Z');
-const mockFetch = async () => new Response(xml, { status: 200 });
+const mockReadFeed = async () => xml;
 const event = name => ({ request: name ? { type: 'IntentRequest', intent: { name } } : { type: 'LaunchRequest' } });
 
 test('published edition preserves every story, intro once, final segue and outro', () => {
@@ -30,7 +30,7 @@ test('CDATA and XML character references remain text', () => {
   assert.equal(parseBrief(sample, now).speech, 'News & facts 😀');
 });
 test('launch, play, and repeat read same feed and end cleanly', async () => {
-  const handler = createHandler({ fetchImpl: mockFetch, clock: () => now });
+  const handler = createHandler({ readFeed: mockReadFeed, clock: () => now });
   for (const name of [undefined, 'PlayBriefIntent', 'AMAZON.RepeatIntent']) {
     const result = await handler(event(name));
     assert.equal(result.response.outputSpeech.type, 'PlainText');
@@ -41,7 +41,7 @@ test('launch, play, and repeat read same feed and end cleanly', async () => {
   }
 });
 test('help/fallback reprompt; stop/cancel/session-end do not fetch', async () => {
-  const handler = createHandler({ fetchImpl: () => { throw Error('unexpected fetch'); } });
+  const handler = createHandler({ readFeed: () => { throw Error('unexpected fetch'); } });
   for (const name of ['AMAZON.HelpIntent', 'AMAZON.FallbackIntent']) {
     const r = await handler(event(name));
     assert.equal(r.response.shouldEndSession, false);
@@ -52,21 +52,67 @@ test('help/fallback reprompt; stop/cancel/session-end do not fetch', async () =>
   assert.match((await handler({ ...event(), session: { user: { userId: 'alexa-lambda-availability' } } })).response.outputSpeech.text, /ready/);
 });
 test('network errors fail gracefully; skill ID validation is supported', async () => {
-  for (const fetchImpl of [async () => new Response('', { status: 503 }), async () => { throw Error('network'); }]) {
-    const r = await createHandler({ fetchImpl })(event());
+  for (const readFeed of [async () => { throw Error('Feed unavailable'); }, async () => { throw Error('network'); }]) {
+    const r = await createHandler({ readFeed })(event());
     assert.match(r.response.outputSpeech.text, /unavailable/);
   }
   await assert.rejects(createHandler({ skillId: 'expected' })(event()), /Skill ID mismatch/);
 });
-test('fetch uses fixed public feed, rejects redirects, limits bytes and aborts hung calls', async () => {
-  await loadBrief(async (url, options) => {
-    assert.equal(url, FEED_URL); assert.equal(options.redirect, 'error'); assert.equal(options.cache, 'no-store');
-    return new Response(xml);
-  }, now);
-  await assert.rejects(loadBrief(async () => new Response('x'.repeat(129 * 1024)), now), /too large/);
-  await assert.rejects(loadBrief((url, { signal }) => new Promise((resolve, reject) => {
-    signal.addEventListener('abort', () => reject(Error('aborted')), { once: true });
-  }), now), /aborted/);
+test('HTTPS uses fixed public feed, rejects redirects and bounds response bytes', async () => {
+  const { EventEmitter } = require('node:events');
+  function client(status, chunks, headers = {}) {
+    return (url, options, callback) => {
+      assert.equal(url, FEED_URL);
+      assert.equal(options.headers.Accept, 'application/xml, text/xml, text/plain');
+      const request = new EventEmitter();
+      request.destroy = () => { request.destroyed = true; };
+      process.nextTick(() => {
+        const response = new EventEmitter();
+        response.statusCode = status;
+        response.headers = headers;
+        response.destroy = () => { response.destroyed = true; };
+        callback(response);
+        for (const chunk of chunks) {
+          if (!response.destroyed) response.emit('data', Buffer.from(chunk));
+        }
+        if (!response.destroyed) response.emit('end');
+      });
+      return request;
+    };
+  }
+  assert.equal(await fetchXml(FEED_URL, client(200, [xml.slice(0, 20), xml.slice(20)])), xml);
+  for (const status of [301, 302, 404, 503]) {
+    await assert.rejects(fetchXml(FEED_URL, client(status, [])), /unavailable/);
+  }
+  await assert.rejects(fetchXml(FEED_URL, client(200, ['x'.repeat(129 * 1024)])), /too large/);
+  await assert.rejects(fetchXml(FEED_URL, client(200, [], { 'content-length': 129 * 1024 })), /too large/);
+  await assert.rejects(fetchXml('https://untrusted.example/'), /Unexpected feed URL/);
+});
+test('HTTPS cancels hung requests and rejects network errors and incomplete responses', async () => {
+  const { EventEmitter } = require('node:events');
+  let request;
+  const hang = () => {
+    request = new EventEmitter();
+    request.destroy = () => { request.destroyed = true; };
+    return request;
+  };
+  await assert.rejects(fetchXml(FEED_URL, hang, 20), /timed out/);
+  assert.equal(request.destroyed, true);
+  for (const failure of ['error', 'aborted', 'close']) {
+    await assert.rejects(fetchXml(FEED_URL, (url, options, callback) => {
+      const req = hang();
+      process.nextTick(() => {
+        if (failure === 'error') return req.emit('error', Error('network failure'));
+        const res = new EventEmitter();
+        res.statusCode = 200;
+        res.headers = {};
+        res.destroy = () => {};
+        callback(res);
+        res.emit(failure);
+      });
+      return req;
+    }), /network failure|aborted|closed early/);
+  }
 });
 test('model covers implemented intents and uses spelled acronym', () => {
   const model = require('../skill-package/interactionModels/custom/en-US.json').interactionModel.languageModel;
