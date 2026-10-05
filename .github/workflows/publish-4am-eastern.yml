@@ -1,0 +1,49 @@
+name: Publish Alexa Morning Brief at 4 AM Eastern
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: alexa-morning-brief-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Eastern publish hour
+        id: eastern
+        shell: bash
+        run: |
+          HOUR="$(TZ=America/New_York date +%H)"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$HOUR" = "04" ]; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping duplicate UTC schedule; it is not 4 a.m. Eastern."
+          fi
+
+      - name: Publish staged edition
+        if: steps.eastern.outputs.publish == 'true'
+        run: python manager.py publish
+
+      - name: Save live feed
+        if: steps.eastern.outputs.publish == 'true'
+        run: |
+          git config user.name "MJR Morning Brief"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/stories.json feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes to save."
+          else
+            git commit -m "Publish Alexa Morning Brief at 4 AM Eastern"
+            git push
+          fi
