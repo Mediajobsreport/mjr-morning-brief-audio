@@ -13,7 +13,7 @@ on:
           - delete
           - up
           - down
-          - publish_now
+          - publish
       story:
         description: "Paste Morning Brief story here (for add/edit)"
         required: false
