@@ -746,21 +746,21 @@
       "published": false
     },
     {
-      "id": "20261005-01",
-      "date": "2026-10-05",
-      "created_at": "2026-10-05T18:43:15.842Z",
-      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261005-06",
       "date": "2026-10-05",
       "created_at": "2026-10-05T20:26:25.396Z",
       "text": "Skydance has unveiled the 17-member leadership team expected to run the company following completion of Paramount's Warner Bros. Discovery acquisition. David Ellison will serve as Chairman and CEO, with Ynon Kreiz as Co-CEO. The team includes senior leaders overseeing corporate operations, film, television, streaming, DC Studios, CNN and CBS News. Read full story at Media Jobs Report dot com.",
       "words": 59,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261005-01",
+      "date": "2026-10-05",
+      "created_at": "2026-10-05T18:43:15.842Z",
+      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
+      "words": 53,
+      "seconds": 21,
       "published": false
     }
   ]
