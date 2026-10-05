@@ -730,10 +730,11 @@
       "id": "20261005-03",
       "date": "2026-10-05",
       "created_at": "2026-10-05T19:50:23.884Z",
-      "text": "Hubbard Seattle launched Bull Classics on October 2, airing on KKNW-AM 1150 and 98.9 HD2. The Classic Country format features George Strait, Reba McEntire, Garth Brooks and other country favorites. It complements 98.9 The Bull’s New Country programming.",
-      "words": 40,
-      "seconds": 16,
-      "published": false
+      "text": "Hubbard Seattle has launched Bull Classics, airing on KKNW-AM 1150 and 98.9 HD2. The Classic Country format features George Strait, Reba McEntire, Garth Brooks and other country favorites. It complements 98.9 The Bull’s New Country programming.",
+      "words": 38,
+      "seconds": 15,
+      "published": false,
+      "updated_at": "2026-10-05T19:50:47.883Z"
     }
   ]
 }
