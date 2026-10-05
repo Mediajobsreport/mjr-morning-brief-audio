@@ -719,21 +719,21 @@
       "updated_at": "2026-10-05T19:50:47.883Z"
     },
     {
-      "id": "20261005-01",
-      "date": "2026-10-05",
-      "created_at": "2026-10-05T18:43:15.842Z",
-      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261005-02",
       "date": "2026-10-05",
       "created_at": "2026-10-05T19:42:29.981Z",
       "text": "The Society of Broadcast Engineers has named Andrew Sveum its new Marketing and Growth Director. The newly created position is part of SBE’s strategic plan to expand its reach, strengthen member engagement and support long-term organizational growth.",
       "words": 37,
       "seconds": 15,
+      "published": false
+    },
+    {
+      "id": "20261005-01",
+      "date": "2026-10-05",
+      "created_at": "2026-10-05T18:43:15.842Z",
+      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
+      "words": 53,
+      "seconds": 21,
       "published": false
     },
     {
