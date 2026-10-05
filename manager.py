@@ -131,22 +131,19 @@ def build_brief(selected, publish_date):
 
 def publish(d):
     pub=now()
-    # Publish the newest staged edition, even when it was prepared the prior day.
-    dated=[x.get("date","") for x in d["stories"] if x.get("date")]
-    if not dated: raise SystemExit("No staged stories are available.")
-    edition_date=max(dated)
-    selected=[x for x in d["stories"] if x.get("date")==edition_date]
-    if not selected: raise SystemExit("No staged stories are available.")
+    today=pub.strftime("%Y-%m-%d")
+    selected=[x for x in d["stories"] if x["date"]==today]
+    if not selected: raise SystemExit("No stories entered for today.")
     for x in selected: x["published"]=True
     full=build_brief(selected, pub)
-    guid=f"mjr-morning-brief-{pub.strftime('%Y-%m-%d')}"
+    guid=f"mjr-morning-brief-{today}"
     iso=pub.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%M:%SZ")
     xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Media’s Morning Brief</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <ttl>30</ttl>\n    <lastBuildDate>{iso}</lastBuildDate>\n    <item>\n      <title>Media’s Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <link>https://www.mediajobsreport.com/</link>\n      <pubDate>{iso}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
     FEED.write_text(xml,encoding="utf-8")
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument("action",choices=["add","edit","delete","up","down","publish","publish_now"])
+    p.add_argument("action",choices=["add","edit","delete","up","down","publish"])
     p.add_argument("--story",default="")
     p.add_argument("--id",default="")
     a=p.parse_args(); d=load()
@@ -154,7 +151,7 @@ def main():
     elif a.action=="edit": edit(d,a.id,a.story)
     elif a.action=="delete": delete(d,a.id)
     elif a.action in ("up","down"): move(d,a.id,a.action)
-    elif a.action in ("publish","publish_now"): publish(d)
+    elif a.action=="publish": publish(d)
     save(d)
     today=now().strftime("%Y-%m-%d")
     todays=[x for x in d["stories"] if x["date"]==today]
