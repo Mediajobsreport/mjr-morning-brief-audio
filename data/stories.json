@@ -737,21 +737,21 @@
       "published": false
     },
     {
-      "id": "20261005-01",
-      "date": "2026-10-05",
-      "created_at": "2026-10-05T18:43:15.842Z",
-      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261005-04",
       "date": "2026-10-05",
       "created_at": "2026-10-05T20:10:02.713Z",
       "text": "Nexstar and DAZN are teaming up to make 15 Indiana Pacers games available free this season. The games will air on Nexstar stations in Indianapolis, Evansville and Champaign and stream free on DAZN, beginning October 23 against Dallas.",
       "words": 38,
       "seconds": 15,
+      "published": false
+    },
+    {
+      "id": "20261005-01",
+      "date": "2026-10-05",
+      "created_at": "2026-10-05T18:43:15.842Z",
+      "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
+      "words": 53,
+      "seconds": 21,
       "published": false
     },
     {
