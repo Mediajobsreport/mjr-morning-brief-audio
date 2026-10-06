@@ -715,7 +715,8 @@
       "text": "Skydance has unveiled the 17-member leadership team expected to run the company following completion of Paramount's Warner Bros. Discovery acquisition. David Ellison will serve as Chairman and CEO, with Ynon Kreiz as Co-CEO. The team includes senior leaders overseeing corporate operations, film, television, streaming, DC Studios, CNN and CBS News. Read full story at Media Jobs Report dot com.",
       "words": 59,
       "seconds": 24,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
       "id": "20261005-03",
@@ -724,8 +725,9 @@
       "text": "Hubbard Seattle has launched Bull Classics, airing on KKNW-AM 1150 and 98.9 HD2. The Classic Country format features George Strait, Reba McEntire, Garth Brooks and other country favorites. It complements 98.9 The Bull’s New Country programming.",
       "words": 38,
       "seconds": 15,
-      "published": false,
-      "updated_at": "2026-10-05T19:50:47.883Z"
+      "published": true,
+      "updated_at": "2026-10-05T19:50:47.883Z",
+      "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
       "id": "20261005-05",
@@ -734,7 +736,8 @@
       "text": "BET has announced the 2026 Soul Train Awards nominees, and fans will vote for the first time in two new categories: R&B/Soul Song of the Year and Spotify’s RNB X International Artist. Voting is open through October 16, with the awards airing November 27 on BET and CBS.",
       "words": 50,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
       "id": "20261005-04",
@@ -743,7 +746,8 @@
       "text": "Nexstar and DAZN are teaming up to make 15 Indiana Pacers games available free this season. The games will air on Nexstar stations in Indianapolis, Evansville and Champaign and stream free on DAZN, beginning October 23 against Dallas.",
       "words": 38,
       "seconds": 15,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
       "id": "20261005-02",
@@ -752,7 +756,8 @@
       "text": "The Society of Broadcast Engineers has named Andrew Sveum its new Marketing and Growth Director. The newly created position is part of SBE’s strategic plan to expand its reach, strengthen member engagement and support long-term organizational growth.",
       "words": 37,
       "seconds": 15,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
       "id": "20261005-01",
@@ -761,7 +766,8 @@
       "text": "Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.",
       "words": 53,
       "seconds": 21,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-06T08:00:17.461Z"
     }
   ]
 }
