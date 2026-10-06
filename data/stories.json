@@ -770,21 +770,21 @@
       "published_at": "2026-10-06T08:00:17.461Z"
     },
     {
-      "id": "20261006-01",
-      "date": "2026-10-06",
-      "created_at": "2026-10-06T19:40:37.186Z",
-      "text": "The Local Media Association has released a new AI roadmap for local broadcasters. Developed with support from the Google News Initiative, the report examines how AI can streamline content production, sales, video distribution and archive searches while keeping journalists and human editorial oversight at the center. More information is available at Media Jobs Report dot com.",
-      "words": 56,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261006-06",
       "date": "2026-10-06",
       "created_at": "2026-10-06T21:01:38.752Z",
       "text": "MIW and the NAB Leadership Foundation are accepting applications for the 2026 LAUNCH Mentorship Program through October 30. Sponsored by Mr. Master, the program now includes women working for broadcast technology partners and vendors, with the selected mentee also attending the 2027 NAB Show in Las Vegas. More information and links to apply are available on Media Jobs Report.",
       "words": 59,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261006-01",
+      "date": "2026-10-06",
+      "created_at": "2026-10-06T19:40:37.186Z",
+      "text": "The Local Media Association has released a new AI roadmap for local broadcasters. Developed with support from the Google News Initiative, the report examines how AI can streamline content production, sales, video distribution and archive searches while keeping journalists and human editorial oversight at the center. More information is available at Media Jobs Report dot com.",
+      "words": 56,
+      "seconds": 22,
       "published": false
     },
     {
