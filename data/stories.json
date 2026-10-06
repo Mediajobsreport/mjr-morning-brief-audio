@@ -806,21 +806,21 @@
       "published": false
     },
     {
-      "id": "20261006-05",
-      "date": "2026-10-06",
-      "created_at": "2026-10-06T20:10:27.396Z",
-      "text": "800 Pound Gorilla has named Russell Weissman Head of Licensing. The former All Things Comedy Chief Operating Officer brings more than 15 years of media experience and will help expand licensing, distribution and partnerships as the Nashville-based comedy company continues its growth.",
-      "words": 42,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20261006-06",
       "date": "2026-10-06",
       "created_at": "2026-10-06T21:01:38.752Z",
       "text": "MIW and the NAB Leadership Foundation are accepting applications for the 2026 LAUNCH Mentorship Program through October 30. Sponsored by Mr. Master, the program now includes women working for broadcast technology partners and vendors, with the selected mentee also attending the 2027 NAB Show in Las Vegas. More information and links to apply are available on Media Jobs Report.",
       "words": 59,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261006-05",
+      "date": "2026-10-06",
+      "created_at": "2026-10-06T20:10:27.396Z",
+      "text": "800 Pound Gorilla has named Russell Weissman Head of Licensing. The former All Things Comedy Chief Operating Officer brings more than 15 years of media experience and will help expand licensing, distribution and partnerships as the Nashville-based comedy company continues its growth.",
+      "words": 42,
+      "seconds": 17,
       "published": false
     }
   ]
