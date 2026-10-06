@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Rebuild Alexa feed with category-aware segues
-        run: python manager.py publish
+        run: python manager.py rebuild
       - name: Save corrected Alexa feed
         run: |
           git config user.name "MJR Morning Brief"
