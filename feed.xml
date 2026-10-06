@@ -1,38 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Media’s Morning Brief</title>
-    <link>https://www.mediajobsreport.com/</link>
-    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>
-    <language>en-us</language>
-    <ttl>30</ttl>
-    <lastBuildDate>2026-10-03T14:11:52Z</lastBuildDate>
-    <item>
-      <title>Media’s Morning Brief — October 03, 2026</title>
-      <guid isPermaLink="false">mjr-morning-brief-2026-10-03</guid>
-      <link>https://www.mediajobsreport.com/</link>
-      <pubDate>2026-10-03T14:11:52Z</pubDate>
-      <description>From Media Jobs Report, here is Media’s Morning Brief.
 
-Media Jobs Report has launched new airplay charts featuring station spin counts from 2,971 monitored U.S. stations. View the charts now at Media Jobs Report dot com.
+    <rss version="2.0">
 
-From the radio side of the industry, New Pew-Knight Initiative research finds Americans broadly value press freedom but differ on its limits. About half say news organizations are greatly influenced by corporate or political interests, while many support some restrictions involving false information or national security. The findings come from Pew Research Center surveys of U.S. adults.
+      <channel>
 
-Turning to radio, The lineup is set for the 57th Annual GMA Dove Awards Pre-Telecast Show. Sarai Rivera and CalledOut Music will host and perform, with Chelsea Plank, Lloyd Nicks and The Grascals also taking the stage. The Pre-Telecast happens Tuesday, October 6, in Nashville, with an online broadcast October 10.
+        <title>MJR Morning Brief Audio</title>
 
-On the advertising front, Warner Music Mexico has promoted Yusim Aladro to General Manager. The veteran music executive will oversee strategy and development for the company’s domestic roster, bringing together A&amp;R, creative marketing and artist brand building to help expand the global reach of Mexican artists.
+        <link>https://www.mediajobsreport.com/</link>
 
-On the hiring front, Veteran higher education journalist Doug Lederman has joined the Board of Directors of Open Campus. Lederman co-founded Inside Higher Ed in 2004 and served as its editor until 2024. Before launching Inside Higher Ed, he held several positions at The Chronicle of Higher Education and began his journalism career as a news clerk at The New York Times. Open Campus Co-Founder and CEO Scott Smallwood says Lederman brings extensive experience at the intersection of journalism and higher education.
+        <description>The latest media industry news from Media Jobs Report.</description>
 
-From the streaming side, Nielsen will roll out new cross-platform content measurement solutions in early 2027. The system will combine publishers’ first-party streaming data with Nielsen panels and big data to measure total reach and time spent across screens. An AI-assisted interface is also planned, with the technology eventually contributing to reports including The Gauge.
+        <language>en-us</language>
 
-In radio news, NRB has welcomed 11 new members for the third quarter of 2026, including Christian media, radio, publishing, ministry and communications organizations and professionals. New members include Prayz Network, Cornerstone Chapel, Advantage Books, Jonah Wiley and Chris Free. NRB also welcomed back Wild Brothers Productions and North Greenville University.
+        <lastBuildDate>Tue, 06 Oct 2026 08:00:17 GMT</lastBuildDate>
 
-On the TV side, Anthony Anderson will host the 2026 Soul Train Awards as the celebration returns to Chicago. The show airs Friday, November 27 at 8 p.m. ET/PT on BET and CBS, with performers and honorees to be announced.
+        <item>
 
-And finally, The National Association of Broadcasters is accepting entries for the 41st annual Crystal Radio Awards. NAB member radio stations have until October 31 to submit their community service efforts. Fifty finalists will be announced in February, with 10 winners honored in Washington in March.
+          <title>MJR Morning Brief — October 6, 2026</title>
 
-Looking for your next opportunity or the latest industry news? Visit Media Jobs Report dot com.</description>
-    </item>
-  </channel>
-</rss>
+          <guid isPermaLink="false">mjr-morning-brief-2026-10-06</guid>
+
+          <pubDate>Tue, 06 Oct 2026 08:00:17 GMT</pubDate>
+
+          <description>From Media Jobs Report, here&apos;s your MJR Morning Brief.
+
+Skydance has unveiled the 17-member leadership team expected to run the company following completion of Paramount&apos;s Warner Bros. Discovery acquisition. David Ellison will serve as Chairman and CEO, with Ynon Kreiz as Co-CEO. The team includes senior leaders overseeing corporate operations, film, television, streaming, DC Studios, CNN and CBS News. Read full story at Media Jobs Report dot com.
+
+Meanwhile,
+
+Hubbard Seattle has launched Bull Classics, airing on KKNW-AM 1150 and 98.9 HD2. The Classic Country format features George Strait, Reba McEntire, Garth Brooks and other country favorites. It complements 98.9 The Bull’s New Country programming.
+
+Also making news,
+
+BET has announced the 2026 Soul Train Awards nominees, and fans will vote for the first time in two new categories: R&amp;B/Soul Song of the Year and Spotify’s RNB X International Artist. Voting is open through October 16, with the awards airing November 27 on BET and CBS.
+
+Here&apos;s another story we&apos;re following,
+
+Nexstar and DAZN are teaming up to make 15 Indiana Pacers games available free this season. The games will air on Nexstar stations in Indianapolis, Evansville and Champaign and stream free on DAZN, beginning October 23 against Dallas.
+
+In other media news,
+
+The Society of Broadcast Engineers has named Andrew Sveum its new Marketing and Growth Director. The newly created position is part of SBE’s strategic plan to expand its reach, strengthen member engagement and support long-term organizational growth.
+
+And finally,
+
+Tickets for the 62nd Academy of Country Music Awards go on sale to the public October 9 at 10 a.m. Pacific. The awards return to Las Vegas on May 16, 2027, with presales for American Express members and ACM A-List subscribers beginning October 6 and 7. Find ticket details at AXS.com.
+
+For the latest media news, job openings, free tools and more, visit MediaJobsReport.com.</description>
+
+        </item>
+
+      </channel>
+
+    </rss>
+
+    
