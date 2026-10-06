@@ -141,9 +141,56 @@ def publish(d):
     xml=f'''<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Media’s Morning Brief</title>\n    <link>https://www.mediajobsreport.com/</link>\n    <description>Broadcast-ready Media Jobs Report Morning Brief audio scripts.</description>\n    <language>en-us</language>\n    <ttl>30</ttl>\n    <lastBuildDate>{iso}</lastBuildDate>\n    <item>\n      <title>Media’s Morning Brief — {pub.strftime("%B %d, %Y")}</title>\n      <guid isPermaLink="false">{guid}</guid>\n      <link>https://www.mediajobsreport.com/</link>\n      <pubDate>{iso}</pubDate>\n      <description>{escape(full)}</description>\n    </item>\n  </channel>\n</rss>\n'''
     FEED.write_text(xml,encoding="utf-8")
 
+def rebuild(d):
+    """Update segues in the published edition without republishing drafts."""
+    import xml.etree.ElementTree as ET
+    from email.utils import parsedate_to_datetime
+
+    original=FEED.read_text(encoding="utf-8")
+    item=ET.fromstring(original).find("./channel/item")
+    if item is None:
+        raise SystemExit("Published feed has no item.")
+    stamp=item.findtext("pubDate") or ""
+    try:
+        pub=datetime.fromisoformat(stamp.replace("Z","+00:00"))
+    except ValueError:
+        pub=parsedate_to_datetime(stamp)
+    if pub.tzinfo is None:
+        raise SystemExit("Published feed date must include a timezone.")
+    def same_publication(story):
+        value=story.get("published_at")
+        if not story.get("published") or not value:
+            return False
+        return datetime.fromisoformat(value.replace("Z","+00:00")).replace(microsecond=0)==pub.replace(microsecond=0)
+    selected=[x for x in d["stories"] if same_publication(x)]
+    if not selected:
+        raise SystemExit("No stories match the published feed timestamp; feed left unchanged.")
+    description=item.findtext("description") or ""
+    positions=[]
+    cursor=0
+    for story in selected:
+        text=story["text"].strip()
+        position=description.find(text,cursor)
+        if position<0:
+            raise SystemExit("Published story text does not match; feed left unchanged.")
+        positions.append((position,position+len(text)))
+        cursor=position+len(text)
+    # Keep the publisher's exact opening and closing messages.
+    middle=build_brief(selected,pub.astimezone(TZ)).split("\n\n")[1:-1]
+    updated=description[:positions[0][0]]+"\n\n".join(middle)+description[positions[-1][1]:]
+    pattern=r"(<description>)(.*?)(</description>)"
+    matches=list(re.finditer(pattern,original,re.S))
+    if len(matches)!=2:
+        raise SystemExit("Unexpected RSS description structure; feed left unchanged.")
+    match=matches[1]
+    replacement=escape(updated)
+    FEED.write_text(original[:match.start(2)]+replacement+original[match.end(2):],encoding="utf-8")
+    print(f"Rebuilt segues for {len(selected)} published stories; publication date preserved.")
+
+
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument("action",choices=["add","edit","delete","up","down","publish"])
+    p.add_argument("action",choices=["add","edit","delete","up","down","publish","rebuild"])
     p.add_argument("--story",default="")
     p.add_argument("--id",default="")
     a=p.parse_args(); d=load()
@@ -152,6 +199,9 @@ def main():
     elif a.action=="delete": delete(d,a.id)
     elif a.action in ("up","down"): move(d,a.id,a.action)
     elif a.action=="publish": publish(d)
+    elif a.action=="rebuild":
+        rebuild(d)
+        return
     save(d)
     today=now().strftime("%Y-%m-%d")
     todays=[x for x in d["stories"] if x["date"]==today]
