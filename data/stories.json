@@ -839,21 +839,21 @@
       "published": false
     },
     {
-      "id": "20261007-01",
-      "date": "2026-10-07",
-      "created_at": "2026-10-07T18:56:28.522Z",
-      "text": "Podtrac's September rankings are out. Crime Junkie remains America's top podcast, followed by The Daily, NPR News Now, Up First and Dateline NBC. iHeart Audience Network leads both the U.S. publisher ranking and Podtrac's global multi-channel podcast ranking.",
-      "words": 39,
-      "seconds": 16,
-      "published": false
-    },
-    {
       "id": "20261007-03",
       "date": "2026-10-07",
       "created_at": "2026-10-07T19:53:54.128Z",
       "text": "Skydance is adding some major names to its Board. Laurene Powell Jobs, former Activision CEO Bobby Kotick and Ynon Kreiz are joining as directors, while former UK Prime Minister Tony Blair will serve as an advisor. David Ellison remains Chairman and CEO as Skydance brings Paramount and Warner Bros. Discovery together.",
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261007-01",
+      "date": "2026-10-07",
+      "created_at": "2026-10-07T18:56:28.522Z",
+      "text": "Podtrac's September rankings are out. Crime Junkie remains America's top podcast, followed by The Daily, NPR News Now, Up First and Dateline NBC. iHeart Audience Network leads both the U.S. publisher ranking and Podtrac's global multi-channel podcast ranking.",
+      "words": 39,
+      "seconds": 16,
       "published": false
     },
     {
