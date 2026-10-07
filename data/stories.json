@@ -830,21 +830,21 @@
       "published_at": "2026-10-07T08:00:17.540Z"
     },
     {
-      "id": "20261007-05",
-      "date": "2026-10-07",
-      "created_at": "2026-10-07T20:20:47.133Z",
-      "text": "Saga Communications has promoted John Hakim to General Manager of Charleston Media Solutions. Hakim spent the past five years as Director of Sales and succeeds Paul O’Malley, who recently moved into Saga’s Senior Vice President of Revenue Development role. Hakim previously worked for Cox Media Group in Jacksonville.",
-      "words": 48,
-      "seconds": 19,
-      "published": false
-    },
-    {
       "id": "20261007-03",
       "date": "2026-10-07",
       "created_at": "2026-10-07T19:53:54.128Z",
       "text": "Skydance is adding some major names to its Board. Laurene Powell Jobs, former Activision CEO Bobby Kotick and Ynon Kreiz are joining as directors, while former UK Prime Minister Tony Blair will serve as an advisor. David Ellison remains Chairman and CEO as Skydance brings Paramount and Warner Bros. Discovery together.",
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261007-05",
+      "date": "2026-10-07",
+      "created_at": "2026-10-07T20:20:47.133Z",
+      "text": "Saga Communications has promoted John Hakim to General Manager of Charleston Media Solutions. Hakim spent the past five years as Director of Sales and succeeds Paul O’Malley, who recently moved into Saga’s Senior Vice President of Revenue Development role. Hakim previously worked for Cox Media Group in Jacksonville.",
+      "words": 48,
+      "seconds": 19,
       "published": false
     },
     {
