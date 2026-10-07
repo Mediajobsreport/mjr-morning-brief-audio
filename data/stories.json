@@ -828,6 +828,15 @@
       "seconds": 17,
       "published": true,
       "published_at": "2026-10-07T08:00:17.540Z"
+    },
+    {
+      "id": "20261007-01",
+      "date": "2026-10-07",
+      "created_at": "2026-10-07T18:56:28.522Z",
+      "text": "Podtrac's September rankings are out. Crime Junkie remains America's top podcast, followed by The Daily, NPR News Now, Up First and Dateline NBC. iHeart Audience Network leads both the U.S. publisher ranking and Podtrac's global multi-channel podcast ranking.",
+      "words": 39,
+      "seconds": 16,
+      "published": false
     }
   ]
 }
