@@ -957,6 +957,20 @@
       "words": 53,
       "seconds": 21,
       "published": false
+    },
+    {
+      "id": "20261008-05",
+      "date": "2026-10-08",
+      "created_at": "2026-10-08T20:14:08.703Z",
+      "text": "Zixi has named John Towers its new Chief Financial Officer. Towers brings more than 20 years of experience, including leadership positions at Sony, Deluxe and Fabric Data. He'll oversee financial operations as Zixi expands its technology for broadcasters and streaming companies moving from traditional satellite distribution to IP-based video delivery.",
+      "categories": [
+        "Streaming",
+        "Digital Media",
+        "Technology"
+      ],
+      "words": 50,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
