@@ -973,18 +973,6 @@
       "published": false
     },
     {
-      "id": "20261008-06",
-      "date": "2026-10-08",
-      "created_at": "2026-10-08T20:22:11.123Z",
-      "text": "Boston-based GBH is welcoming three new trustees as it celebrates its 75th anniversary. Ingrid Chung of Fidelity Investments, Jonathan Goldstein of TA Associates, and John Kennedy of UMass Amherst join the board, bringing experience in finance, education and journalism. The appointments come as GBH continues expanding its public media services.",
-      "categories": [
-        "Business"
-      ],
-      "words": 50,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261008-08",
       "date": "2026-10-08",
       "created_at": "2026-10-08T20:46:55.344Z",
@@ -994,6 +982,18 @@
       ],
       "words": 42,
       "seconds": 17,
+      "published": false
+    },
+    {
+      "id": "20261008-06",
+      "date": "2026-10-08",
+      "created_at": "2026-10-08T20:22:11.123Z",
+      "text": "Boston-based GBH is welcoming three new trustees as it celebrates its 75th anniversary. Ingrid Chung of Fidelity Investments, Jonathan Goldstein of TA Associates, and John Kennedy of UMass Amherst join the board, bringing experience in finance, education and journalism. The appointments come as GBH continues expanding its public media services.",
+      "categories": [
+        "Business"
+      ],
+      "words": 50,
+      "seconds": 20,
       "published": false
     },
     {
