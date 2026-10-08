@@ -945,6 +945,18 @@
       "words": 45,
       "seconds": 18,
       "published": false
+    },
+    {
+      "id": "20261008-04",
+      "date": "2026-10-08",
+      "created_at": "2026-10-08T19:21:40.358Z",
+      "text": "Audacy has a new morning team at New York's legendary WCBS-FM. Veteran broadcasters Trey Morgan and Loren Raye will host weekdays from six to ten. Morgan brings experience from major markets nationwide, while Raye is a two-time Gracie Award winner. The pair will lead mornings on one of America's top Classic Hits stations.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 53,
+      "seconds": 21,
+      "published": false
     }
   ]
 }
