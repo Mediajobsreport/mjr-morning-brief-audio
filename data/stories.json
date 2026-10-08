@@ -983,6 +983,18 @@
       "words": 50,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261008-07",
+      "date": "2026-10-08",
+      "created_at": "2026-10-08T20:35:27.158Z",
+      "text": "The Academy is now accepting media credential applications for the 99th Oscars, happening March 14, 2027. News organizations can apply for in-person or virtual backstage Interview Room access. Applications must be submitted by November 23 at 5 p.m. Pacific. Visit press dot oscars dot org for details.",
+      "categories": [
+        "Other"
+      ],
+      "words": 48,
+      "seconds": 19,
+      "published": false
     }
   ]
 }
