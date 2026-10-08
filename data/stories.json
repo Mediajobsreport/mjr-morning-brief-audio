@@ -911,18 +911,6 @@
       "published_at": "2026-10-08T08:00:17.726Z"
     },
     {
-      "id": "20261008-01",
-      "date": "2026-10-08",
-      "created_at": "2026-10-08T18:17:21.891Z",
-      "text": "NBCUniversal is accepting applications for its Spring 2027 Page Program through October 19. The paid program gives early-career professionals three rotational assignments across NBCUniversal businesses in New York or Universal City, California. The new class begins January 25. Candidates can submit an application through the NBCUniversal Careers Page Program site.",
-      "categories": [
-        "Television"
-      ],
-      "words": 50,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261008-02",
       "date": "2026-10-08",
       "created_at": "2026-10-08T18:39:29.649Z",
@@ -932,6 +920,18 @@
       ],
       "words": 52,
       "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20261008-01",
+      "date": "2026-10-08",
+      "created_at": "2026-10-08T18:17:21.891Z",
+      "text": "NBCUniversal is accepting applications for its Spring 2027 Page Program through October 19. The paid program gives early-career professionals three rotational assignments across NBCUniversal businesses in New York or Universal City, California. The new class begins January 25. Candidates can submit an application through the NBCUniversal Careers Page Program site.",
+      "categories": [
+        "Television"
+      ],
+      "words": 50,
+      "seconds": 20,
       "published": false
     }
   ]
