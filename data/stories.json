@@ -1031,6 +1031,18 @@
       "words": 50,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261009-02",
+      "date": "2026-10-09",
+      "created_at": "2026-10-09T17:27:23.181Z",
+      "text": "Spotify and Joe Rogan are staying together. The streaming company has announced a new multi-year licensing agreement for The Joe Rogan Experience, which has 18 million Spotify followers. New episodes will continue appearing on Spotify and other platforms. Financial terms were not disclosed. Rogan says he's excited to continue the partnership for years to come.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 55,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
