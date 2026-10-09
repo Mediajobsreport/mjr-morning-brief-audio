@@ -1018,6 +1018,19 @@
       "seconds": 19,
       "published": true,
       "published_at": "2026-10-09T08:00:17.645Z"
+    },
+    {
+      "id": "20261009-01",
+      "date": "2026-10-09",
+      "created_at": "2026-10-09T17:04:59.337Z",
+      "text": "The Encouragers' Radio Rally podcast has released a free fourth-quarter radio sales event. Host Loyd Ford joins Chris Fleming, Josh Brown and Big John Small to share practical ideas for increasing local advertising revenue, strengthening client relationships and creating new business opportunities. The complete discussion is available now on SoundCloud.",
+      "categories": [
+        "Podcasting",
+        "Radio"
+      ],
+      "words": 50,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
