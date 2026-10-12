@@ -1111,6 +1111,19 @@
       "words": 57,
       "seconds": 23,
       "published": false
+    },
+    {
+      "id": "20261012-02",
+      "date": "2026-10-12",
+      "created_at": "2026-10-12T17:56:05.961Z",
+      "text": "In Philadelphia, KYW Newsradio has inducted longtime radio executive David Yadgaroff into its Hall of Fame. Yadgaroff joined the station in 1992 and rose through the ranks to become Audacy Philadelphia's Senior Vice President and Market Manager. He retired in May after a 36-year radio career. The honor recognizes his leadership, mentorship and lasting contributions to Philadelphia broadcasting.",
+      "categories": [
+        "Radio",
+        "Awards & Recognition"
+      ],
+      "words": 58,
+      "seconds": 23,
+      "published": false
     }
   ]
 }
