@@ -1162,18 +1162,6 @@
       "published": false
     },
     {
-      "id": "20261012-07",
-      "date": "2026-10-12",
-      "created_at": "2026-10-12T20:44:10.855Z",
-      "text": "In Philadelphia, Comcast is teaming up with WMMR’s Preston and Steve Show for its annual Camp Out for Hunger food drive. Through November thirteenth, 31 participating Xfinity Stores across Pennsylvania, New Jersey and Delaware are collecting non-perishable food donations for Philabundance. Comcast will deliver the donations to Camp Out for Hunger on November twentieth.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 54,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261012-06",
       "date": "2026-10-12",
       "created_at": "2026-10-12T20:34:30.408Z",
@@ -1183,6 +1171,18 @@
       ],
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261012-07",
+      "date": "2026-10-12",
+      "created_at": "2026-10-12T20:44:10.855Z",
+      "text": "In Philadelphia, Comcast is teaming up with WMMR’s Preston and Steve Show for its annual Camp Out for Hunger food drive. Through November thirteenth, 31 participating Xfinity Stores across Pennsylvania, New Jersey and Delaware are collecting non-perishable food donations for Philabundance. Comcast will deliver the donations to Camp Out for Hunger on November twentieth.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 54,
+      "seconds": 22,
       "published": false
     }
   ]
