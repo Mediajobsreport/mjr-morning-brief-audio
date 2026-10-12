@@ -1125,18 +1125,6 @@
       "published": false
     },
     {
-      "id": "20261012-01",
-      "date": "2026-10-12",
-      "created_at": "2026-10-12T17:53:50.610Z",
-      "text": "TEGNA CEO Patrick Paolini has named Joan Barrett, Kate Morris and Brad Ramsey group general managers, completing the company’s new leadership team. Each will oversee stations in two regions, supporting local managers with strategy, business performance and audience growth. Barrett will lead the Northeast and Southeast, Morris the Midwest and West, and Ramsey Texas and the Mid-South.",
-      "categories": [
-        "Television"
-      ],
-      "words": 57,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261012-02",
       "date": "2026-10-12",
       "created_at": "2026-10-12T17:56:05.961Z",
@@ -1146,6 +1134,18 @@
         "Awards & Recognition"
       ],
       "words": 58,
+      "seconds": 23,
+      "published": false
+    },
+    {
+      "id": "20261012-01",
+      "date": "2026-10-12",
+      "created_at": "2026-10-12T17:53:50.610Z",
+      "text": "TEGNA CEO Patrick Paolini has named Joan Barrett, Kate Morris and Brad Ramsey group general managers, completing the company’s new leadership team. Each will oversee stations in two regions, supporting local managers with strategy, business performance and audience growth. Barrett will lead the Northeast and Southeast, Morris the Midwest and West, and Ramsey Texas and the Mid-South.",
+      "categories": [
+        "Television"
+      ],
+      "words": 57,
       "seconds": 23,
       "published": false
     },
