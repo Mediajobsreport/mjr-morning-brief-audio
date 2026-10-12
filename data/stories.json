@@ -1136,6 +1136,18 @@
       "words": 63,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261012-04",
+      "date": "2026-10-12",
+      "created_at": "2026-10-12T20:21:31.863Z",
+      "text": "Compass Media Networks has secured exclusive national audio rights to the Pac-12 football championship and men's and women's basketball championship games through a multi-year agreement with the conference and Playfly Sports. Coverage begins December fourth, with broadcasts available on radio, streaming and satellite platforms. The basketball championships follow in March.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 50,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
