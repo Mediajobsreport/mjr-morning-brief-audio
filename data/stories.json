@@ -1217,6 +1217,18 @@
       "published": false
     },
     {
+      "id": "20261013-04",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T16:24:04.915Z",
+      "text": "Northwestern University's latest Medill report finds local news deserts are growing at their fastest pace in five years. Twenty-six additional U.S. counties lost their last locally based news source, bringing the total to 238. Newspaper closures now average three per week, while employment continues to decline. Researchers also found that ten broadcasting groups control three-quarters of local TV newsrooms.",
+      "categories": [
+        "Other"
+      ],
+      "words": 60,
+      "seconds": 24,
+      "published": false
+    },
+    {
       "id": "20261013-03",
       "date": "2026-10-13",
       "created_at": "2026-10-13T16:00:04.652Z",
@@ -1227,18 +1239,6 @@
       ],
       "words": 72,
       "seconds": 29,
-      "published": false
-    },
-    {
-      "id": "20261013-04",
-      "date": "2026-10-13",
-      "created_at": "2026-10-13T16:24:04.915Z",
-      "text": "Northwestern University's latest Medill report finds local news deserts are growing at their fastest pace in five years. Twenty-six additional U.S. counties lost their last locally based news source, bringing the total to 238. Newspaper closures now average three per week, while employment continues to decline. Researchers also found that ten broadcasting groups control three-quarters of local TV newsrooms.",
-      "categories": [
-        "Other"
-      ],
-      "words": 60,
-      "seconds": 24,
       "published": false
     }
   ]
