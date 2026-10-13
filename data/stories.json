@@ -1217,18 +1217,6 @@
       "published": false
     },
     {
-      "id": "20261013-01",
-      "date": "2026-10-13",
-      "created_at": "2026-10-13T14:46:00.751Z",
-      "text": "TEGNA and Disney Entertainment Television have renewed ABC affiliation agreements for 13 TEGNA stations in a multi-year deal. The stations include WFAA in Dallas, KVUE in Austin and WZZM in Grand Rapids. TEGNA says the agreement extends its long-standing partnership with Disney",
-      "categories": [
-        "Television"
-      ],
-      "words": 42,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20261013-02",
       "date": "2026-10-13",
       "created_at": "2026-10-13T20:50:37.031Z",
@@ -1239,6 +1227,18 @@
       ],
       "words": 132,
       "seconds": 53,
+      "published": false
+    },
+    {
+      "id": "20261013-01",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T14:46:00.751Z",
+      "text": "TEGNA and Disney Entertainment Television have renewed ABC affiliation agreements for 13 TEGNA stations in a multi-year deal. The stations include WFAA in Dallas, KVUE in Austin and WZZM in Grand Rapids. TEGNA says the agreement extends its long-standing partnership with Disney",
+      "categories": [
+        "Television"
+      ],
+      "words": 42,
+      "seconds": 17,
       "published": false
     },
     {
