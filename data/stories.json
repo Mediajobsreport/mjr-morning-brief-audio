@@ -1276,6 +1276,18 @@
       "words": 53,
       "seconds": 21,
       "published": false
+    },
+    {
+      "id": "20261013-08",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T20:22:30.906Z",
+      "text": "The New York Times has won two Gerald Loeb Awards for excellence in business and financial journalism. The newspaper earned top honors for investigative reporting examining financial benefits tied to President Trump and for breaking news coverage of his Liberation Day tariffs. Times journalists were also finalists in seven additional categories, including international reporting, personal finance and visual storytelling. The awards recognize outstanding business and economic journalism.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 67,
+      "seconds": 27,
+      "published": false
     }
   ]
 }
