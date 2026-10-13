@@ -1278,18 +1278,6 @@
       "published": false
     },
     {
-      "id": "20261013-05",
-      "date": "2026-10-13",
-      "created_at": "2026-10-13T19:36:47.448Z",
-      "text": "The Academy of Motion Picture Arts and Sciences has named Tatti Ribeiro and Noora Niasari recipients of its 2026 Gold Fellowship for Women, presented with CHANEL. Ribeiro earned recognition for her debut film, Valentina, while Niasari directed the award-winning Shayda. The yearlong fellowship provides mentorship, networking and career development opportunities for emerging women filmmakers.",
-      "categories": [
-        "Education"
-      ],
-      "words": 54,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261013-02",
       "date": "2026-10-13",
       "created_at": "2026-10-13T20:50:37.031Z",
@@ -1300,6 +1288,18 @@
       ],
       "words": 132,
       "seconds": 53,
+      "published": false
+    },
+    {
+      "id": "20261013-05",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T19:36:47.448Z",
+      "text": "The Academy of Motion Picture Arts and Sciences has named Tatti Ribeiro and Noora Niasari recipients of its 2026 Gold Fellowship for Women, presented with CHANEL. Ribeiro earned recognition for her debut film, Valentina, while Niasari directed the award-winning Shayda. The yearlong fellowship provides mentorship, networking and career development opportunities for emerging women filmmakers.",
+      "categories": [
+        "Education"
+      ],
+      "words": 54,
+      "seconds": 22,
       "published": false
     }
   ]
