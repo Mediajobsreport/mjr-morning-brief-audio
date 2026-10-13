@@ -1256,18 +1256,6 @@
       "published": false
     },
     {
-      "id": "20261013-07",
-      "date": "2026-10-13",
-      "created_at": "2026-10-13T20:08:04.685Z",
-      "text": "The Radio Hall of Fame has welcomed eight new members. The Class of 2026 includes Boomer Esiason, Dennis Green, Shotgun Tom Kelly, Helen Little, Bob Pittman, Rickey Smiley, Charlie Van Dyke and Fred Winston. Bobby Bones hosted the induction ceremony October eighth in Chicago, celebrating the broadcasters and executives who helped shape radio.",
-      "categories": [
-        "Awards & Recognition"
-      ],
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261013-08",
       "date": "2026-10-13",
       "created_at": "2026-10-13T20:22:30.906Z",
@@ -1277,6 +1265,18 @@
       ],
       "words": 67,
       "seconds": 27,
+      "published": false
+    },
+    {
+      "id": "20261013-07",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T20:08:04.685Z",
+      "text": "The Radio Hall of Fame has welcomed eight new members. The Class of 2026 includes Boomer Esiason, Dennis Green, Shotgun Tom Kelly, Helen Little, Bob Pittman, Rickey Smiley, Charlie Van Dyke and Fred Winston. Bobby Bones hosted the induction ceremony October eighth in Chicago, celebrating the broadcasters and executives who helped shape radio.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 53,
+      "seconds": 21,
       "published": false
     },
     {
