@@ -1254,18 +1254,6 @@
       "published": false
     },
     {
-      "id": "20261013-06",
-      "date": "2026-10-13",
-      "created_at": "2026-10-13T20:02:14.763Z",
-      "text": "Flag Family Media has added The Clay Travis and Buck Sexton Show to AM 1100 The Flag in Fargo, North Dakota. The nationally syndicated Premiere Networks program now airs weekdays from eleven to two Central, joining a lineup featuring Scott Hennen, Jay Thomas and Mark Levin. The show is carried on more than 550 stations nationwide.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 56,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261013-08",
       "date": "2026-10-13",
       "created_at": "2026-10-13T20:22:30.906Z",
@@ -1275,6 +1263,18 @@
       ],
       "words": 67,
       "seconds": 27,
+      "published": false
+    },
+    {
+      "id": "20261013-06",
+      "date": "2026-10-13",
+      "created_at": "2026-10-13T20:02:14.763Z",
+      "text": "Flag Family Media has added The Clay Travis and Buck Sexton Show to AM 1100 The Flag in Fargo, North Dakota. The nationally syndicated Premiere Networks program now airs weekdays from eleven to two Central, joining a lineup featuring Scott Hennen, Jay Thomas and Mark Levin. The show is carried on more than 550 stations nationwide.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 56,
+      "seconds": 22,
       "published": false
     },
     {
