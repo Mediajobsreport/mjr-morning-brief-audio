@@ -1405,6 +1405,18 @@
       "published": false
     },
     {
+      "id": "20261015-10",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T18:51:26.024Z",
+      "text": "Country Radio Broadcasters is accepting applications for the Rusty Walker Scholarship, giving one first-time attendee a chance to attend Country Radio Seminar 2027 in Nashville. The scholarship covers registration, round-trip airfare, and hotel accommodations. Applicants must be full-time radio station employees who have never attended CRS. The application deadline is November 12. Details are available at Country Radio Seminar dot com.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 61,
+      "seconds": 24,
+      "published": false
+    },
+    {
       "id": "20261015-01",
       "date": "2026-10-15",
       "created_at": "2026-10-15T14:46:20.495Z",
@@ -1414,18 +1426,6 @@
         "Television"
       ],
       "words": 60,
-      "seconds": 24,
-      "published": false
-    },
-    {
-      "id": "20261015-10",
-      "date": "2026-10-15",
-      "created_at": "2026-10-15T18:51:26.024Z",
-      "text": "Country Radio Broadcasters is accepting applications for the Rusty Walker Scholarship, giving one first-time attendee a chance to attend Country Radio Seminar 2027 in Nashville. The scholarship covers registration, round-trip airfare, and hotel accommodations. Applicants must be full-time radio station employees who have never attended CRS. The application deadline is November 12. Details are available at Country Radio Seminar dot com.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 61,
       "seconds": 24,
       "published": false
     },
