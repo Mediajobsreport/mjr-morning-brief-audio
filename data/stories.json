@@ -1391,6 +1391,19 @@
       "published": true,
       "updated_at": "2026-10-15T00:33:28.945Z",
       "published_at": "2026-10-15T08:00:25.710Z"
+    },
+    {
+      "id": "20261015-01",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T14:46:20.495Z",
+      "text": "TEGNA has announced four senior sales leadership appointments. Jay Donovan becomes vice president of digital sales, while Kristie Gonzales will oversee Northeast and Southeast advertising sales. Kari Jacobs takes responsibility for the Midwest and West, and Byron Wilkinson will lead Texas and Mid-South sales. The appointments are part of TEGNA's strategy to strengthen regional revenue and expand digital advertising growth.",
+      "categories": [
+        "Advertising",
+        "Television"
+      ],
+      "words": 60,
+      "seconds": 24,
+      "published": false
     }
   ]
 }
