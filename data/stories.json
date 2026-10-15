@@ -1443,6 +1443,18 @@
       "words": 60,
       "seconds": 24,
       "published": false
+    },
+    {
+      "id": "20261015-05",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T17:22:20.181Z",
+      "text": "Investigative Reporters and Editors has unanimously approved a revised Code of Conduct aimed at strengthening safety, inclusion and accountability. The updated policy now covers all IRE activities, not just events, and establishes clearer rules for reporting complaints, investigating violations and handling appeals. IRE says the changes take effect immediately and apply to members, staff, speakers and other participants.",
+      "categories": [
+        "Other"
+      ],
+      "words": 58,
+      "seconds": 23,
+      "published": false
     }
   ]
 }
