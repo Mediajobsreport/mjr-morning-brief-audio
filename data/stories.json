@@ -1431,6 +1431,18 @@
       "words": 61,
       "seconds": 24,
       "published": false
+    },
+    {
+      "id": "20261015-04",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T15:49:06.087Z",
+      "text": "iHeartMedia has announced the celebrity presenters for Saturday's iHeartRadio Fiesta Latina in Miami. The lineup includes Lele Pons, Howie D of the Backstreet Boys, and several other personalities. Anuel AA, Myke Towers, and Farruko are among the scheduled performers, while Lin-Manuel Miranda will receive the Corazón Latino Award. The concert will air nationwide on iHeartRadio's Latin stations and app.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 60,
+      "seconds": 24,
+      "published": false
     }
   ]
 }
