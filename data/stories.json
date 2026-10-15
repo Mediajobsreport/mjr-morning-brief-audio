@@ -1393,6 +1393,18 @@
       "published_at": "2026-10-15T08:00:25.710Z"
     },
     {
+      "id": "20261015-08",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T17:54:20.898Z",
+      "text": "The Local Media Association and Northwestern University's Medill Local News Initiative have released a new fundraising playbook for local newsrooms. The report shares strategies and case studies from a three-month program involving nine Midwestern news organizations. Topics include donor management, fundraising events and philanthropic support. The free report is available through the Local Media Association.",
+      "categories": [
+        "Other"
+      ],
+      "words": 55,
+      "seconds": 22,
+      "published": false
+    },
+    {
       "id": "20261015-01",
       "date": "2026-10-15",
       "created_at": "2026-10-15T14:46:20.495Z",
@@ -1403,18 +1415,6 @@
       ],
       "words": 60,
       "seconds": 24,
-      "published": false
-    },
-    {
-      "id": "20261015-08",
-      "date": "2026-10-15",
-      "created_at": "2026-10-15T17:54:20.898Z",
-      "text": "The Local Media Association and Northwestern University's Medill Local News Initiative have released a new fundraising playbook for local newsrooms. The report shares strategies and case studies from a three-month program involving nine Midwestern news organizations. Topics include donor management, fundraising events and philanthropic support. The free report is available through the Local Media Association.",
-      "categories": [
-        "Other"
-      ],
-      "words": 55,
-      "seconds": 22,
       "published": false
     },
     {
