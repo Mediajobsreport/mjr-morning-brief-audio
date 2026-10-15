@@ -1312,18 +1312,6 @@
       "published": false
     },
     {
-      "id": "20261014-02",
-      "date": "2026-10-14",
-      "created_at": "2026-10-14T21:54:03.678Z",
-      "text": "Warner Records Group has named longtime music executive Jim Roppo Vice Chairman. Roppo joins after nearly three decades at Universal Music Group, most recently serving as Chairman and CEO of Republic Records. Based in Los Angeles, he'll oversee operations across Warner's labels and report to Chairman and CEO Aaron Bay-Schuck. His start date has not been announced.",
-      "categories": [
-        "Music"
-      ],
-      "words": 57,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261014-05",
       "date": "2026-10-14",
       "created_at": "2026-10-14T23:55:37.843Z",
@@ -1333,6 +1321,18 @@
       ],
       "words": 61,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261014-02",
+      "date": "2026-10-14",
+      "created_at": "2026-10-14T21:54:03.678Z",
+      "text": "Warner Records Group has named longtime music executive Jim Roppo Vice Chairman. Roppo joins after nearly three decades at Universal Music Group, most recently serving as Chairman and CEO of Republic Records. Based in Los Angeles, he'll oversee operations across Warner's labels and report to Chairman and CEO Aaron Bay-Schuck. His start date has not been announced.",
+      "categories": [
+        "Music"
+      ],
+      "words": 57,
+      "seconds": 23,
       "published": false
     },
     {
