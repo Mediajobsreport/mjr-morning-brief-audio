@@ -1481,18 +1481,6 @@
       "published": false
     },
     {
-      "id": "20261015-07",
-      "date": "2026-10-15",
-      "created_at": "2026-10-15T17:42:54.258Z",
-      "text": "CNN has announced a multi-year partnership with Google to explore how generative artificial intelligence can help audiences discover and engage with its journalism. The agreement gives Google enhanced content rights for experimental AI features while compensating CNN for the use of its reporting. The network says the partnership supports its broader strategy of embracing AI while protecting its intellectual property.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 60,
-      "seconds": 24,
-      "published": false
-    },
-    {
       "id": "20261015-08",
       "date": "2026-10-15",
       "created_at": "2026-10-15T17:54:20.898Z",
@@ -1502,6 +1490,18 @@
       ],
       "words": 55,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261015-07",
+      "date": "2026-10-15",
+      "created_at": "2026-10-15T17:42:54.258Z",
+      "text": "CNN has announced a multi-year partnership with Google to explore how generative artificial intelligence can help audiences discover and engage with its journalism. The agreement gives Google enhanced content rights for experimental AI features while compensating CNN for the use of its reporting. The network says the partnership supports its broader strategy of embracing AI while protecting its intellectual property.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 60,
+      "seconds": 24,
       "published": false
     }
   ]
