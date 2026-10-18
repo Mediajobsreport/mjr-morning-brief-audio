@@ -1561,6 +1561,18 @@
       "words": 62,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261018-01",
+      "date": "2026-10-18",
+      "created_at": "2026-10-18T23:13:35.124Z",
+      "text": "Cumulus Media has emerged from Chapter 11 bankruptcy after eliminating 550 million dollars in debt. The restructuring gives the company a stronger financial position as it transitions to private ownership. CEO Mary Berner will continue leading Cumulus, which operates 377 radio stations across 84 markets, along with Westwood One and the Cumulus Podcast Network.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 54,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
