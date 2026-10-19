@@ -1689,6 +1689,18 @@
       "words": 62,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261019-05",
+      "date": "2026-10-19",
+      "created_at": "2026-10-19T20:24:17.628Z",
+      "text": "Audacy has launched US 96.5, Philadelphia's newest country radio station, featuring artists like Morgan Wallen, Luke Combs and Jelly Roll. The station is commercial-free through October 24, with its weekday lineup beginning October 26. A new morning show will be announced soon. US 96.5 becomes Audacy's 24th country station nationwide.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 52,
+      "seconds": 21,
+      "published": false
     }
   ]
 }
