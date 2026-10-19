@@ -1653,6 +1653,18 @@
       "words": 38,
       "seconds": 15,
       "published": false
+    },
+    {
+      "id": "20261019-02",
+      "date": "2026-10-19",
+      "created_at": "2026-10-19T19:48:13.083Z",
+      "text": "Apple Podcasts says video is delivering major audience gains for leading shows. In a new PodBiz interview, executive Jake Shapiro revealed that top podcasts adding video saw audiences grow more than 20 percent, while new followers jumped over 130 percent. Apple's HLS technology also creates new opportunities for advertising across audio and video.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 53,
+      "seconds": 21,
+      "published": false
     }
   ]
 }
