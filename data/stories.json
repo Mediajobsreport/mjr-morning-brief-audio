@@ -1572,7 +1572,8 @@
       ],
       "words": 54,
       "seconds": 22,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     },
     {
       "id": "20261018-03",
@@ -1586,7 +1587,8 @@
       ],
       "words": 62,
       "seconds": 25,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     },
     {
       "id": "20261018-02",
@@ -1598,7 +1600,8 @@
       ],
       "words": 67,
       "seconds": 27,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     },
     {
       "id": "20261018-04",
@@ -1610,7 +1613,8 @@
       ],
       "words": 69,
       "seconds": 28,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     },
     {
       "id": "20261018-05",
@@ -1622,7 +1626,8 @@
       ],
       "words": 59,
       "seconds": 24,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     },
     {
       "id": "20261018-06",
@@ -1634,7 +1639,8 @@
       ],
       "words": 61,
       "seconds": 24,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-19T08:00:31.255Z"
     }
   ]
 }
