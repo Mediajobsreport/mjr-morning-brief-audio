@@ -1713,6 +1713,18 @@
       "words": 71,
       "seconds": 28,
       "published": false
+    },
+    {
+      "id": "20261019-07",
+      "date": "2026-10-19",
+      "created_at": "2026-10-20T00:08:53.419Z",
+      "text": "Audacy is bringing The Bret Mega Show to Atlanta mornings on Star 94.1. Hosted by Bret Mega and Anna Bohlmann, the program airs weekdays from six to ten Eastern. The personality-driven show also airs in Kansas City, St. Louis and Wichita, expanding its reach across four Audacy markets.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 49,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
