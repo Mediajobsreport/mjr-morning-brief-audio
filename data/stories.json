@@ -1785,6 +1785,18 @@
       "published": false
     },
     {
+      "id": "20261020-08",
+      "date": "2026-10-20",
+      "created_at": "2026-10-20T20:41:33.869Z",
+      "text": "Cumulus Media has launched a new local morning show on Indianapolis station 107.9 The Mix. The Morning Mix with Toni and Ryan pairs Toni DeKeyser and Ryan Swiger weekdays from six to ten. The launch also reshuffles midday programming between The Mix and sister station 99.5 ZPL, while Swiger continues afternoon drive on ZPL.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
+    },
+    {
       "id": "20261020-02",
       "date": "2026-10-20",
       "created_at": "2026-10-20T19:51:41.927Z",
@@ -1795,18 +1807,6 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
-    },
-    {
-      "id": "20261020-08",
-      "date": "2026-10-20",
-      "created_at": "2026-10-20T20:41:33.869Z",
-      "text": "Cumulus Media has launched a new local morning show on Indianapolis station 107.9 The Mix. The Morning Mix with Toni and Ryan pairs Toni DeKeyser and Ryan Swiger weekdays from six to ten. The launch also reshuffles midday programming between The Mix and sister station 99.5 ZPL, while Swiger continues afternoon drive on ZPL.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 56,
-      "seconds": 22,
       "published": false
     },
     {
