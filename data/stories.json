@@ -1759,6 +1759,18 @@
       "seconds": 25,
       "published": true,
       "published_at": "2026-10-20T08:00:19.099Z"
+    },
+    {
+      "id": "20261020-01",
+      "date": "2026-10-20",
+      "created_at": "2026-10-20T19:41:43.910Z",
+      "text": "nextKast has released version 7.1.4 of its radio automation software, adding new tools to improve commercial scheduling and station operations. The update introduces nextTraffic Audit, allowing broadcasters to verify that all advertising spots are scheduled and quickly correct incomplete logs. Other improvements include enhanced traffic scheduling, format monitoring and fixes for live playout operations. The update is available now from nextKast.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 63,
+      "seconds": 25,
+      "published": false
     }
   ]
 }
