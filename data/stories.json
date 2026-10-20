@@ -1737,6 +1737,18 @@
       "words": 51,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261019-09",
+      "date": "2026-10-19",
+      "created_at": "2026-10-20T00:26:30.826Z",
+      "text": "The Academy of Country Music Awards will return to Las Vegas on May sixteenth, twenty twenty-seven, with tickets now on sale. The sixty-second annual ceremony will stream worldwide on Prime Video from the MGM Grand Garden Arena. Last year's event generated an estimated fifty-three million dollars for the Las Vegas economy, while attracting more than one hundred fifty-three million social media video views.",
+      "categories": [
+        "Music"
+      ],
+      "words": 63,
+      "seconds": 25,
+      "published": false
     }
   ]
 }
