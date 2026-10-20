@@ -1667,18 +1667,6 @@
       "published": false
     },
     {
-      "id": "20261019-01",
-      "date": "2026-10-19",
-      "created_at": "2026-10-19T19:34:39.840Z",
-      "text": "Rob Wagman will lead Manna, SonicTrek Media’s new localized Contemporary Christian radio format. The service will pair market-specific music and content with radio personalities, including longtime host Sparkle. Wagman previously worked with KFSH in Los Angeles and WAY-FM.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 38,
-      "seconds": 15,
-      "published": false
-    },
-    {
       "id": "20261019-04",
       "date": "2026-10-19",
       "created_at": "2026-10-19T20:08:53.076Z",
@@ -1688,6 +1676,18 @@
       ],
       "words": 62,
       "seconds": 25,
+      "published": false
+    },
+    {
+      "id": "20261019-01",
+      "date": "2026-10-19",
+      "created_at": "2026-10-19T19:34:39.840Z",
+      "text": "Rob Wagman will lead Manna, SonicTrek Media’s new localized Contemporary Christian radio format. The service will pair market-specific music and content with radio personalities, including longtime host Sparkle. Wagman previously worked with KFSH in Los Angeles and WAY-FM.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 38,
+      "seconds": 15,
       "published": false
     },
     {
