@@ -1773,6 +1773,18 @@
       "published": false
     },
     {
+      "id": "20261020-05",
+      "date": "2026-10-20",
+      "created_at": "2026-10-20T20:21:46.272Z",
+      "text": "FEMA is preparing broadcasters for the nationwide Emergency Alert System test scheduled for November 17 at 2:20 p.m. Eastern.\n\nThe one-minute test will reach radio and television stations through FEMA's internet-based alert system, with traditional broadcast monitoring providing backup. Stations should verify equipment connectivity, audio quality, and automatic retransmission settings before test day. Broadcasters must also submit their FCC EAS reporting Form One by October 30.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 68,
+      "seconds": 27,
+      "published": false
+    },
+    {
       "id": "20261020-02",
       "date": "2026-10-20",
       "created_at": "2026-10-20T19:51:41.927Z",
@@ -1783,18 +1795,6 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
-    },
-    {
-      "id": "20261020-05",
-      "date": "2026-10-20",
-      "created_at": "2026-10-20T20:21:46.272Z",
-      "text": "FEMA is preparing broadcasters for the nationwide Emergency Alert System test scheduled for November 17 at 2:20 p.m. Eastern.\n\nThe one-minute test will reach radio and television stations through FEMA's internet-based alert system, with traditional broadcast monitoring providing backup. Stations should verify equipment connectivity, audio quality, and automatic retransmission settings before test day. Broadcasters must also submit their FCC EAS reporting Form One by October 30.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 68,
-      "seconds": 27,
       "published": false
     },
     {
