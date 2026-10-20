@@ -1786,18 +1786,6 @@
       "published": false
     },
     {
-      "id": "20261020-03",
-      "date": "2026-10-20",
-      "created_at": "2026-10-20T19:58:04.948Z",
-      "text": "CBS has revealed the first performers for its New Year's Eve Live: Nashville's Big Bash. HARDY, Little Big Town and ACM Award-winning group The Red Clay Strays will take the stage for the nearly five-hour celebration on December 31. The special airs on CBS and streams on Paramount Plus, with additional performers to be announced. Fans can also attend the free downtown Nashville celebration featuring the traditional midnight Music Note Drop.",
-      "categories": [
-        "Television"
-      ],
-      "words": 71,
-      "seconds": 28,
-      "published": false
-    },
-    {
       "id": "20261020-05",
       "date": "2026-10-20",
       "created_at": "2026-10-20T20:21:46.272Z",
@@ -1807,6 +1795,18 @@
       ],
       "words": 68,
       "seconds": 27,
+      "published": false
+    },
+    {
+      "id": "20261020-03",
+      "date": "2026-10-20",
+      "created_at": "2026-10-20T19:58:04.948Z",
+      "text": "CBS has revealed the first performers for its New Year's Eve Live: Nashville's Big Bash. HARDY, Little Big Town and ACM Award-winning group The Red Clay Strays will take the stage for the nearly five-hour celebration on December 31. The special airs on CBS and streams on Paramount Plus, with additional performers to be announced. Fans can also attend the free downtown Nashville celebration featuring the traditional midnight Music Note Drop.",
+      "categories": [
+        "Television"
+      ],
+      "words": 71,
+      "seconds": 28,
       "published": false
     },
     {
