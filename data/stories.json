@@ -1771,6 +1771,19 @@
       "words": 63,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261020-02",
+      "date": "2026-10-20",
+      "created_at": "2026-10-20T19:51:41.927Z",
+      "text": "Investigative Reporters and Editors has named three journalists to its 2027 Chauncey Bailey Fellowship. Daisy Zavala Magaña, Miguel Torres and Nushrat Rahman will investigate farmworker pesticide exposure, immigration-service fraud and rental housing conditions. The yearlong program provides training and mentorship while honoring the legacy of Oakland investigative journalist Chauncey Bailey.",
+      "categories": [
+        "Other",
+        "Education"
+      ],
+      "words": 51,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
