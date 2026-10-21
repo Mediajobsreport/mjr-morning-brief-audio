@@ -1925,6 +1925,18 @@
       "words": 66,
       "seconds": 26,
       "published": false
+    },
+    {
+      "id": "20261021-05",
+      "date": "2026-10-21",
+      "created_at": "2026-10-21T22:00:04.951Z",
+      "text": "A new national podcast study reveals opportunities to increase revenue without adding more commercials. The Podcast Study 2026 found that nearly 55 percent of listeners believe podcasts already carry too many ads. However, 40 percent say host-read endorsements strongly influence purchasing decisions. Researchers also found strong interest in free VIP clubs, premium content, and memberships priced below five dollars monthly. And social media is three times more effective at podcast discovery than advertising within other podcasts. The study surveyed more than 1,200 U.S. podcast consumers and was conducted by Strategic Solutions Research and Point-To-Point Marketing.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 97,
+      "seconds": 39,
+      "published": false
     }
   ]
 }
