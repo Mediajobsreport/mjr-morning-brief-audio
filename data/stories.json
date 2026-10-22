@@ -2039,6 +2039,18 @@
       "words": 54,
       "seconds": 22,
       "published": false
+    },
+    {
+      "id": "20261022-08",
+      "date": "2026-10-22",
+      "created_at": "2026-10-22T20:01:11.339Z",
+      "text": "Triton Digital's September podcast rankings are out, and iHeart Audience Network continues to dominate, generating more than 67 million average weekly downloads. Audioboom ranked second with 15.5 million, followed by Cumulus Podcast Network, BBC and Salem Podcast Network. Among individual podcasts, *Stuff You Should Know* claimed the top spot, followed by *Pod Save America*, *My Favorite Murder*, *The Dan Bongino Show* and *The Bulwark Podcast*. The rankings measure downloads among participating publishers using industry-certified standards.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 76,
+      "seconds": 30,
+      "published": false
     }
   ]
 }
