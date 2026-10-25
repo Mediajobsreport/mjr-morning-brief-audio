@@ -2120,6 +2120,18 @@
       "words": 56,
       "seconds": 22,
       "published": false
+    },
+    {
+      "id": "20261025-06",
+      "date": "2026-10-25",
+      "created_at": "2026-10-25T23:23:20.241Z",
+      "text": "CBS is celebrating a strong premiere week, with multiplatform viewership climbing 14 percent over last year. The network averaged 8.6 million viewers and placed seven shows among the top 10 across broadcast and streaming. *Marshals* led with more than 15 million viewers, followed by *Tracker* and *60 Minutes*. Six CBS series topped 10 million viewers.",
+      "categories": [
+        "Ratings"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
