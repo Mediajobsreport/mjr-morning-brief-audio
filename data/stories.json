@@ -2073,18 +2073,6 @@
       "published": false
     },
     {
-      "id": "20261025-01",
-      "date": "2026-10-25",
-      "created_at": "2026-10-25T22:25:10.464Z",
-      "text": "NPR is moving its public editor position to the University of Maryland's Philip Merrill College of Journalism beginning in January 2027. The multiyear partnership ends NPR's nearly seven-year arrangement with the Poynter Institute, where Kelly McBride has served as public editor since 2020. The incoming public editor will also serve as a visiting professor, focusing on journalism ethics, transparency and public trust. The university plans to begin accepting applications soon.",
-      "categories": [
-        "Public Media"
-      ],
-      "words": 70,
-      "seconds": 28,
-      "published": false
-    },
-    {
       "id": "20261025-07",
       "date": "2026-10-25",
       "created_at": "2026-10-25T23:32:11.699Z",
@@ -2094,6 +2082,18 @@
       ],
       "words": 76,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261025-01",
+      "date": "2026-10-25",
+      "created_at": "2026-10-25T22:25:10.464Z",
+      "text": "NPR is moving its public editor position to the University of Maryland's Philip Merrill College of Journalism beginning in January 2027. The multiyear partnership ends NPR's nearly seven-year arrangement with the Poynter Institute, where Kelly McBride has served as public editor since 2020. The incoming public editor will also serve as a visiting professor, focusing on journalism ethics, transparency and public trust. The university plans to begin accepting applications soon.",
+      "categories": [
+        "Public Media"
+      ],
+      "words": 70,
+      "seconds": 28,
       "published": false
     },
     {
