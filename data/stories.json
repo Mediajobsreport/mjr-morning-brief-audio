@@ -2098,18 +2098,6 @@
       "published": false
     },
     {
-      "id": "20261025-04",
-      "date": "2026-10-25",
-      "created_at": "2026-10-25T23:05:51.730Z",
-      "text": "Edison Research has released its Top 50 U.S. Podcasts for the third quarter of 2026, and the top five remain unchanged. The Joe Rogan Experience holds the number one spot, followed by Crime Junkie at number two, The Daily at number three, Call Her Daddy at number four, and SmartLess rounding out the top five. The rankings measure audience reach among weekly podcast listeners ages 13 and older. See the complete Top 50 rankings at Media Jobs Report dot com.",
-      "categories": [
-        "Podcasting"
-      ],
-      "words": 81,
-      "seconds": 32,
-      "published": false
-    },
-    {
       "id": "20261025-06",
       "date": "2026-10-25",
       "created_at": "2026-10-25T23:23:20.241Z",
@@ -2119,6 +2107,18 @@
       ],
       "words": 56,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261025-04",
+      "date": "2026-10-25",
+      "created_at": "2026-10-25T23:05:51.730Z",
+      "text": "Edison Research has released its Top 50 U.S. Podcasts for the third quarter of 2026, and the top five remain unchanged. The Joe Rogan Experience holds the number one spot, followed by Crime Junkie at number two, The Daily at number three, Call Her Daddy at number four, and SmartLess rounding out the top five. The rankings measure audience reach among weekly podcast listeners ages 13 and older. See the complete Top 50 rankings at Media Jobs Report dot com.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 81,
+      "seconds": 32,
       "published": false
     },
     {
