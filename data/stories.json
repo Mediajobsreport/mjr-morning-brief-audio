@@ -2236,6 +2236,18 @@
       "seconds": 26,
       "published": false,
       "updated_at": "2026-10-26T19:06:13.941Z"
+    },
+    {
+      "id": "20261026-08",
+      "date": "2026-10-26",
+      "created_at": "2026-10-26T19:13:54.596Z",
+      "text": "Audacy picked up five honors at the 2026 Buffalo Broadcasters Awards. WGR Sports Radio 550 was named Station of the Year, while WBEN's \"A New Morning\" won Radio Program of the Year. Sal Capaccio earned Sports Professional of the Year, his \"It's Always Gameday in Buffalo\" podcast won Podcast of the Year, and Owen Parker was named Breakout Talent of the Year.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 62,
+      "seconds": 25,
+      "published": false
     }
   ]
 }
