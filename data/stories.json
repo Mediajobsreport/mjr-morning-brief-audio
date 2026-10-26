@@ -2151,6 +2151,18 @@
       "seconds": 22,
       "published": true,
       "published_at": "2026-10-26T08:00:24.334Z"
+    },
+    {
+      "id": "20261026-01",
+      "date": "2026-10-26",
+      "created_at": "2026-10-26T13:20:30.032Z",
+      "text": "Benztown is spreading holiday cheer with its free Christmas AudioPack, featuring 50 festive audio elements for radio stations of every format. From holiday sound effects to seasonal production elements, it's everything stations need to get into the Christmas spirit. Get the free pack at Benztown dot com slash Christmas.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 49,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
