@@ -2189,18 +2189,6 @@
       "published": false
     },
     {
-      "id": "20261026-04",
-      "date": "2026-10-26",
-      "created_at": "2026-10-26T18:27:00.805Z",
-      "text": "The ninth annual Canadian Podcast Awards are accepting nominations through November fourteenth. Canadian podcast professionals can nominate eligible shows across thirty-one categories, with winners selected by industry members. Public voting is also available through the People's Choice category. Winners will be announced December sixteenth.",
-      "categories": [
-        "Podcasting"
-      ],
-      "words": 44,
-      "seconds": 18,
-      "published": false
-    },
-    {
       "id": "20261026-05",
       "date": "2026-10-26",
       "created_at": "2026-10-26T18:41:16.158Z",
@@ -2210,6 +2198,18 @@
       ],
       "words": 62,
       "seconds": 25,
+      "published": false
+    },
+    {
+      "id": "20261026-04",
+      "date": "2026-10-26",
+      "created_at": "2026-10-26T18:27:00.805Z",
+      "text": "The ninth annual Canadian Podcast Awards are accepting nominations through November fourteenth. Canadian podcast professionals can nominate eligible shows across thirty-one categories, with winners selected by industry members. Public voting is also available through the People's Choice category. Winners will be announced December sixteenth.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 44,
+      "seconds": 18,
       "published": false
     }
   ]
