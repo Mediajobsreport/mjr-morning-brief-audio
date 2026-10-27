@@ -2269,6 +2269,18 @@
       "seconds": 20,
       "published": true,
       "published_at": "2026-10-27T08:00:24.422Z"
+    },
+    {
+      "id": "20261027-01",
+      "date": "2026-10-27",
+      "created_at": "2026-10-27T12:37:44.202Z",
+      "text": "The FCC has cited four Billings, Montana, radio stations for Emergency Alert System violations. Stations KEWF, KRPM, KYSX and KRSQ were flagged for monitoring an unauthorized EAS source, incomplete testing records and inadequate chief operator oversight. Licensee BMG Billings has 20 days to respond. Additional enforcement action remains possible.",
+      "categories": [
+        "Other"
+      ],
+      "words": 49,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
