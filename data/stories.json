@@ -2307,18 +2307,6 @@
       "published": false
     },
     {
-      "id": "20261027-07",
-      "date": "2026-10-27",
-      "created_at": "2026-10-27T21:37:02.250Z",
-      "text": "Pierre Bouvard, Chief Insights Officer of the Cumulus Media Westwood One Audio Active Group, has published a new blog challenging eight common misconceptions about AM/FM radio. The research reveals that radio reaches 86 percent of Americans weekly, more than double what advertisers believe, and attracts over 63 million listeners ages 18 to 34. The findings also highlight radio's strong advertising returns, audience reach, and dominance in vehicles. Read the full story and Bouvard's blog at Media Jobs Report dot com.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 81,
-      "seconds": 32,
-      "published": false
-    },
-    {
       "id": "20261027-04",
       "date": "2026-10-27",
       "created_at": "2026-10-27T21:01:24.630Z",
@@ -2328,6 +2316,18 @@
       ],
       "words": 55,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261027-07",
+      "date": "2026-10-27",
+      "created_at": "2026-10-27T21:37:02.250Z",
+      "text": "Pierre Bouvard, Chief Insights Officer of the Cumulus Media Westwood One Audio Active Group, has published a new blog challenging eight common misconceptions about AM/FM radio. The research reveals that radio reaches 86 percent of Americans weekly, more than double what advertisers believe, and attracts over 63 million listeners ages 18 to 34. The findings also highlight radio's strong advertising returns, audience reach, and dominance in vehicles. Read the full story and Bouvard's blog at Media Jobs Report dot com.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 81,
+      "seconds": 32,
       "published": false
     },
     {
