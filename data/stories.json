@@ -2162,7 +2162,8 @@
       ],
       "words": 62,
       "seconds": 25,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-02",
@@ -2174,7 +2175,8 @@
       ],
       "words": 49,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-04",
@@ -2186,7 +2188,8 @@
       ],
       "words": 44,
       "seconds": 18,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-03",
@@ -2198,7 +2201,8 @@
       ],
       "words": 54,
       "seconds": 22,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-01",
@@ -2210,7 +2214,8 @@
       ],
       "words": 49,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-06",
@@ -2222,7 +2227,8 @@
       ],
       "words": 55,
       "seconds": 22,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-07",
@@ -2234,8 +2240,9 @@
       ],
       "words": 65,
       "seconds": 26,
-      "published": false,
-      "updated_at": "2026-10-26T19:06:13.941Z"
+      "published": true,
+      "updated_at": "2026-10-26T19:06:13.941Z",
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-08",
@@ -2247,7 +2254,8 @@
       ],
       "words": 62,
       "seconds": 25,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     },
     {
       "id": "20261026-09",
@@ -2259,7 +2267,8 @@
       ],
       "words": 49,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-10-27T08:00:24.422Z"
     }
   ]
 }
