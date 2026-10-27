@@ -2319,18 +2319,6 @@
       "published": false
     },
     {
-      "id": "20261027-05",
-      "date": "2026-10-27",
-      "created_at": "2026-10-27T21:11:53.233Z",
-      "text": "Hubbard Radio’s X102.3 is celebrating 25 years on the air in South Florida. The R&B station launched in October 2001 and has become a familiar voice across the Palm Beaches and Treasure Coast. West Palm Beach marked the milestone by proclaiming October 23 X102.3 Day and hosting a free waterfront celebration for listeners.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 56,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261027-07",
       "date": "2026-10-27",
       "created_at": "2026-10-27T21:37:02.250Z",
@@ -2340,6 +2328,18 @@
       ],
       "words": 81,
       "seconds": 32,
+      "published": false
+    },
+    {
+      "id": "20261027-05",
+      "date": "2026-10-27",
+      "created_at": "2026-10-27T21:11:53.233Z",
+      "text": "Hubbard Radio’s X102.3 is celebrating 25 years on the air in South Florida. The R&B station launched in October 2001 and has become a familiar voice across the Palm Beaches and Treasure Coast. West Palm Beach marked the milestone by proclaiming October 23 X102.3 Day and hosting a free waterfront celebration for listeners.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 56,
+      "seconds": 22,
       "published": false
     },
     {
