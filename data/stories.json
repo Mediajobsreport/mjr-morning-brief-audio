@@ -2360,6 +2360,18 @@
       "seconds": 21,
       "published": true,
       "published_at": "2026-10-28T08:00:24.041Z"
+    },
+    {
+      "id": "20261028-01",
+      "date": "2026-10-28",
+      "created_at": "2026-10-28T13:57:50.864Z",
+      "text": "Westwood One and Silverloch are teaming up for special Election Day coverage on November third. Dan Bongino, Vince Coglianese, Hayley Caronia and Shawn Farash will deliver updates and commentary across radio, podcasts and streaming. Bongino wraps up the night with a live Rumble special beginning at eight Eastern.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 48,
+      "seconds": 19,
+      "published": false
     }
   ]
 }
