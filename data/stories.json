@@ -2399,18 +2399,6 @@
       "published": false
     },
     {
-      "id": "20261028-04",
-      "date": "2026-10-28",
-      "created_at": "2026-10-28T14:38:47.671Z",
-      "text": "TEGNA has named Brian Gregory President and General Manager of WCNC in Charlotte and WFMY in Greensboro. Gregory brings nearly 30 years of broadcasting experience and most recently led WVEC in Norfolk, where he expanded local streaming programming. He succeeds Joan Barrett, who was promoted to a regional leadership role.",
-      "categories": [
-        "Television"
-      ],
-      "words": 50,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261028-07",
       "date": "2026-10-28",
       "created_at": "2026-10-28T21:30:48.774Z",
@@ -2420,6 +2408,18 @@
       ],
       "words": 121,
       "seconds": 48,
+      "published": false
+    },
+    {
+      "id": "20261028-04",
+      "date": "2026-10-28",
+      "created_at": "2026-10-28T14:38:47.671Z",
+      "text": "TEGNA has named Brian Gregory President and General Manager of WCNC in Charlotte and WFMY in Greensboro. Gregory brings nearly 30 years of broadcasting experience and most recently led WVEC in Norfolk, where he expanded local streaming programming. He succeeds Joan Barrett, who was promoted to a regional leadership role.",
+      "categories": [
+        "Television"
+      ],
+      "words": 50,
+      "seconds": 20,
       "published": false
     },
     {
