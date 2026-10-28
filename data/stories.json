@@ -2423,18 +2423,6 @@
       "published": false
     },
     {
-      "id": "20261028-06",
-      "date": "2026-10-28",
-      "created_at": "2026-10-28T16:46:54.248Z",
-      "text": "The Academy of Country Music has announced its 2026-2027 Board of Directors and officers. Jeff Krones of CAA will serve as Chair, Becky Gardenhire of WME as President, and Rusty Gaston of Sony Publishing as Vice President. The Board includes 19 newly elected directors and 12 new directors-at-large, with representatives from Audacy, Cumulus, iHeart Country, Spotify and Apple Music.",
-      "categories": [
-        "Music"
-      ],
-      "words": 59,
-      "seconds": 24,
-      "published": false
-    },
-    {
       "id": "20261028-07",
       "date": "2026-10-28",
       "created_at": "2026-10-28T21:30:48.774Z",
@@ -2444,6 +2432,18 @@
       ],
       "words": 121,
       "seconds": 48,
+      "published": false
+    },
+    {
+      "id": "20261028-06",
+      "date": "2026-10-28",
+      "created_at": "2026-10-28T16:46:54.248Z",
+      "text": "The Academy of Country Music has announced its 2026-2027 Board of Directors and officers. Jeff Krones of CAA will serve as Chair, Becky Gardenhire of WME as President, and Rusty Gaston of Sony Publishing as Vice President. The Board includes 19 newly elected directors and 12 new directors-at-large, with representatives from Audacy, Cumulus, iHeart Country, Spotify and Apple Music.",
+      "categories": [
+        "Music"
+      ],
+      "words": 59,
+      "seconds": 24,
       "published": false
     }
   ]
