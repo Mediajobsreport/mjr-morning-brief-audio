@@ -2478,18 +2478,6 @@
       "published": false
     },
     {
-      "id": "20261029-02",
-      "date": "2026-10-29",
-      "created_at": "2026-10-29T12:45:17.296Z",
-      "text": "Peacock's new horror series Crystal Lake is off to a strong start. The Friday the 13th prequel generated 1.3 billion viewing minutes in its first 11 days, becoming Peacock's fourth-biggest scripted original debut. Starring Linda Cardellini, the eight-episode series is now streaming exclusively on Peacock.",
-      "categories": [
-        "Streaming"
-      ],
-      "words": 46,
-      "seconds": 18,
-      "published": false
-    },
-    {
       "id": "20261029-05",
       "date": "2026-10-29",
       "created_at": "2026-10-29T21:08:37.714Z",
@@ -2499,6 +2487,18 @@
       ],
       "words": 52,
       "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20261029-02",
+      "date": "2026-10-29",
+      "created_at": "2026-10-29T12:45:17.296Z",
+      "text": "Peacock's new horror series Crystal Lake is off to a strong start. The Friday the 13th prequel generated 1.3 billion viewing minutes in its first 11 days, becoming Peacock's fourth-biggest scripted original debut. Starring Linda Cardellini, the eight-episode series is now streaming exclusively on Peacock.",
+      "categories": [
+        "Streaming"
+      ],
+      "words": 46,
+      "seconds": 18,
       "published": false
     },
     {
