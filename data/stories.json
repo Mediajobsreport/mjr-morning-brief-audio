@@ -2452,6 +2452,18 @@
       "seconds": 20,
       "published": true,
       "published_at": "2026-10-29T08:00:24.183Z"
+    },
+    {
+      "id": "20261029-01",
+      "date": "2026-10-29",
+      "created_at": "2026-10-29T12:34:19.446Z",
+      "text": "On Air Fest is celebrating its 10th anniversary February 23rd through 25th in Brooklyn. The first-wave lineup includes Megan Rapinoe, Dr. Sanjay Gupta, Audie Cornish, Ari Shapiro and Dan Harris. The festival also features Bloomberg's Podcast Business Summit and the Ambies Awards, celebrating excellence in podcasting. Tickets are available now, with additional programming to be announced.",
+      "categories": [
+        "Other"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
