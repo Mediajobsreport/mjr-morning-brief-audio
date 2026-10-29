@@ -2502,18 +2502,6 @@
       "published": false
     },
     {
-      "id": "20261029-04",
-      "date": "2026-10-29",
-      "created_at": "2026-10-29T13:05:00.444Z",
-      "text": "The Missouri School of Journalism has named Amy Simons its next Associate Dean for Undergraduate Studies and Administration, effective May first. Simons, a professor and longtime faculty leader, succeeds Lynda Kraxberger, who is retiring after more than 35 years with the School. Simons will oversee undergraduate programs and student success initiatives.",
-      "categories": [
-        "Education"
-      ],
-      "words": 51,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261029-05",
       "date": "2026-10-29",
       "created_at": "2026-10-29T21:08:37.714Z",
@@ -2523,6 +2511,18 @@
       ],
       "words": 52,
       "seconds": 21,
+      "published": false
+    },
+    {
+      "id": "20261029-04",
+      "date": "2026-10-29",
+      "created_at": "2026-10-29T13:05:00.444Z",
+      "text": "The Missouri School of Journalism has named Amy Simons its next Associate Dean for Undergraduate Studies and Administration, effective May first. Simons, a professor and longtime faculty leader, succeeds Lynda Kraxberger, who is retiring after more than 35 years with the School. Simons will oversee undergraduate programs and student success initiatives.",
+      "categories": [
+        "Education"
+      ],
+      "words": 51,
+      "seconds": 20,
       "published": false
     }
   ]
