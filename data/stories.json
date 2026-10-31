@@ -2590,6 +2590,18 @@
       "words": 44,
       "seconds": 18,
       "published": false
+    },
+    {
+      "id": "20261031-05",
+      "date": "2026-10-31",
+      "created_at": "2026-10-31T12:03:03.881Z",
+      "text": "The FCC says its crackdown on fraud and waste has resulted in billions of dollars in recovered funds, avoided spending and money returned to the Treasury. Chairman Brendan Carr reports nearly four billion dollars returned, 160 million in fines and recoveries, and almost 300 million illegal robocalls blocked. Additional enforcement actions and regulatory reforms are planned.",
+      "categories": [
+        "Other"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
