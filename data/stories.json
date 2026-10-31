@@ -2580,18 +2580,6 @@
       "published": false
     },
     {
-      "id": "20261031-02",
-      "date": "2026-10-31",
-      "created_at": "2026-10-31T12:01:59.671Z",
-      "text": "NPR has named David Berzin Senior Vice President of Product and Data. Berzin joins from Hearst Magazines, where he led international product development and artificial intelligence initiatives. He previously held digital leadership roles at Viacom and MTV. At NPR, Berzin will oversee digital products, audience engagement and data strategy, helping strengthen connections with listeners and member stations while supporting new revenue opportunities.",
-      "categories": [
-        "Public Media"
-      ],
-      "words": 62,
-      "seconds": 25,
-      "published": false
-    },
-    {
       "id": "20261031-07",
       "date": "2026-10-31",
       "created_at": "2026-10-31T12:06:51.187Z",
@@ -2601,6 +2589,18 @@
       ],
       "words": 57,
       "seconds": 23,
+      "published": false
+    },
+    {
+      "id": "20261031-02",
+      "date": "2026-10-31",
+      "created_at": "2026-10-31T12:01:59.671Z",
+      "text": "NPR has named David Berzin Senior Vice President of Product and Data. Berzin joins from Hearst Magazines, where he led international product development and artificial intelligence initiatives. He previously held digital leadership roles at Viacom and MTV. At NPR, Berzin will oversee digital products, audience engagement and data strategy, helping strengthen connections with listeners and member stations while supporting new revenue opportunities.",
+      "categories": [
+        "Public Media"
+      ],
+      "words": 62,
+      "seconds": 25,
       "published": false
     },
     {
