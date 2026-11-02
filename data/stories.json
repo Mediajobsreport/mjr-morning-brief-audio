@@ -2645,6 +2645,19 @@
       "words": 50,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261102-02",
+      "date": "2026-11-02",
+      "created_at": "2026-11-02T21:19:27.315Z",
+      "text": "Mentoring and Inspiring Women in Radio and the NAB Leadership Foundation have extended the application deadline for their 2026 LAUNCH Mentorship Program to November 13. Sponsored by Mr. Master, the year-long program supports women pursuing careers in broadcast engineering and technical operations. For the first time, women working for broadcast technology partners and vendors are also eligible. Applications are available at RadioMIW.com.",
+      "categories": [
+        "Radio",
+        "Technology"
+      ],
+      "words": 63,
+      "seconds": 25,
+      "published": false
     }
   ]
 }
