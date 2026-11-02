@@ -2635,18 +2635,6 @@
       "published_at": "2026-11-02T09:00:33.690Z"
     },
     {
-      "id": "20261102-01",
-      "date": "2026-11-02",
-      "created_at": "2026-11-02T20:46:04.247Z",
-      "text": "RCS Worldwide has named Tammy Halcomb Senior Vice President of Products and Merideth Kelly Senior Vice President of Global Client Experience and Transformation. Halcomb has held product leadership roles at Gemini XIII, WideOrbit and Marketron. Kelly joins from WideOrbit, where she most recently served as Vice President of Strategic Solutions.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 50,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261102-05",
       "date": "2026-11-02",
       "created_at": "2026-11-02T21:49:44.538Z",
@@ -2656,6 +2644,18 @@
       ],
       "words": 70,
       "seconds": 28,
+      "published": false
+    },
+    {
+      "id": "20261102-01",
+      "date": "2026-11-02",
+      "created_at": "2026-11-02T20:46:04.247Z",
+      "text": "RCS Worldwide has named Tammy Halcomb Senior Vice President of Products and Merideth Kelly Senior Vice President of Global Client Experience and Transformation. Halcomb has held product leadership roles at Gemini XIII, WideOrbit and Marketron. Kelly joins from WideOrbit, where she most recently served as Vice President of Strategic Solutions.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 50,
+      "seconds": 20,
       "published": false
     },
     {
