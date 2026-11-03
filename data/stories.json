@@ -2737,18 +2737,6 @@
       "published": false
     },
     {
-      "id": "20261103-01",
-      "date": "2026-11-03",
-      "created_at": "2026-11-03T16:19:01.445Z",
-      "text": "The National Association of Broadcasters is accepting nominations for its 2027 Technology Awards, recognizing excellence in radio and television engineering, digital leadership, and technology innovation. Nominations for the Digital Leadership and Engineering Achievement Awards close January 19th, while the Technology Innovation Award deadline is March 1st. Winners will be honored at NAB Show in Las Vegas this April.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 58,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261103-07",
       "date": "2026-11-03",
       "created_at": "2026-11-03T22:16:12.730Z",
@@ -2758,6 +2746,18 @@
       ],
       "words": 67,
       "seconds": 27,
+      "published": false
+    },
+    {
+      "id": "20261103-01",
+      "date": "2026-11-03",
+      "created_at": "2026-11-03T16:19:01.445Z",
+      "text": "The National Association of Broadcasters is accepting nominations for its 2027 Technology Awards, recognizing excellence in radio and television engineering, digital leadership, and technology innovation. Nominations for the Digital Leadership and Engineering Achievement Awards close January 19th, while the Technology Innovation Award deadline is March 1st. Winners will be honored at NAB Show in Las Vegas this April.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 58,
+      "seconds": 23,
       "published": false
     },
     {
