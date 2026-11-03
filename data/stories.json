@@ -2701,18 +2701,6 @@
       "published_at": "2026-11-03T09:00:33.580Z"
     },
     {
-      "id": "20261103-05",
-      "date": "2026-11-03",
-      "created_at": "2026-11-03T19:25:07.097Z",
-      "text": "The Local Media Association and Google News Initiative have selected 12 newsrooms for their six-month AI Growth Lab. Participants include AFRO News, Appen Media Group, Carolina Panorama Newspaper, Gallup Sun Publishing, Greenfield Recorder, Salem Reporter, The Atlanta Voice, The Colorado Sun, The Columbian, The New York Amsterdam News, The Santa Fe New Mexican, and The Seattle Times. The program will help publishers use artificial intelligence to improve efficiency, grow audiences and increase revenue.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 73,
-      "seconds": 29,
-      "published": false
-    },
-    {
       "id": "20261103-07",
       "date": "2026-11-03",
       "created_at": "2026-11-03T22:16:12.730Z",
@@ -2722,6 +2710,18 @@
       ],
       "words": 67,
       "seconds": 27,
+      "published": false
+    },
+    {
+      "id": "20261103-05",
+      "date": "2026-11-03",
+      "created_at": "2026-11-03T19:25:07.097Z",
+      "text": "The Local Media Association and Google News Initiative have selected 12 newsrooms for their six-month AI Growth Lab. Participants include AFRO News, Appen Media Group, Carolina Panorama Newspaper, Gallup Sun Publishing, Greenfield Recorder, Salem Reporter, The Atlanta Voice, The Colorado Sun, The Columbian, The New York Amsterdam News, The Santa Fe New Mexican, and The Seattle Times. The program will help publishers use artificial intelligence to improve efficiency, grow audiences and increase revenue.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 73,
+      "seconds": 29,
       "published": false
     },
     {
