@@ -2725,18 +2725,6 @@
       "published": false
     },
     {
-      "id": "20261103-03",
-      "date": "2026-11-03",
-      "created_at": "2026-11-03T17:06:56.148Z",
-      "text": "Adobe is teaming up with Universal Music Group and Warner Music Group to bring licensed music directly into Premiere mobile. The free video-editing app will soon let creators search popular songs, add up to 60 seconds of music, and build videos using customizable templates. Tracks will be available for personal, non-commercial use, giving artists and songwriters new opportunities to reach audiences through social media.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 64,
-      "seconds": 26,
-      "published": false
-    },
-    {
       "id": "20261103-05",
       "date": "2026-11-03",
       "created_at": "2026-11-03T19:25:07.097Z",
@@ -2746,6 +2734,18 @@
       ],
       "words": 73,
       "seconds": 29,
+      "published": false
+    },
+    {
+      "id": "20261103-03",
+      "date": "2026-11-03",
+      "created_at": "2026-11-03T17:06:56.148Z",
+      "text": "Adobe is teaming up with Universal Music Group and Warner Music Group to bring licensed music directly into Premiere mobile. The free video-editing app will soon let creators search popular songs, add up to 60 seconds of music, and build videos using customizable templates. Tracks will be available for personal, non-commercial use, giving artists and songwriters new opportunities to reach audiences through social media.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 64,
+      "seconds": 26,
       "published": false
     },
     {
