@@ -2841,6 +2841,18 @@
       "published": false
     },
     {
+      "id": "20261104-06",
+      "date": "2026-11-04",
+      "created_at": "2026-11-04T21:57:27.105Z",
+      "text": "TEGNA has expanded Tom Cury’s leadership role, naming him President and General Manager of KVUE in Austin while he continues leading KENS in San Antonio. Cury has headed KENS since 2015, overseeing innovative streaming programming and award-winning community initiatives. He’ll now lead operations at both Texas television stations, strengthening collaboration while maintaining each station’s local focus.",
+      "categories": [
+        "Television"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
+    },
+    {
       "id": "20261104-02",
       "date": "2026-11-04",
       "created_at": "2026-11-04T14:01:15.931Z",
@@ -2852,18 +2864,6 @@
       "seconds": 24,
       "published": false,
       "updated_at": "2026-11-04T14:01:29.602Z"
-    },
-    {
-      "id": "20261104-06",
-      "date": "2026-11-04",
-      "created_at": "2026-11-04T21:57:27.105Z",
-      "text": "TEGNA has expanded Tom Cury’s leadership role, naming him President and General Manager of KVUE in Austin while he continues leading KENS in San Antonio. Cury has headed KENS since 2015, overseeing innovative streaming programming and award-winning community initiatives. He’ll now lead operations at both Texas television stations, strengthening collaboration while maintaining each station’s local focus.",
-      "categories": [
-        "Television"
-      ],
-      "words": 56,
-      "seconds": 22,
-      "published": false
     }
   ]
 }
