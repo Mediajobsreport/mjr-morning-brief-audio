@@ -2829,6 +2829,18 @@
       "published": false
     },
     {
+      "id": "20261104-03",
+      "date": "2026-11-04",
+      "created_at": "2026-11-04T14:16:13.383Z",
+      "text": "NPR’s popular comedy news quiz “Wait Wait... Don’t Tell Me!” is coming to Rhode Island! Host Peter Sagal brings the Peabody Award-winning show to the Providence Performing Arts Center on December tenth. Presented by Ocean State Media, the live event will feature special guests and plenty of laughs. Tickets are on sale now.",
+      "categories": [
+        "Public Media"
+      ],
+      "words": 53,
+      "seconds": 21,
+      "published": false
+    },
+    {
       "id": "20261104-02",
       "date": "2026-11-04",
       "created_at": "2026-11-04T14:01:15.931Z",
@@ -2840,18 +2852,6 @@
       "seconds": 24,
       "published": false,
       "updated_at": "2026-11-04T14:01:29.602Z"
-    },
-    {
-      "id": "20261104-03",
-      "date": "2026-11-04",
-      "created_at": "2026-11-04T14:16:13.383Z",
-      "text": "NPR’s popular comedy news quiz “Wait Wait... Don’t Tell Me!” is coming to Rhode Island! Host Peter Sagal brings the Peabody Award-winning show to the Providence Performing Arts Center on December tenth. Presented by Ocean State Media, the live event will feature special guests and plenty of laughs. Tickets are on sale now.",
-      "categories": [
-        "Public Media"
-      ],
-      "words": 53,
-      "seconds": 21,
-      "published": false
     }
   ]
 }
