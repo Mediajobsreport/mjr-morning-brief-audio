@@ -2804,19 +2804,6 @@
       "published": false
     },
     {
-      "id": "20261104-02",
-      "date": "2026-11-04",
-      "created_at": "2026-11-04T14:01:15.931Z",
-      "text": "WSAW News Channel 7 has promoted Gunnar Tessmer to Director of Sales, overseeing four television properties in north central Wisconsin. Tessmer joined the station in 2017 and most recently served as Multimedia and Digital Sales Manager. A Wisconsin native and University of Wisconsin-Stevens Point graduate, Tessmer says he's excited to continue helping local businesses grow through television and digital advertising.",
-      "categories": [
-        "Television"
-      ],
-      "words": 60,
-      "seconds": 24,
-      "published": false,
-      "updated_at": "2026-11-04T14:01:29.602Z"
-    },
-    {
       "id": "20261104-04",
       "date": "2026-11-04",
       "created_at": "2026-11-04T14:47:11.563Z",
@@ -2828,6 +2815,19 @@
       "words": 63,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261104-02",
+      "date": "2026-11-04",
+      "created_at": "2026-11-04T14:01:15.931Z",
+      "text": "WSAW News Channel 7 has promoted Gunnar Tessmer to Director of Sales, overseeing four television properties in north central Wisconsin. Tessmer joined the station in 2017 and most recently served as Multimedia and Digital Sales Manager. A Wisconsin native and University of Wisconsin-Stevens Point graduate, Tessmer says he's excited to continue helping local businesses grow through television and digital advertising.",
+      "categories": [
+        "Television"
+      ],
+      "words": 60,
+      "seconds": 24,
+      "published": false,
+      "updated_at": "2026-11-04T14:01:29.602Z"
     },
     {
       "id": "20261104-03",
