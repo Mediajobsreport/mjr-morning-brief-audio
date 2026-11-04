@@ -2864,6 +2864,18 @@
       "seconds": 24,
       "published": false,
       "updated_at": "2026-11-04T14:01:29.602Z"
+    },
+    {
+      "id": "20261104-07",
+      "date": "2026-11-04",
+      "created_at": "2026-11-04T22:02:34.645Z",
+      "text": "Lady A is bringing the holiday spirit to ABC as hosts of the 17th annual CMA Country Christmas, airing Tuesday, December 1st. The star-studded special features performances by Dan + Shay, Trisha Yearwood, Jordan Davis, Zach Top, Lindsey Stirling and more. Catch it on ABC at 9 Eastern, 8 Central, or stream it the next day on Disney+ and Hulu.",
+      "categories": [
+        "Music"
+      ],
+      "words": 59,
+      "seconds": 24,
+      "published": false
     }
   ]
 }
