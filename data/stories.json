@@ -2909,24 +2909,24 @@
       "published": false
     },
     {
-      "id": "20261105-02",
-      "date": "2026-11-05",
-      "created_at": "2026-11-06T01:39:36.007Z",
-      "text": "KHCB Media Group in Houston has named Vance Frusher Senior Director of Development. Frusher brings more than 25 years of nonprofit and Christian ministry leadership experience, most recently serving as Director of Advancement for TeachBeyond. He'll oversee fundraising, major donor relationships and donor engagement as KHCB continues expanding its Christian radio and digital ministry.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 54,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261105-04",
       "date": "2026-11-05",
       "created_at": "2026-11-06T01:58:17.254Z",
       "text": "Nexstar Media Group reported record third-quarter revenue of $2.1 billion, up 78% from last year. The increase was driven by its TEGNA acquisition and record political advertising revenue of $317 million. Net income climbed to $250 million, while NewsNation viewership grew 9%. Nexstar also reported strong cash flow and continued paying down debt.",
       "categories": [
         "Television"
+      ],
+      "words": 54,
+      "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261105-02",
+      "date": "2026-11-05",
+      "created_at": "2026-11-06T01:39:36.007Z",
+      "text": "KHCB Media Group in Houston has named Vance Frusher Senior Director of Development. Frusher brings more than 25 years of nonprofit and Christian ministry leadership experience, most recently serving as Director of Advancement for TeachBeyond. He'll oversee fundraising, major donor relationships and donor engagement as KHCB continues expanding its Christian radio and digital ministry.",
+      "categories": [
+        "Radio"
       ],
       "words": 54,
       "seconds": 22,
