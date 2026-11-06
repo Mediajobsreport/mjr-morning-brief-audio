@@ -2943,6 +2943,18 @@
       "words": 51,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261105-06",
+      "date": "2026-11-05",
+      "created_at": "2026-11-06T02:11:29.774Z",
+      "text": "Sinclair reported a strong third quarter, with revenue climbing 16 percent to 893 million dollars. Political advertising generated 136 million dollars, helping more than double adjusted earnings. Sinclair also raised its full-year earnings forecast and expects a record 455 million dollars in political advertising revenue for 2026.",
+      "categories": [
+        "Television"
+      ],
+      "words": 47,
+      "seconds": 19,
+      "published": false
     }
   ]
 }
