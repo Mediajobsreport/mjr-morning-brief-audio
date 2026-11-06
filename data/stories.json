@@ -2894,7 +2894,8 @@
       ],
       "words": 45,
       "seconds": 18,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     },
     {
       "id": "20261105-04",
@@ -2906,7 +2907,8 @@
       ],
       "words": 54,
       "seconds": 22,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     },
     {
       "id": "20261105-02",
@@ -2918,7 +2920,8 @@
       ],
       "words": 54,
       "seconds": 22,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     },
     {
       "id": "20261105-01",
@@ -2930,7 +2933,8 @@
       ],
       "words": 57,
       "seconds": 23,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     },
     {
       "id": "20261105-03",
@@ -2942,7 +2946,8 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     },
     {
       "id": "20261105-06",
@@ -2954,7 +2959,8 @@
       ],
       "words": 47,
       "seconds": 19,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-06T09:00:33.818Z"
     }
   ]
 }
