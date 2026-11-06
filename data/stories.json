@@ -2921,18 +2921,6 @@
       "published": false
     },
     {
-      "id": "20261105-04",
-      "date": "2026-11-05",
-      "created_at": "2026-11-06T01:58:17.254Z",
-      "text": "Nexstar Media Group reported record third-quarter revenue of $2.1 billion, up 78% from last year. The increase was driven by its TEGNA acquisition and record political advertising revenue of $317 million. Net income climbed to $250 million, while NewsNation viewership grew 9%. Nexstar also reported strong cash flow and continued paying down debt.",
-      "categories": [
-        "Television"
-      ],
-      "words": 54,
-      "seconds": 22,
-      "published": false
-    },
-    {
       "id": "20261105-05",
       "date": "2026-11-05",
       "created_at": "2026-11-06T02:10:16.025Z",
@@ -2942,6 +2930,18 @@
       ],
       "words": 45,
       "seconds": 18,
+      "published": false
+    },
+    {
+      "id": "20261105-04",
+      "date": "2026-11-05",
+      "created_at": "2026-11-06T01:58:17.254Z",
+      "text": "Nexstar Media Group reported record third-quarter revenue of $2.1 billion, up 78% from last year. The increase was driven by its TEGNA acquisition and record political advertising revenue of $317 million. Net income climbed to $250 million, while NewsNation viewership grew 9%. Nexstar also reported strong cash flow and continued paying down debt.",
+      "categories": [
+        "Television"
+      ],
+      "words": 54,
+      "seconds": 22,
       "published": false
     }
   ]
