@@ -2883,6 +2883,18 @@
       "seconds": 24,
       "published": true,
       "published_at": "2026-11-05T09:00:35.013Z"
+    },
+    {
+      "id": "20261105-01",
+      "date": "2026-11-05",
+      "created_at": "2026-11-06T01:37:06.331Z",
+      "text": "Telemundo 49 Tampa is expanding its newsroom with two new Multimedia Journalists. Mariangeles Muñoz, formerly with Univision Tampa, has already joined the team, bringing more than a decade of experience. Two-time Emmy Award winner Trouper Diaz joins November ninth from Univision Colorado, bringing extensive political and community reporting experience. Both will contribute to Noticiero Telemundo 49.",
+      "categories": [
+        "Television"
+      ],
+      "words": 57,
+      "seconds": 23,
+      "published": false
     }
   ]
 }
