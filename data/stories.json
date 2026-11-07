@@ -3036,18 +3036,6 @@
       "published": false
     },
     {
-      "id": "20261106-07",
-      "date": "2026-11-06",
-      "created_at": "2026-11-06T21:11:09.825Z",
-      "text": "Phil Wickham leads the 2026 K-LOVE Fan Awards nominees with four nominations. Lauren Daigle, Jamie MacDonald, Jeremy Camp, Josiah Queen and Elevation Worship each earned three. Daigle and Sadie Robertson Huff hosted the May 24 ceremony in Nashville, which aired on TBN May 29. Robert Anthony Cruz of the Savannah Bananas was also honored with the Sports Impact Award.",
-      "categories": [
-        "Awards & Recognition"
-      ],
-      "words": 59,
-      "seconds": 24,
-      "published": false
-    },
-    {
       "id": "20261106-08",
       "date": "2026-11-06",
       "created_at": "2026-11-07T01:20:14.327Z",
@@ -3057,6 +3045,18 @@
       ],
       "words": 56,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261106-07",
+      "date": "2026-11-06",
+      "created_at": "2026-11-06T21:11:09.825Z",
+      "text": "Phil Wickham leads the 2026 K-LOVE Fan Awards nominees with four nominations. Lauren Daigle, Jamie MacDonald, Jeremy Camp, Josiah Queen and Elevation Worship each earned three. Daigle and Sadie Robertson Huff hosted the May 24 ceremony in Nashville, which aired on TBN May 29. Robert Anthony Cruz of the Savannah Bananas was also honored with the Sports Impact Award.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 59,
+      "seconds": 24,
       "published": false
     }
   ]
