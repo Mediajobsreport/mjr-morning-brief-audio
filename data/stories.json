@@ -3046,6 +3046,18 @@
       "words": 59,
       "seconds": 24,
       "published": false
+    },
+    {
+      "id": "20261106-08",
+      "date": "2026-11-06",
+      "created_at": "2026-11-07T01:20:14.327Z",
+      "text": "Canada's broadcast regulator has launched a free music database to help radio stations identify Canadian songs and meet content requirements. The CRTC says the downloadable resource combines information from multiple industry sources and will expand to include more French, Indigenous and third-language music. The database is designed to simplify programming and help Canadian artists gain exposure.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 56,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
