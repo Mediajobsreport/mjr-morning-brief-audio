@@ -2999,18 +2999,6 @@
       "published": false
     },
     {
-      "id": "20261106-01",
-      "date": "2026-11-06",
-      "created_at": "2026-11-06T14:44:19.550Z",
-      "text": "The University of Missouri School of Journalism has named master's student Laiba Khan Zai the 35th David Kaplan Memorial Fellow. Zai will receive a $10,000 stipend and spend the spring semester working full-time at ABC News' Washington Bureau. The fellowship honors ABC News Producer David Kaplan, who was killed while covering the war in Bosnia in 1992.",
-      "categories": [
-        "Education"
-      ],
-      "words": 58,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261106-09",
       "date": "2026-11-06",
       "created_at": "2026-11-07T01:41:07.937Z",
@@ -3020,6 +3008,18 @@
       ],
       "words": 71,
       "seconds": 28,
+      "published": false
+    },
+    {
+      "id": "20261106-01",
+      "date": "2026-11-06",
+      "created_at": "2026-11-06T14:44:19.550Z",
+      "text": "The University of Missouri School of Journalism has named master's student Laiba Khan Zai the 35th David Kaplan Memorial Fellow. Zai will receive a $10,000 stipend and spend the spring semester working full-time at ABC News' Washington Bureau. The fellowship honors ABC News Producer David Kaplan, who was killed while covering the war in Bosnia in 1992.",
+      "categories": [
+        "Education"
+      ],
+      "words": 58,
+      "seconds": 23,
       "published": false
     },
     {
