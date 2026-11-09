@@ -3115,6 +3115,18 @@
       "words": 49,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261109-04",
+      "date": "2026-11-09",
+      "created_at": "2026-11-09T22:31:26.798Z",
+      "text": "Buzzsprout is making it easier to launch a podcast with its new one-dollar Podcast Starter Kit. Creators answer five simple questions and receive suggested show names, descriptions, categories and cover art. Everything is saved to their Buzzsprout account, helping new podcasters turn their ideas into shows.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 46,
+      "seconds": 18,
+      "published": false
     }
   ]
 }
