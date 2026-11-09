@@ -3129,18 +3129,6 @@
       "published": false
     },
     {
-      "id": "20261109-05",
-      "date": "2026-11-09",
-      "created_at": "2026-11-09T22:32:08.869Z",
-      "text": "Dave & Chuck the Freak are expanding to Grand Rapids! The popular morning show, originating from WRIF in Detroit, is now airing weekdays on Cumulus Media’s WLAV-FM from 6 to 10:30. Celebrating 25 years on the air, Dave, Chuck and the crew bring their signature humor and unscripted conversations to West Michigan.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 52,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261109-06",
       "date": "2026-11-09",
       "created_at": "2026-11-09T22:51:23.708Z",
@@ -3150,6 +3138,18 @@
       ],
       "words": 44,
       "seconds": 18,
+      "published": false
+    },
+    {
+      "id": "20261109-05",
+      "date": "2026-11-09",
+      "created_at": "2026-11-09T22:32:08.869Z",
+      "text": "Dave & Chuck the Freak are expanding to Grand Rapids! The popular morning show, originating from WRIF in Detroit, is now airing weekdays on Cumulus Media’s WLAV-FM from 6 to 10:30. Celebrating 25 years on the air, Dave, Chuck and the crew bring their signature humor and unscripted conversations to West Michigan.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 52,
+      "seconds": 21,
       "published": false
     },
     {
