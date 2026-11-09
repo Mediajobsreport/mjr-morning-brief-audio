@@ -3079,6 +3079,18 @@
       "seconds": 24,
       "published": true,
       "published_at": "2026-11-09T09:00:34.616Z"
+    },
+    {
+      "id": "20261109-01",
+      "date": "2026-11-09",
+      "created_at": "2026-11-09T20:46:00.483Z",
+      "text": "Broadcasters have important deadlines ahead of the November 17 nationwide Emergency Alert System test. Sage Alerting Systems has released a mandatory firmware update, and stations installing it must amend their FCC ETRS Form One. The FCC has also issued new test preparation guidance. Get the full details at Media Jobs Report.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 51,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
