@@ -3185,18 +3185,6 @@
       "published": false
     },
     {
-      "id": "20261110-02",
-      "date": "2026-11-10",
-      "created_at": "2026-11-10T14:13:46.638Z",
-      "text": "Urban One reported an 88-million-dollar third quarter, down 5 percent from last year. The company posted a 119-million-dollar net loss, largely driven by impairment charges. Radio revenue increased, helped by Dallas station acquisitions and political advertising. Urban One also plans at least 20 million dollars in annual cost savings.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 49,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261110-10",
       "date": "2026-11-10",
       "created_at": "2026-11-10T21:01:29.371Z",
@@ -3206,6 +3194,18 @@
       ],
       "words": 47,
       "seconds": 19,
+      "published": false
+    },
+    {
+      "id": "20261110-02",
+      "date": "2026-11-10",
+      "created_at": "2026-11-10T14:13:46.638Z",
+      "text": "Urban One reported an 88-million-dollar third quarter, down 5 percent from last year. The company posted a 119-million-dollar net loss, largely driven by impairment charges. Radio revenue increased, helped by Dallas station acquisitions and political advertising. Urban One also plans at least 20 million dollars in annual cost savings.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 49,
+      "seconds": 20,
       "published": false
     },
     {
