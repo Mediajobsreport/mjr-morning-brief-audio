@@ -3222,6 +3222,18 @@
       "published": false
     },
     {
+      "id": "20261110-08",
+      "date": "2026-11-10",
+      "created_at": "2026-11-10T20:01:37.660Z",
+      "text": "Cumulus Media's 93Q in Syracuse raised more than ten thousand dollars during October through its annual Taking Shots at Breast Cancer campaign. Led by Program Director Rick Roberts, the fundraiser has generated more than forty-six thousand dollars since 2020, supporting the American Cancer Society and breast cancer awareness across Central New York.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 52,
+      "seconds": 21,
+      "published": false
+    },
+    {
       "id": "20261110-05",
       "date": "2026-11-10",
       "created_at": "2026-11-10T17:19:20.350Z",
@@ -3231,18 +3243,6 @@
         "Television"
       ],
       "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
-      "id": "20261110-08",
-      "date": "2026-11-10",
-      "created_at": "2026-11-10T20:01:37.660Z",
-      "text": "Cumulus Media's 93Q in Syracuse raised more than ten thousand dollars during October through its annual Taking Shots at Breast Cancer campaign. Led by Program Director Rick Roberts, the fundraiser has generated more than forty-six thousand dollars since 2020, supporting the American Cancer Society and breast cancer awareness across Central New York.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 52,
       "seconds": 21,
       "published": false
     },
