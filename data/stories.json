@@ -3221,19 +3221,6 @@
       "published": false
     },
     {
-      "id": "20261110-05",
-      "date": "2026-11-10",
-      "created_at": "2026-11-10T17:19:20.350Z",
-      "text": "WildBrain is scheduled to report its full-year 2027 financial results on Thursday, November 12, at 10 a.m. Eastern. The company will host an earnings call as part of its financial reporting. Find webcast details and more upcoming media company earnings announcements on the MJR Financial Calendar at Media Jobs Report dot com.",
-      "categories": [
-        "Business",
-        "Television"
-      ],
-      "words": 53,
-      "seconds": 21,
-      "published": false
-    },
-    {
       "id": "20261110-06",
       "date": "2026-11-10",
       "created_at": "2026-11-10T17:31:48.631Z",
@@ -3244,6 +3231,19 @@
       ],
       "words": 46,
       "seconds": 18,
+      "published": false
+    },
+    {
+      "id": "20261110-05",
+      "date": "2026-11-10",
+      "created_at": "2026-11-10T17:19:20.350Z",
+      "text": "WildBrain is scheduled to report its full-year 2027 financial results on Thursday, November 12, at 10 a.m. Eastern. The company will host an earnings call as part of its financial reporting. Find webcast details and more upcoming media company earnings announcements on the MJR Financial Calendar at Media Jobs Report dot com.",
+      "categories": [
+        "Business",
+        "Television"
+      ],
+      "words": 53,
+      "seconds": 21,
       "published": false
     },
     {
