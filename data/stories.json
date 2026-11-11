@@ -3181,7 +3181,8 @@
       ],
       "words": 47,
       "seconds": 19,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-06",
@@ -3194,7 +3195,8 @@
       ],
       "words": 46,
       "seconds": 18,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-02",
@@ -3206,7 +3208,8 @@
       ],
       "words": 49,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-09",
@@ -3218,7 +3221,8 @@
       ],
       "words": 46,
       "seconds": 18,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-03",
@@ -3231,7 +3235,8 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-07",
@@ -3243,7 +3248,8 @@
       ],
       "words": 47,
       "seconds": 19,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-08",
@@ -3255,7 +3261,8 @@
       ],
       "words": 52,
       "seconds": 21,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-04",
@@ -3267,7 +3274,8 @@
       ],
       "words": 46,
       "seconds": 18,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-01",
@@ -3279,7 +3287,8 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     },
     {
       "id": "20261110-05",
@@ -3292,7 +3301,8 @@
       ],
       "words": 53,
       "seconds": 21,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-11T09:00:33.203Z"
     }
   ]
 }
