@@ -3377,18 +3377,6 @@
       "published": false
     },
     {
-      "id": "20261111-07",
-      "date": "2026-11-11",
-      "created_at": "2026-11-11T23:46:39.561Z",
-      "text": "Cumulus Media’s 98.1 The Max in Memphis has raised a record $1.14 million for Ronald McDonald House Charities of Memphis. The eight-hour radiothon marked the third consecutive year the station has topped $1 million. Donations will help provide housing, meals and support for families with children receiving medical care.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 51,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261111-08",
       "date": "2026-11-11",
       "created_at": "2026-11-11T23:54:46.347Z",
@@ -3400,6 +3388,18 @@
       "seconds": 22,
       "published": false,
       "updated_at": "2026-11-11T23:55:06.102Z"
+    },
+    {
+      "id": "20261111-07",
+      "date": "2026-11-11",
+      "created_at": "2026-11-11T23:46:39.561Z",
+      "text": "Cumulus Media’s 98.1 The Max in Memphis has raised a record $1.14 million for Ronald McDonald House Charities of Memphis. The eight-hour radiothon marked the third consecutive year the station has topped $1 million. Donations will help provide housing, meals and support for families with children receiving medical care.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 51,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
