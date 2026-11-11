@@ -3354,18 +3354,6 @@
       "published": false
     },
     {
-      "id": "20261111-04",
-      "date": "2026-11-11",
-      "created_at": "2026-11-11T19:58:24.409Z",
-      "text": "OutKast legend Big Boi is keeping it in the family with a new iHeartPodcasts series. “Bloodlines & Basslines” features Big Boi and his sons, Bamboo and Cross Patton, sharing candid conversations about music, fatherhood, family and life. The podcast premieres November 11, with three new 10-minute episodes each week.",
-      "categories": [
-        "Podcasting"
-      ],
-      "words": 48,
-      "seconds": 19,
-      "published": false
-    },
-    {
       "id": "20261111-07",
       "date": "2026-11-11",
       "created_at": "2026-11-11T23:46:39.561Z",
@@ -3375,6 +3363,18 @@
       ],
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261111-04",
+      "date": "2026-11-11",
+      "created_at": "2026-11-11T19:58:24.409Z",
+      "text": "OutKast legend Big Boi is keeping it in the family with a new iHeartPodcasts series. “Bloodlines & Basslines” features Big Boi and his sons, Bamboo and Cross Patton, sharing candid conversations about music, fatherhood, family and life. The podcast premieres November 11, with three new 10-minute episodes each week.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 48,
+      "seconds": 19,
       "published": false
     },
     {
