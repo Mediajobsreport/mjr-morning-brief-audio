@@ -3378,18 +3378,6 @@
       "published": false
     },
     {
-      "id": "20261111-06",
-      "date": "2026-11-11",
-      "created_at": "2026-11-11T23:46:13.537Z",
-      "text": "The E.W. Scripps Company has promoted Christina Hartman to Chief Technology Officer. Hartman will oversee the company’s digital development, broadcast technology, cybersecurity and artificial intelligence initiatives. She previously led emerging technology operations and held several leadership roles at Scripps News.",
-      "categories": [
-        "Television"
-      ],
-      "words": 41,
-      "seconds": 16,
-      "published": false
-    },
-    {
       "id": "20261111-07",
       "date": "2026-11-11",
       "created_at": "2026-11-11T23:46:39.561Z",
@@ -3399,6 +3387,18 @@
       ],
       "words": 51,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261111-06",
+      "date": "2026-11-11",
+      "created_at": "2026-11-11T23:46:13.537Z",
+      "text": "The E.W. Scripps Company has promoted Christina Hartman to Chief Technology Officer. Hartman will oversee the company’s digital development, broadcast technology, cybersecurity and artificial intelligence initiatives. She previously led emerging technology operations and held several leadership roles at Scripps News.",
+      "categories": [
+        "Television"
+      ],
+      "words": 41,
+      "seconds": 16,
       "published": false
     }
   ]
