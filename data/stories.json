@@ -3317,18 +3317,6 @@
       "published": false
     },
     {
-      "id": "20261111-02",
-      "date": "2026-11-11",
-      "created_at": "2026-11-11T19:41:00.591Z",
-      "text": "Jennifer Lopez is bringing her Las Vegas residency to television on Thanksgiving. The JLO Show: Live in Las Vegas premieres November 26 on CBS and Paramount+, featuring her biggest hits, a full orchestra and 16 dancers. An extended version will stream exclusively on Paramount+.",
-      "categories": [
-        "Television"
-      ],
-      "words": 44,
-      "seconds": 18,
-      "published": false
-    },
-    {
       "id": "20261111-08",
       "date": "2026-11-11",
       "created_at": "2026-11-11T23:54:46.347Z",
@@ -3340,6 +3328,18 @@
       "seconds": 22,
       "published": false,
       "updated_at": "2026-11-11T23:55:06.102Z"
+    },
+    {
+      "id": "20261111-02",
+      "date": "2026-11-11",
+      "created_at": "2026-11-11T19:41:00.591Z",
+      "text": "Jennifer Lopez is bringing her Las Vegas residency to television on Thanksgiving. The JLO Show: Live in Las Vegas premieres November 26 on CBS and Paramount+, featuring her biggest hits, a full orchestra and 16 dancers. An extended version will stream exclusively on Paramount+.",
+      "categories": [
+        "Television"
+      ],
+      "words": 44,
+      "seconds": 18,
+      "published": false
     },
     {
       "id": "20261111-03",
