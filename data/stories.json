@@ -3353,18 +3353,6 @@
       "published": false
     },
     {
-      "id": "20261111-05",
-      "date": "2026-11-11",
-      "created_at": "2026-11-11T19:59:04.259Z",
-      "text": "Borchetta Entertainment Group has named Abby Miller Head of Artist Development. Miller brings nearly a decade of experience in artist management, digital strategy and A&R, including previous roles at Black River Entertainment and The Digital Dept. She'll work with artists including Carly Pearce, Molly Tuttle and The Band Perry.",
-      "categories": [
-        "Music"
-      ],
-      "words": 50,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261111-08",
       "date": "2026-11-11",
       "created_at": "2026-11-11T23:54:46.347Z",
@@ -3376,6 +3364,18 @@
       "seconds": 22,
       "published": false,
       "updated_at": "2026-11-11T23:55:06.102Z"
+    },
+    {
+      "id": "20261111-05",
+      "date": "2026-11-11",
+      "created_at": "2026-11-11T19:59:04.259Z",
+      "text": "Borchetta Entertainment Group has named Abby Miller Head of Artist Development. Miller brings nearly a decade of experience in artist management, digital strategy and A&R, including previous roles at Black River Entertainment and The Digital Dept. She'll work with artists including Carly Pearce, Molly Tuttle and The Band Perry.",
+      "categories": [
+        "Music"
+      ],
+      "words": 50,
+      "seconds": 20,
+      "published": false
     },
     {
       "id": "20261111-06",
