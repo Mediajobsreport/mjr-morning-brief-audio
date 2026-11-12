@@ -3435,18 +3435,6 @@
       "published": false
     },
     {
-      "id": "20261112-02",
-      "date": "2026-11-12",
-      "created_at": "2026-11-12T14:48:31.498Z",
-      "text": "The FCC has reviewed 60 applications for its upcoming auction of 132 FM radio construction permits. Thirty-eight applications were complete, 21 need corrections, and one was rejected. Applicants have until December third to submit corrections and required payments. Bidding begins February second, 2027.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 43,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20261112-09",
       "date": "2026-11-12",
       "created_at": "2026-11-12T18:49:52.972Z",
@@ -3456,6 +3444,18 @@
       ],
       "words": 56,
       "seconds": 22,
+      "published": false
+    },
+    {
+      "id": "20261112-02",
+      "date": "2026-11-12",
+      "created_at": "2026-11-12T14:48:31.498Z",
+      "text": "The FCC has reviewed 60 applications for its upcoming auction of 132 FM radio construction permits. Thirty-eight applications were complete, 21 need corrections, and one was rejected. Applicants have until December third to submit corrections and required payments. Bidding begins February second, 2027.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 43,
+      "seconds": 17,
       "published": false
     },
     {
