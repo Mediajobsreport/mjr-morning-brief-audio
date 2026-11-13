@@ -3553,6 +3553,18 @@
       "words": 42,
       "seconds": 17,
       "published": false
+    },
+    {
+      "id": "20261113-02",
+      "date": "2026-11-13",
+      "created_at": "2026-11-13T14:59:26.581Z",
+      "text": "Audacy launched a new weekly podcast Friday featuring former NFL star and WFAN personality Tiki Barber and his wife, Traci Johnson. “Double Down on Cheer with Tiki and Traci” explores competitive cheerleading, youth sports and parenting. The first episode featured Nicole “Snooki” Polizzi. New episodes arrive Fridays on major podcast platforms.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 51,
+      "seconds": 20,
+      "published": false
     }
   ]
 }
