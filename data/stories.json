@@ -3592,18 +3592,6 @@
       "published": false
     },
     {
-      "id": "20261114-01",
-      "date": "2026-11-14",
-      "created_at": "2026-11-14T14:04:57.338Z",
-      "text": "Beasley Broadcast Group reported third-quarter revenue of $42.8 million, down 16 percent from a year ago, and a net loss of $12.1 million. Digital revenue also declined, although digital profit margins improved. The company continues cutting expenses, selling assets and reducing debt as it works to rebuild advertising revenue.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 51,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261114-06",
       "date": "2026-11-14",
       "created_at": "2026-11-14T15:04:25.448Z",
@@ -3613,6 +3601,18 @@
       ],
       "words": 77,
       "seconds": 31,
+      "published": false
+    },
+    {
+      "id": "20261114-01",
+      "date": "2026-11-14",
+      "created_at": "2026-11-14T14:04:57.338Z",
+      "text": "Beasley Broadcast Group reported third-quarter revenue of $42.8 million, down 16 percent from a year ago, and a net loss of $12.1 million. Digital revenue also declined, although digital profit margins improved. The company continues cutting expenses, selling assets and reducing debt as it works to rebuild advertising revenue.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 51,
+      "seconds": 20,
       "published": false
     },
     {
