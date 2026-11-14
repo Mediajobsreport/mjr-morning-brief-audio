@@ -3628,18 +3628,6 @@
       "published": false
     },
     {
-      "id": "20261114-04",
-      "date": "2026-11-14",
-      "created_at": "2026-11-14T14:06:27.805Z",
-      "text": "Taylor Swift is returning to the CMA Awards stage for the first time in 13 years. The two-time Entertainer of the Year will perform at the 60th Annual CMA Awards, hosted by Lainey Wilson, Wednesday, November 18, live on ABC and Disney+.",
-      "categories": [
-        "Music"
-      ],
-      "words": 42,
-      "seconds": 17,
-      "published": false
-    },
-    {
       "id": "20261114-06",
       "date": "2026-11-14",
       "created_at": "2026-11-14T15:04:25.448Z",
@@ -3649,6 +3637,18 @@
       ],
       "words": 77,
       "seconds": 31,
+      "published": false
+    },
+    {
+      "id": "20261114-04",
+      "date": "2026-11-14",
+      "created_at": "2026-11-14T14:06:27.805Z",
+      "text": "Taylor Swift is returning to the CMA Awards stage for the first time in 13 years. The two-time Entertainer of the Year will perform at the 60th Annual CMA Awards, hosted by Lainey Wilson, Wednesday, November 18, live on ABC and Disney+.",
+      "categories": [
+        "Music"
+      ],
+      "words": 42,
+      "seconds": 17,
       "published": false
     },
     {
