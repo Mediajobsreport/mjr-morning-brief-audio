@@ -3604,18 +3604,6 @@
       "published": false
     },
     {
-      "id": "20261114-02",
-      "date": "2026-11-14",
-      "created_at": "2026-11-14T14:05:25.883Z",
-      "text": "NBC is celebrating 100 years of broadcasting. The network was established November 15th, 1926, as America's first permanent radio network and went on to document some of the country's biggest moments while creating television institutions including TODAY, The Tonight Show, Meet the Press and Saturday Night Live. NBC's century also includes landmark coverage of the Olympics, Super Bowl, Apollo 11 and major breaking news events. NBC enters its second century as broadcasting continues its shift toward streaming and new platforms.",
-      "categories": [
-        "Television"
-      ],
-      "words": 80,
-      "seconds": 32,
-      "published": false
-    },
-    {
       "id": "20261114-06",
       "date": "2026-11-14",
       "created_at": "2026-11-14T15:04:25.448Z",
@@ -3625,6 +3613,18 @@
       ],
       "words": 77,
       "seconds": 31,
+      "published": false
+    },
+    {
+      "id": "20261114-02",
+      "date": "2026-11-14",
+      "created_at": "2026-11-14T14:05:25.883Z",
+      "text": "NBC is celebrating 100 years of broadcasting. The network was established November 15th, 1926, as America's first permanent radio network and went on to document some of the country's biggest moments while creating television institutions including TODAY, The Tonight Show, Meet the Press and Saturday Night Live. NBC's century also includes landmark coverage of the Olympics, Super Bowl, Apollo 11 and major breaking news events. NBC enters its second century as broadcasting continues its shift toward streaming and new platforms.",
+      "categories": [
+        "Television"
+      ],
+      "words": 80,
+      "seconds": 32,
       "published": false
     },
     {
