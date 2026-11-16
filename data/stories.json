@@ -3728,6 +3728,18 @@
       "words": 59,
       "seconds": 24,
       "published": false
+    },
+    {
+      "id": "20261116-06",
+      "date": "2026-11-16",
+      "created_at": "2026-11-16T18:55:26.593Z",
+      "text": "The Macy’s Thanksgiving Day Parade celebrates its historic 100th march November 26th, with performances from Megan Moroney, Teddy Swims, Queen Latifah, Jimmy Fallon and The Roots, and dozens more. The NBC and Peacock broadcast begins at 8:30 Thanksgiving morning, featuring a record 100 inflatable elements, new floats and the traditional arrival of Santa Claus. Savannah Guthrie, Hoda Kotb and Al Roker return as hosts.",
+      "categories": [
+        "Television"
+      ],
+      "words": 65,
+      "seconds": 26,
+      "published": false
     }
   ]
 }
