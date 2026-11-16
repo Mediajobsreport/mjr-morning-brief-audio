@@ -3682,18 +3682,6 @@
       "published": false
     },
     {
-      "id": "20261116-02",
-      "date": "2026-11-16",
-      "created_at": "2026-11-16T18:14:13.201Z",
-      "text": "Detroit radio veteran “Big Jim” O’Brien has a new home on the dial. O’Brien is taking over weekday afternoons from 2 to 7 on Audacy’s 104.3 WOMC. He most recently spent 24 years hosting mornings at WCSX and has helped raise more than $3 million for Detroit-area charities during his career. O’Brien says Detroit is home and he’s excited to join the WOMC team.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 65,
-      "seconds": 26,
-      "published": false
-    },
-    {
       "id": "20261116-08",
       "date": "2026-11-16",
       "created_at": "2026-11-16T19:42:26.336Z",
@@ -3703,6 +3691,18 @@
       ],
       "words": 74,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261116-02",
+      "date": "2026-11-16",
+      "created_at": "2026-11-16T18:14:13.201Z",
+      "text": "Detroit radio veteran “Big Jim” O’Brien has a new home on the dial. O’Brien is taking over weekday afternoons from 2 to 7 on Audacy’s 104.3 WOMC. He most recently spent 24 years hosting mornings at WCSX and has helped raise more than $3 million for Detroit-area charities during his career. O’Brien says Detroit is home and he’s excited to join the WOMC team.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 65,
+      "seconds": 26,
       "published": false
     },
     {
