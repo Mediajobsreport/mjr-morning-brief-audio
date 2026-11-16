@@ -3742,18 +3742,6 @@
       "published": false
     },
     {
-      "id": "20261116-07",
-      "date": "2026-11-16",
-      "created_at": "2026-11-16T19:20:15.966Z",
-      "text": "CNN en Español has named veteran international journalist Shery Ahn an Anchor and Correspondent, beginning January 4. Based in New York, Ahn will help expand the network’s business and economic reporting, focusing on issues affecting Hispanic communities, including jobs, affordability and personal finance. She joins CNN after nearly two decades of international journalism experience, most recently with Bloomberg Television in Tokyo.",
-      "categories": [
-        "Television"
-      ],
-      "words": 62,
-      "seconds": 25,
-      "published": false
-    },
-    {
       "id": "20261116-08",
       "date": "2026-11-16",
       "created_at": "2026-11-16T19:42:26.336Z",
@@ -3763,6 +3751,18 @@
       ],
       "words": 74,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261116-07",
+      "date": "2026-11-16",
+      "created_at": "2026-11-16T19:20:15.966Z",
+      "text": "CNN en Español has named veteran international journalist Shery Ahn an Anchor and Correspondent, beginning January 4. Based in New York, Ahn will help expand the network’s business and economic reporting, focusing on issues affecting Hispanic communities, including jobs, affordability and personal finance. She joins CNN after nearly two decades of international journalism experience, most recently with Bloomberg Television in Tokyo.",
+      "categories": [
+        "Television"
+      ],
+      "words": 62,
+      "seconds": 25,
       "published": false
     },
     {
