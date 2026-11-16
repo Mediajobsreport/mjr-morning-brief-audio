@@ -3718,18 +3718,6 @@
       "published": false
     },
     {
-      "id": "20261116-05",
-      "date": "2026-11-16",
-      "created_at": "2026-11-16T18:50:22.478Z",
-      "text": "WPLR morning hosts Chaz and AJ teamed up with WFSB Meteorologist Scot Haney for their annual \"Three Men and a Box\" fundraiser in Milford, Connecticut. The trio took on 24 hours of confinement, complete with a continuously repeating song, to raise money for local children. The fundraiser supported the December 11 Chaz and AJ Crabtree Motor Group Toy Drive.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 59,
-      "seconds": 24,
-      "published": false
-    },
-    {
       "id": "20261116-08",
       "date": "2026-11-16",
       "created_at": "2026-11-16T19:42:26.336Z",
@@ -3739,6 +3727,18 @@
       ],
       "words": 74,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261116-05",
+      "date": "2026-11-16",
+      "created_at": "2026-11-16T18:50:22.478Z",
+      "text": "WPLR morning hosts Chaz and AJ teamed up with WFSB Meteorologist Scot Haney for their annual \"Three Men and a Box\" fundraiser in Milford, Connecticut. The trio took on 24 hours of confinement, complete with a continuously repeating song, to raise money for local children. The fundraiser supported the December 11 Chaz and AJ Crabtree Motor Group Toy Drive.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 59,
+      "seconds": 24,
       "published": false
     },
     {
