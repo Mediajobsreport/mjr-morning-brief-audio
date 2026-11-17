@@ -3826,18 +3826,6 @@
       "published": false
     },
     {
-      "id": "20261117-03",
-      "date": "2026-11-17",
-      "created_at": "2026-11-17T19:52:37.493Z",
-      "text": "Universal Music Group has named Felipe Holguin CEO of Universal Music Latin America and Iberian Peninsula, effective immediately. Holguin brings more than 30 years of experience, including leadership roles at Univision, Fusion Media Group and HYBE Latin America. He succeeds Jesús López, who becomes Chairman Emeritus of Global Talent Services. Holguin will oversee Latin music operations and expand global opportunities for artists.",
-      "categories": [
-        "Music"
-      ],
-      "words": 64,
-      "seconds": 26,
-      "published": false
-    },
-    {
       "id": "20261117-06",
       "date": "2026-11-17",
       "created_at": "2026-11-17T21:23:30.213Z",
@@ -3847,6 +3835,18 @@
       ],
       "words": 81,
       "seconds": 32,
+      "published": false
+    },
+    {
+      "id": "20261117-03",
+      "date": "2026-11-17",
+      "created_at": "2026-11-17T19:52:37.493Z",
+      "text": "Universal Music Group has named Felipe Holguin CEO of Universal Music Latin America and Iberian Peninsula, effective immediately. Holguin brings more than 30 years of experience, including leadership roles at Univision, Fusion Media Group and HYBE Latin America. He succeeds Jesús López, who becomes Chairman Emeritus of Global Talent Services. Holguin will oversee Latin music operations and expand global opportunities for artists.",
+      "categories": [
+        "Music"
+      ],
+      "words": 64,
+      "seconds": 26,
       "published": false
     },
     {
