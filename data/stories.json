@@ -3875,18 +3875,6 @@
       "published": false
     },
     {
-      "id": "20261117-07",
-      "date": "2026-11-17",
-      "created_at": "2026-11-17T21:31:21.506Z",
-      "text": "CBS has announced its 2026-2027 midseason primetime schedule, featuring three new shows. “Stacks of Cash,” hosted by Mike O’Malley, premieres January 6. “Einstein,” starring Matthew Gray Gubler, debuts February 12, while Drew Carey hosts a revamped “Undercover Boss” beginning February 24. Returning favorites include “Matlock,” “Ghosts,” and “NCIS: Sydney.” “Survivor” also returns February 24 with expanded two-hour episodes. CBS will air the Golden Globes January 10 and a special “NCIS: New York” episode following the AFC Championship.",
-      "categories": [
-        "Television"
-      ],
-      "words": 77,
-      "seconds": 31,
-      "published": false
-    },
-    {
       "id": "20261117-08",
       "date": "2026-11-17",
       "created_at": "2026-11-17T21:48:08.654Z",
@@ -3896,6 +3884,18 @@
       ],
       "words": 61,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261117-07",
+      "date": "2026-11-17",
+      "created_at": "2026-11-17T21:31:21.506Z",
+      "text": "CBS has announced its 2026-2027 midseason primetime schedule, featuring three new shows. “Stacks of Cash,” hosted by Mike O’Malley, premieres January 6. “Einstein,” starring Matthew Gray Gubler, debuts February 12, while Drew Carey hosts a revamped “Undercover Boss” beginning February 24. Returning favorites include “Matlock,” “Ghosts,” and “NCIS: Sydney.” “Survivor” also returns February 24 with expanded two-hour episodes. CBS will air the Golden Globes January 10 and a special “NCIS: New York” episode following the AFC Championship.",
+      "categories": [
+        "Television"
+      ],
+      "words": 77,
+      "seconds": 31,
       "published": false
     }
   ]
