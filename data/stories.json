@@ -3838,18 +3838,6 @@
       "published": false
     },
     {
-      "id": "20261117-04",
-      "date": "2026-11-17",
-      "created_at": "2026-11-17T20:32:30.608Z",
-      "text": "Audacy’s Talk Radio 1210 WPHT in Philadelphia and Piazza Auto Group raised more than fifteen thousand dollars for the American Cancer Society through their GO PINK breast cancer awareness campaign. Throughout October, WPHT’s “Kayal and Company” morning show shared personal stories and encouraged community support. The campaign concluded with a live broadcast from INFINITI of West Chester, featuring survivors, families and medical experts. All proceeds support the fight against cancer.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 70,
-      "seconds": 28,
-      "published": false
-    },
-    {
       "id": "20261117-05",
       "date": "2026-11-17",
       "created_at": "2026-11-17T20:38:06.998Z",
@@ -3860,6 +3848,18 @@
       ],
       "words": 50,
       "seconds": 20,
+      "published": false
+    },
+    {
+      "id": "20261117-04",
+      "date": "2026-11-17",
+      "created_at": "2026-11-17T20:32:30.608Z",
+      "text": "Audacy’s Talk Radio 1210 WPHT in Philadelphia and Piazza Auto Group raised more than fifteen thousand dollars for the American Cancer Society through their GO PINK breast cancer awareness campaign. Throughout October, WPHT’s “Kayal and Company” morning show shared personal stories and encouraged community support. The campaign concluded with a live broadcast from INFINITI of West Chester, featuring survivors, families and medical experts. All proceeds support the fight against cancer.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 70,
+      "seconds": 28,
       "published": false
     },
     {
