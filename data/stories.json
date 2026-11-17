@@ -3826,18 +3826,6 @@
       "published": false
     },
     {
-      "id": "20261117-06",
-      "date": "2026-11-17",
-      "created_at": "2026-11-17T21:23:30.213Z",
-      "text": "The Alliance for Women in Media honored seven female leaders at the 2026 Gracies Leadership Awards in New York City. Honorees included Zenia Mucha, Chief Brand and Communications Officer at TikTok; Hannah Storm, ESPN Anchor and Host; Kristen Welch, Chief Financial and Operations Officer at Illustrative Mathematics; Marilu Galvez, General Manager of ABC7 New York; Erin Underhill, President of Universal Television; Tina Perry, President of OWN; and Julie Talbott, President of Premiere Networks. The ceremony also celebrated the organization's 75th anniversary.",
-      "categories": [
-        "Awards & Recognition"
-      ],
-      "words": 81,
-      "seconds": 32,
-      "published": false
-    },
-    {
       "id": "20261117-08",
       "date": "2026-11-17",
       "created_at": "2026-11-17T21:48:08.654Z",
@@ -3847,6 +3835,18 @@
       ],
       "words": 61,
       "seconds": 24,
+      "published": false
+    },
+    {
+      "id": "20261117-06",
+      "date": "2026-11-17",
+      "created_at": "2026-11-17T21:23:30.213Z",
+      "text": "The Alliance for Women in Media honored seven female leaders at the 2026 Gracies Leadership Awards in New York City. Honorees included Zenia Mucha, Chief Brand and Communications Officer at TikTok; Hannah Storm, ESPN Anchor and Host; Kristen Welch, Chief Financial and Operations Officer at Illustrative Mathematics; Marilu Galvez, General Manager of ABC7 New York; Erin Underhill, President of Universal Television; Tina Perry, President of OWN; and Julie Talbott, President of Premiere Networks. The ceremony also celebrated the organization's 75th anniversary.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 81,
+      "seconds": 32,
       "published": false
     },
     {
