@@ -3907,18 +3907,6 @@
       "published_at": "2026-11-18T09:00:33.015Z"
     },
     {
-      "id": "20261118-01",
-      "date": "2026-11-18",
-      "created_at": "2026-11-18T13:45:44.899Z",
-      "text": "Eastlan Ratings is expanding into four additional radio markets, including Kansas City, Minneapolis, Nashville and the Lebanon-Hanover-White River Junction region. The company is also moving to continuous audience measurement in Bryan-College Station, Texas. Eastlan President Mike Gould says broadcasters and advertisers deserve a more complete picture of radio listenership.",
-      "categories": [
-        "Ratings"
-      ],
-      "words": 49,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261118-09",
       "date": "2026-11-18",
       "created_at": "2026-11-18T21:10:25.623Z",
@@ -3928,6 +3916,18 @@
       ],
       "words": 84,
       "seconds": 34,
+      "published": false
+    },
+    {
+      "id": "20261118-01",
+      "date": "2026-11-18",
+      "created_at": "2026-11-18T13:45:44.899Z",
+      "text": "Eastlan Ratings is expanding into four additional radio markets, including Kansas City, Minneapolis, Nashville and the Lebanon-Hanover-White River Junction region. The company is also moving to continuous audience measurement in Bryan-College Station, Texas. Eastlan President Mike Gould says broadcasters and advertisers deserve a more complete picture of radio listenership.",
+      "categories": [
+        "Ratings"
+      ],
+      "words": 49,
+      "seconds": 20,
       "published": false
     },
     {
