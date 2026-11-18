@@ -3919,18 +3919,6 @@
       "published": false
     },
     {
-      "id": "20261118-02",
-      "date": "2026-11-18",
-      "created_at": "2026-11-18T14:03:04.610Z",
-      "text": "Amagi is bringing cloud-based live news production to Spectrum News, beginning with Bay News 9 in Tampa and News 13 in Orlando. The technology will eventually support more than 50 feeds across over 35 markets, helping newsrooms get breaking stories on the air faster while streamlining production and master control operations.",
-      "categories": [
-        "Technology"
-      ],
-      "words": 51,
-      "seconds": 20,
-      "published": false
-    },
-    {
       "id": "20261118-09",
       "date": "2026-11-18",
       "created_at": "2026-11-18T21:10:25.623Z",
@@ -3940,6 +3928,18 @@
       ],
       "words": 84,
       "seconds": 34,
+      "published": false
+    },
+    {
+      "id": "20261118-02",
+      "date": "2026-11-18",
+      "created_at": "2026-11-18T14:03:04.610Z",
+      "text": "Amagi is bringing cloud-based live news production to Spectrum News, beginning with Bay News 9 in Tampa and News 13 in Orlando. The technology will eventually support more than 50 feeds across over 35 markets, helping newsrooms get breaking stories on the air faster while streamlining production and master control operations.",
+      "categories": [
+        "Technology"
+      ],
+      "words": 51,
+      "seconds": 20,
       "published": false
     },
     {
