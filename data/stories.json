@@ -3929,6 +3929,18 @@
       "words": 51,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261118-03",
+      "date": "2026-11-18",
+      "created_at": "2026-11-18T14:14:20.957Z",
+      "text": "NBC is bringing holiday magic to Rockefeller Center on December second. Cynthia Erivo will host and perform during the live Christmas tree lighting special, joined by Kelly Clarkson, Wynonna Judd, Brad Paisley, Alanis Morissette and more. The celebration airs at 8 Eastern on NBC and Peacock.",
+      "categories": [
+        "Television"
+      ],
+      "words": 46,
+      "seconds": 18,
+      "published": false
     }
   ]
 }
