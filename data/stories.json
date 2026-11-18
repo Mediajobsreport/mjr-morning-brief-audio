@@ -3991,18 +3991,6 @@
       "published": false
     },
     {
-      "id": "20261118-07",
-      "date": "2026-11-18",
-      "created_at": "2026-11-18T20:59:17.315Z",
-      "text": "Universal Music Group has named Ignacio Meyer President of Universal Music Latin America and Iberian Peninsula. Meyer joins UMG after more than 15 years at TelevisaUnivision, most recently serving as President of U.S. Networks and Local Media. He will report to newly appointed division CEO Felipe Holguin and focus on artist development, creative strategy and expanding the global reach of Latin music.",
-      "categories": [
-        "Music"
-      ],
-      "words": 63,
-      "seconds": 25,
-      "published": false
-    },
-    {
       "id": "20261118-09",
       "date": "2026-11-18",
       "created_at": "2026-11-18T21:10:25.623Z",
@@ -4012,6 +4000,18 @@
       ],
       "words": 84,
       "seconds": 34,
+      "published": false
+    },
+    {
+      "id": "20261118-07",
+      "date": "2026-11-18",
+      "created_at": "2026-11-18T20:59:17.315Z",
+      "text": "Universal Music Group has named Ignacio Meyer President of Universal Music Latin America and Iberian Peninsula. Meyer joins UMG after more than 15 years at TelevisaUnivision, most recently serving as President of U.S. Networks and Local Media. He will report to newly appointed division CEO Felipe Holguin and focus on artist development, creative strategy and expanding the global reach of Latin music.",
+      "categories": [
+        "Music"
+      ],
+      "words": 63,
+      "seconds": 25,
       "published": false
     }
   ]
