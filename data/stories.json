@@ -4082,6 +4082,18 @@
       "words": 63,
       "seconds": 25,
       "published": false
+    },
+    {
+      "id": "20261119-06",
+      "date": "2026-11-19",
+      "created_at": "2026-11-19T21:51:52.372Z",
+      "text": "Triton Digital has released its October U.S. Podcast Ranker, and *Pod Save America* takes the top spot! Rounding out the top five podcasts are *Stuff You Should Know* at number two, *My Favorite Murder* at number three, *The Dan Bongino Show* at number four, and *The Bulwark Daily* at number five. On the network side, iHeart Audience Network leads with more than 68 million average weekly downloads, followed by Audioboom at number two, Cumulus Podcast Network at number three, BBC at number four, and American Public Media Group at number five.",
+      "categories": [
+        "Podcasting"
+      ],
+      "words": 92,
+      "seconds": 37,
+      "published": false
     }
   ]
 }
