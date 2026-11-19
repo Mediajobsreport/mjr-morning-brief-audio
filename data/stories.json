@@ -4048,18 +4048,6 @@
       "published": false
     },
     {
-      "id": "20261119-01",
-      "date": "2026-11-19",
-      "created_at": "2026-11-19T19:37:49.864Z",
-      "text": "Three major television broadcasters are heading to upcoming investor conferences. Nexstar Media Group, Gray Media and Sinclair have scheduled appearances at financial events through December, with Gray also planning an appearance in March. All three companies will participate in the BofA leveraged finance conference, while Nexstar and Sinclair will also appear at the Wells Fargo TMT Summit. Several presentations will be available by webcast. Read more media financial news at Media Jobs Report dot com.",
-      "categories": [
-        "Business"
-      ],
-      "words": 75,
-      "seconds": 30,
-      "published": false
-    },
-    {
       "id": "20261119-02",
       "date": "2026-11-19",
       "created_at": "2026-11-19T19:55:16.673Z",
@@ -4069,6 +4057,18 @@
       ],
       "words": 65,
       "seconds": 26,
+      "published": false
+    },
+    {
+      "id": "20261119-01",
+      "date": "2026-11-19",
+      "created_at": "2026-11-19T19:37:49.864Z",
+      "text": "Three major television broadcasters are heading to upcoming investor conferences. Nexstar Media Group, Gray Media and Sinclair have scheduled appearances at financial events through December, with Gray also planning an appearance in March. All three companies will participate in the BofA leveraged finance conference, while Nexstar and Sinclair will also appear at the Wells Fargo TMT Summit. Several presentations will be available by webcast. Read more media financial news at Media Jobs Report dot com.",
+      "categories": [
+        "Business"
+      ],
+      "words": 75,
+      "seconds": 30,
       "published": false
     },
     {
