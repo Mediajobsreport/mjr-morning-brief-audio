@@ -4072,18 +4072,6 @@
       "published": false
     },
     {
-      "id": "20261119-05",
-      "date": "2026-11-19",
-      "created_at": "2026-11-19T21:08:36.928Z",
-      "text": "Telemundo 49 Tampa has promoted Gilberto Dorrego to Anchor of its 6 p.m. newscast. Beginning November 23, Dorrego will join Andrea González at the anchor desk for *Noticiero Telemundo 49*. He'll also continue leading the station's consumer investigative unit, *Telemundo 49 Responde*. Dorrego joined the station in 2025 and previously worked at Telemundo stations in Arizona, San Diego and Dallas-Fort Worth.",
-      "categories": [
-        "Television"
-      ],
-      "words": 63,
-      "seconds": 25,
-      "published": false
-    },
-    {
       "id": "20261119-01",
       "date": "2026-11-19",
       "created_at": "2026-11-19T19:37:49.864Z",
@@ -4093,6 +4081,18 @@
       ],
       "words": 75,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261119-05",
+      "date": "2026-11-19",
+      "created_at": "2026-11-19T21:08:36.928Z",
+      "text": "Telemundo 49 Tampa has promoted Gilberto Dorrego to Anchor of its 6 p.m. newscast. Beginning November 23, Dorrego will join Andrea González at the anchor desk for *Noticiero Telemundo 49*. He'll also continue leading the station's consumer investigative unit, *Telemundo 49 Responde*. Dorrego joined the station in 2025 and previously worked at Telemundo stations in Arizona, San Diego and Dallas-Fort Worth.",
+      "categories": [
+        "Television"
+      ],
+      "words": 63,
+      "seconds": 25,
       "published": false
     }
   ]
