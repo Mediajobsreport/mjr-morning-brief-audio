@@ -4115,18 +4115,6 @@
       "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
-      "id": "20261120-01",
-      "date": "2026-11-20",
-      "created_at": "2026-11-20T15:27:02.899Z",
-      "text": "Longtime Boston 25 Morning News Anchor Gene Lavanchy has been named the Massachusetts Broadcasters Association's 2026 Broadcaster of the Year. Lavanchy received the honor Thursday at the association's Sound Bites conference. His career spans more than 37 years in New England television, including 23 years with Boston 25 Morning News. He's the 13th recipient of the award.",
-      "categories": [
-        "Awards & Recognition"
-      ],
-      "words": 57,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261120-09",
       "date": "2026-11-20",
       "created_at": "2026-11-20T18:57:46.972Z",
@@ -4137,6 +4125,18 @@
       ],
       "words": 69,
       "seconds": 28,
+      "published": false
+    },
+    {
+      "id": "20261120-01",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T15:27:02.899Z",
+      "text": "Longtime Boston 25 Morning News Anchor Gene Lavanchy has been named the Massachusetts Broadcasters Association's 2026 Broadcaster of the Year. Lavanchy received the honor Thursday at the association's Sound Bites conference. His career spans more than 37 years in New England television, including 23 years with Boston 25 Morning News. He's the 13th recipient of the award.",
+      "categories": [
+        "Awards & Recognition"
+      ],
+      "words": 57,
+      "seconds": 23,
       "published": false
     },
     {
