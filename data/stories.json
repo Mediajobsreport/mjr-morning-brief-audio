@@ -4033,7 +4033,8 @@
       ],
       "words": 82,
       "seconds": 33,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-03",
@@ -4045,7 +4046,8 @@
       ],
       "words": 51,
       "seconds": 20,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-02",
@@ -4057,7 +4059,8 @@
       ],
       "words": 65,
       "seconds": 26,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-06",
@@ -4069,7 +4072,8 @@
       ],
       "words": 92,
       "seconds": 37,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-01",
@@ -4081,7 +4085,8 @@
       ],
       "words": 75,
       "seconds": 30,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-05",
@@ -4093,7 +4098,8 @@
       ],
       "words": 63,
       "seconds": 25,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     },
     {
       "id": "20261119-07",
@@ -4105,7 +4111,8 @@
       ],
       "words": 68,
       "seconds": 27,
-      "published": false
+      "published": true,
+      "published_at": "2026-11-20T09:00:32.703Z"
     }
   ]
 }
