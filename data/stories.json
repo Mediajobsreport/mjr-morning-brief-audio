@@ -4209,6 +4209,19 @@
       "words": 50,
       "seconds": 20,
       "published": false
+    },
+    {
+      "id": "20261120-09",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T18:57:46.972Z",
+      "text": "TikTok is playing a major role in creating global music hits. A new report from Luminate finds that 94 percent of songs entering the Billboard Global 200 last year went viral on TikTok before hitting the chart. That's up from 84 percent the previous year. Viral songs also spent four times longer on the chart. And 45 percent of U.S. TikTok users discover new music on the platform.",
+      "categories": [
+        "Streaming",
+        "Digital Media"
+      ],
+      "words": 69,
+      "seconds": 28,
+      "published": false
     }
   ]
 }
