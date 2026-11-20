@@ -4140,18 +4140,6 @@
       "published": false
     },
     {
-      "id": "20261120-04",
-      "date": "2026-11-20",
-      "created_at": "2026-11-20T15:51:01.060Z",
-      "text": "NBCUniversal has named Damaris Bonilla President and General Manager of Telemundo 31 Orlando and Telemundo 49 Tampa, effective November 30th. Bonilla brings more than 25 years of media experience and most recently served as News Director for NBC10 and Telemundo Boston. She succeeds the late José Suárez and will oversee both stations' television, streaming and digital operations.",
-      "categories": [
-        "Television"
-      ],
-      "words": 58,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261120-02",
       "date": "2026-11-20",
       "created_at": "2026-11-20T15:27:57.186Z",
@@ -4161,6 +4149,18 @@
       ],
       "words": 88,
       "seconds": 35,
+      "published": false
+    },
+    {
+      "id": "20261120-04",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T15:51:01.060Z",
+      "text": "NBCUniversal has named Damaris Bonilla President and General Manager of Telemundo 31 Orlando and Telemundo 49 Tampa, effective November 30th. Bonilla brings more than 25 years of media experience and most recently served as News Director for NBC10 and Telemundo Boston. She succeeds the late José Suárez and will oversee both stations' television, streaming and digital operations.",
+      "categories": [
+        "Television"
+      ],
+      "words": 58,
+      "seconds": 23,
       "published": false
     },
     {
