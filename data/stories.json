@@ -4175,18 +4175,6 @@
       "published": false
     },
     {
-      "id": "20261120-06",
-      "date": "2026-11-20",
-      "created_at": "2026-11-20T16:32:03.194Z",
-      "text": "Nine Broadway shows are coming together for a special celebration during the 100th Macy’s Thanksgiving Day Parade. The 10-minute performance will feature casts from Hamilton, Wicked, Chicago, Rent and five other Broadway productions, with Julianne Hough introducing the musical spectacular. The Thanksgiving broadcast will also feature Megan Moroney, Teddy Swims, Queen Latifah, Jimmy Fallon and The Roots, and the Radio City Rockettes. The parade airs Thursday, November 26th, beginning at 8:30 in the morning on NBC and Peacock.",
-      "categories": [
-        "Television"
-      ],
-      "words": 79,
-      "seconds": 32,
-      "published": false
-    },
-    {
       "id": "20261120-09",
       "date": "2026-11-20",
       "created_at": "2026-11-20T18:57:46.972Z",
@@ -4197,6 +4185,18 @@
       ],
       "words": 69,
       "seconds": 28,
+      "published": false
+    },
+    {
+      "id": "20261120-06",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T16:32:03.194Z",
+      "text": "Nine Broadway shows are coming together for a special celebration during the 100th Macy’s Thanksgiving Day Parade. The 10-minute performance will feature casts from Hamilton, Wicked, Chicago, Rent and five other Broadway productions, with Julianne Hough introducing the musical spectacular. The Thanksgiving broadcast will also feature Megan Moroney, Teddy Swims, Queen Latifah, Jimmy Fallon and The Roots, and the Radio City Rockettes. The parade airs Thursday, November 26th, beginning at 8:30 in the morning on NBC and Peacock.",
+      "categories": [
+        "Television"
+      ],
+      "words": 79,
+      "seconds": 32,
       "published": false
     },
     {
