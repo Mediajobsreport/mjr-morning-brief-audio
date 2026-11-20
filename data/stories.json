@@ -4188,24 +4188,24 @@
       "published": false
     },
     {
-      "id": "20261120-04",
-      "date": "2026-11-20",
-      "created_at": "2026-11-20T15:51:01.060Z",
-      "text": "NBCUniversal has named Damaris Bonilla President and General Manager of Telemundo 31 Orlando and Telemundo 49 Tampa, effective November 30th. Bonilla brings more than 25 years of media experience and most recently served as News Director for NBC10 and Telemundo Boston. She succeeds the late José Suárez and will oversee both stations' television, streaming and digital operations.",
-      "categories": [
-        "Television"
-      ],
-      "words": 58,
-      "seconds": 23,
-      "published": false
-    },
-    {
       "id": "20261120-07",
       "date": "2026-11-20",
       "created_at": "2026-11-20T16:40:49.977Z",
       "text": "Phoenix Country Station KMLE 107.9 raised more than $57,000 for Soldier's Best Friend during Niko and Gabe's Hero Walk. Morning Hosts Niko Petrou and Gabe Mercer walked 15 miles across the Valley to support service dogs for veterans experiencing PTSD and traumatic brain injuries. The funds could cover training and placement for approximately seven rescued dogs.",
       "categories": [
         "Radio"
+      ],
+      "words": 58,
+      "seconds": 23,
+      "published": false
+    },
+    {
+      "id": "20261120-04",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T15:51:01.060Z",
+      "text": "NBCUniversal has named Damaris Bonilla President and General Manager of Telemundo 31 Orlando and Telemundo 49 Tampa, effective November 30th. Bonilla brings more than 25 years of media experience and most recently served as News Director for NBC10 and Telemundo Boston. She succeeds the late José Suárez and will oversee both stations' television, streaming and digital operations.",
+      "categories": [
+        "Television"
       ],
       "words": 58,
       "seconds": 23,
