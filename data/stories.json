@@ -4137,6 +4137,18 @@
       "words": 88,
       "seconds": 35,
       "published": false
+    },
+    {
+      "id": "20261120-03",
+      "date": "2026-11-20",
+      "created_at": "2026-11-20T15:34:33.328Z",
+      "text": "Nielsen is making another major change to radio ratings. Beginning in April 2027, its Portable People Meter system will require just one minute of listening during a quarter-hour for a station to receive audience credit, down from the current three minutes. Nielsen expects the change to increase measurable advertising impressions by approximately 20 percent while giving radio programmers more flexibility. The first ratings using the new methodology arrive in May.",
+      "categories": [
+        "Ratings"
+      ],
+      "words": 70,
+      "seconds": 28,
+      "published": false
     }
   ]
 }
