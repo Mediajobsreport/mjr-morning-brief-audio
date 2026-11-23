@@ -4231,6 +4231,18 @@
       "seconds": 25,
       "published": true,
       "published_at": "2026-11-23T09:00:32.897Z"
+    },
+    {
+      "id": "20261123-01",
+      "date": "2026-11-23",
+      "created_at": "2026-11-23T20:04:21.837Z",
+      "text": "The FCC is preparing for a major vote that could reshape radio station ownership across the country. FCC Chairman Brendan Carr says the Commission will vote December 17 on a proposal to ease local radio and television ownership restrictions. The plan would allow broadcasters to exceed current station ownership limits on a case-by-case basis and eliminate restrictions on how many AM or FM stations one company can own within a market. Carr says the changes would help local broadcasters compete against streaming services and Big Tech companies that don't face the same restrictions. National Association of Broadcasters President and CEO Curtis LeGeyt welcomed the announcement, calling the proposed reforms critical to keeping local stations competitive.\n\nIf approved, the changes could open the door to a new wave of radio station acquisitions and consolidation.\n\nRead more at Media Jobs Report dot com.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 141,
+      "seconds": 56,
+      "published": false
     }
   ]
 }
