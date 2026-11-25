@@ -4337,18 +4337,6 @@
       "published_at": "2026-11-24T09:00:32.751Z"
     },
     {
-      "id": "20261124-06",
-      "date": "2026-11-24",
-      "created_at": "2026-11-25T00:43:33.437Z",
-      "text": "The Steve Harvey Morning Show and Premiere Networks are celebrating Thanksgiving with their 17th annual Turkey Give. More than seven thousand turkeys and gift cards have been distributed through affiliate radio stations nationwide to help families in need enjoy the holiday. Participating markets include New York, Chicago, Philadelphia, Dallas, Atlanta, Washington, Seattle, Detroit and Huntsville, Alabama. Since launching in 2009, the initiative has distributed more than 130 thousand turkeys to individuals and families in need.",
-      "categories": [
-        "Radio"
-      ],
-      "words": 75,
-      "seconds": 30,
-      "published": false
-    },
-    {
       "id": "20261124-01",
       "date": "2026-11-24",
       "created_at": "2026-11-24T21:32:38.066Z",
@@ -4358,6 +4346,18 @@
       ],
       "words": 46,
       "seconds": 18,
+      "published": false
+    },
+    {
+      "id": "20261124-06",
+      "date": "2026-11-24",
+      "created_at": "2026-11-25T00:43:33.437Z",
+      "text": "The Steve Harvey Morning Show and Premiere Networks are celebrating Thanksgiving with their 17th annual Turkey Give. More than seven thousand turkeys and gift cards have been distributed through affiliate radio stations nationwide to help families in need enjoy the holiday. Participating markets include New York, Chicago, Philadelphia, Dallas, Atlanta, Washington, Seattle, Detroit and Huntsville, Alabama. Since launching in 2009, the initiative has distributed more than 130 thousand turkeys to individuals and families in need.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 75,
+      "seconds": 30,
       "published": false
     },
     {
