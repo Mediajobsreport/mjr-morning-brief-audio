@@ -4413,6 +4413,18 @@
       "seconds": 18,
       "published": true,
       "published_at": "2026-11-25T09:00:33.017Z"
+    },
+    {
+      "id": "20261125-01",
+      "date": "2026-11-25",
+      "created_at": "2026-11-25T19:03:06.039Z",
+      "text": "Philadelphia’s ninety-three point three W-M-M-R and its Preston and Steve morning show collected more than one point one million pounds of food and raised over one point one three million dollars during their twenty-ninth annual Camp Out for Hunger. The donations will support more than three hundred community partners across Pennsylvania and New Jersey.",
+      "categories": [
+        "Radio"
+      ],
+      "words": 54,
+      "seconds": 22,
+      "published": false
     }
   ]
 }
