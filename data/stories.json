@@ -4361,18 +4361,6 @@
       "published": false
     },
     {
-      "id": "20261124-03",
-      "date": "2026-11-24",
-      "created_at": "2026-11-25T00:20:14.264Z",
-      "text": "NBCUniversal has unveiled its Thanksgiving programming lineup, featuring the 100th Macy’s Thanksgiving Day Parade, the National Dog Show and NBC’s 50th Thanksgiving NFL broadcast, with the Kansas City Chiefs facing the Buffalo Bills. Jimmy Fallon and Justin Timberlake will close out the holiday with a special Tonight Show.",
-      "categories": [
-        "Television"
-      ],
-      "words": 48,
-      "seconds": 19,
-      "published": false
-    },
-    {
       "id": "20261124-06",
       "date": "2026-11-24",
       "created_at": "2026-11-25T00:43:33.437Z",
@@ -4382,6 +4370,18 @@
       ],
       "words": 75,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261124-03",
+      "date": "2026-11-24",
+      "created_at": "2026-11-25T00:20:14.264Z",
+      "text": "NBCUniversal has unveiled its Thanksgiving programming lineup, featuring the 100th Macy’s Thanksgiving Day Parade, the National Dog Show and NBC’s 50th Thanksgiving NFL broadcast, with the Kansas City Chiefs facing the Buffalo Bills. Jimmy Fallon and Justin Timberlake will close out the holiday with a special Tonight Show.",
+      "categories": [
+        "Television"
+      ],
+      "words": 48,
+      "seconds": 19,
       "published": false
     },
     {
