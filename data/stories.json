@@ -4337,18 +4337,6 @@
       "published_at": "2026-11-24T09:00:32.751Z"
     },
     {
-      "id": "20261124-01",
-      "date": "2026-11-24",
-      "created_at": "2026-11-24T21:32:38.066Z",
-      "text": "The NAB Leadership Foundation’s Celebration of Service to America television special will air nationwide beginning November 28. Tamron Hall will be joined by stars from radio, television and entertainment to recognize local broadcasters making a difference in their communities. The one-hour special runs through December 27.",
-      "categories": [
-        "Television"
-      ],
-      "words": 46,
-      "seconds": 18,
-      "published": false
-    },
-    {
       "id": "20261124-06",
       "date": "2026-11-24",
       "created_at": "2026-11-25T00:43:33.437Z",
@@ -4358,6 +4346,18 @@
       ],
       "words": 75,
       "seconds": 30,
+      "published": false
+    },
+    {
+      "id": "20261124-01",
+      "date": "2026-11-24",
+      "created_at": "2026-11-24T21:32:38.066Z",
+      "text": "The NAB Leadership Foundation’s Celebration of Service to America television special will air nationwide beginning November 28. Tamron Hall will be joined by stars from radio, television and entertainment to recognize local broadcasters making a difference in their communities. The one-hour special runs through December 27.",
+      "categories": [
+        "Television"
+      ],
+      "words": 46,
+      "seconds": 18,
       "published": false
     },
     {
